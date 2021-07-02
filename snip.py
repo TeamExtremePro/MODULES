@@ -8,7 +8,7 @@ Available Commands:
 .snipd"""
 from telethon import events, utils
 from telethon.tl import types
-from userbot.plugins.sql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
+from sql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
 from userbot.utils import admin_cmd
 
 

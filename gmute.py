@@ -1,4 +1,4 @@
-from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
+from sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
 from userbot import CMD_HELP
 from userbot.utils import admin_cmd
