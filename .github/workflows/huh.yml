@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "https://github.com/legendx22/LEGEND-BOT"
+          find: "LEGEND-BOT"
 
-          replace: "https://github.com/TeamExtremePro/ExtremeProUserbot"
+          replace: "ExtremeProUserbot"
 
       - name: Create Pull Request
 
