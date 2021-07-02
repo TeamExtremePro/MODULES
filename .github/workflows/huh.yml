@@ -1,5 +1,5 @@
 
-name: LEGENDX
+name: AmanPandey7647
 
 on: push
 
@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "userbot"
+          find: "ULTRA"
 
-          replace: "ULTRA"
+          replace: "userbot"
 
       - name: Create Pull Request
 
@@ -35,6 +35,6 @@ jobs:
 
           repository: .
 
-          commit_user_name: LEGENDXOP
+          commit_user_name: AmanPandey7647
 
-          commit_user_email: legendxx08377@gmail.com
+          commit_user_email: paman7647@gmail.com
