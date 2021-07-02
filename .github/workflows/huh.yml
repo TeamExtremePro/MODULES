@@ -19,7 +19,7 @@ jobs:
 
         with:
 
-          find: "LEGEND-BOT"
+          find: "Legend Boy"
 
           replace: "ExtremeProUserbot"
 
