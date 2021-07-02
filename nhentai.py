@@ -4,8 +4,8 @@ import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from ULTRA import bot, CMD_HELP
-from ULTRA.events import register
+from userbot import bot, CMD_HELP
+from userbot.events import register
 
 @register(outgoing=True, pattern="^.nhentai(?: |$)(.*)")
 async def _(event):

@@ -11,7 +11,7 @@ import asyncio
 import random
 import re
 import time
-from ULTRA import ALIVE_NAME
+from userbot import ALIVE_NAME
 
 from collections import deque
 
@@ -21,9 +21,9 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
 from cowpy import cow
-from ULTRA import bot
-from ULTRA import CMD_HELP,YOUTUBE_API_KEY
-from ULTRA.utils import register,admin_cmd
+from userbot import bot
+from userbot import CMD_HELP,YOUTUBE_API_KEY
+from userbot.utils import register,admin_cmd
 
 # ================= CONSTANT =================
 RENDISTR = [
@@ -658,7 +658,7 @@ HIT = [
 #@register(outgoing=True, pattern=r"^.(\w+)say (.*)")
 @borg.on(admin_cmd(pattern=r"(\w+)say (.*)"))
 async def univsaye(cowmsg):
-    """ For .cowsay module, ULTRA wrapper for cow which says things. """
+    """ For .cowsay module, userbot wrapper for cow which says things. """
     if not cowmsg.text[0].isalpha() and cowmsg.text[0] not in ("/", "#", "@", "!"):
         arg = cowmsg.pattern_match.group(1).lower()
         text = cowmsg.pattern_match.group(2)
@@ -1034,7 +1034,7 @@ async def faces(owo):
 
 @register(outgoing=True, pattern="^.react$")
 async def react_meme(react):
-    """ Make your ULTRA react to everything. """
+    """ Make your userbot react to everything. """
     if not react.text[0].isalpha() and react.text[0] not in ("/", "#", "@", "!"):
         await react.edit(random.choice(FACEREACTS))
 
@@ -1209,7 +1209,7 @@ CMD_HELP.update({
 \n\n.owo\
 \nUsage: UwU\
 \n\n.react\
-\nUsage: Make your ULTRA react to everything.\
+\nUsage: Make your userbot react to everything.\
 \n\n.slap\
 \nUsage: reply to slap them with random objects !!\
 \n\n.cry\

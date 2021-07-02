@@ -12,8 +12,8 @@ from os import remove
 from PIL import Image
 import random
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
-from ULTRA import bot, CMD_HELP
-from ULTRA.utils import register
+from userbot import bot, CMD_HELP
+from userbot.utils import register
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
@@ -312,7 +312,7 @@ async def get_pack_info(event):
 CMD_HELP.update({
     "stickers":
     ".kang\
-\nUsage: Reply .kang to a sticker or an image to kang it to your ULTRA pack.\
+\nUsage: Reply .kang to a sticker or an image to kang it to your userbot pack.\
 \n\n.kang [emoji('s)]\
 \nUsage: Works just like .kang but uses the emoji('s) you picked.\
 \n\n.kang [number]\

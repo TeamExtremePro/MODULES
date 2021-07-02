@@ -4,7 +4,7 @@
 
 from telethon import events, utils
 from telethon.tl import types
-from ULTRA.utils import admin_cmd
+from userbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern="resend"))
 async def _(event):

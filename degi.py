@@ -1,9 +1,9 @@
 
 import random, re
-from ULTRA.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 import asyncio
 from telethon import events
-from ULTRA import CMD_HELP
+from userbot import CMD_HELP
 
 @bot.on(admin_cmd(pattern="degi$"))
 @bot.on(sudo_cmd(pattern="degi$", allow_sudo=True))

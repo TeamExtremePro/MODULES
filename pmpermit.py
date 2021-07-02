@@ -38,17 +38,17 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 
 
-import ULTRA.plugins.sql_helper.pmpermit_sql as lightning_sql
+import userbot.plugins.sql_helper.pmpermit_sql as lightning_sql
 
-from ULTRA import ALIVE_NAME, bot
+from userbot import ALIVE_NAME, bot
 
-from ULTRA.uniborgConfig import Config
+from userbot.uniborgConfig import Config
 
 from var import Var
 
 LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
 
-from ULTRA.utils import admin_cmd as lightning_cmd
+from userbot.utils import admin_cmd as lightning_cmd
 
 
 

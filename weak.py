@@ -3,9 +3,9 @@
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from ULTRA import CMD_HELP
+from userbot import CMD_HELP
 
-from ULTRA.utils import admin_cmd
+from userbot.utils import admin_cmd
 
 
 bot = "@MadBoy_Rotomgram2_Bot"

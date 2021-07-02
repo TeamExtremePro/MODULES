@@ -5,7 +5,7 @@ from pySmartDL import SmartDL
 from telethon.tl import functions
 import asyncio
 import shutil
-from ULTRA.utils import admin_cmd
+from userbot.utils import admin_cmd
 
 
 FONT_FILE_TO_USE = "Fonts/digital.ttf"
@@ -13,10 +13,10 @@ FONT_FILE_TO_USE = "Fonts/digital.ttf"
 @command(pattern="^.seconddp", outgoing=True)
 #@borg.on(admin_cmd(pattern=r"seconddp"))
 async def seconddp(event):
-    downloaded_file_name = "ULTRA/original_pic.png"
+    downloaded_file_name = "userbot/original_pic.png"
     downloader = SmartDL(Var.DOWNLOAD_PFP_URL_CLOCK, downloaded_file_name, progress_bar=False)
     downloader.start(blocking=False)
-    photo = "ULTRA/photo_pfp.png"
+    photo = "userbot/photo_pfp.png"
     while not downloader.isFinished():
         place_holder = None
     counter = -30

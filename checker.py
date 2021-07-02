@@ -3,8 +3,8 @@
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from ULTRA import ALIVE_NAME
-from ULTRA.utils import admin_cmd
+from userbot import ALIVE_NAME
+from userbot.utils import admin_cmd
 
 naam = str(ALIVE_NAME)
 

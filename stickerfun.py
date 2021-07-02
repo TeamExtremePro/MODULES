@@ -7,9 +7,9 @@ import re
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterDocument
 
-from ULTRA import CMD_HELP, bot
-from ULTRA.utils import admin_cmd, edit_or_reply, sudo_cmd
-from ULTRA.helpers.functions import deEmojify
+from userbot import CMD_HELP, bot
+from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot.helpers.functions import deEmojify
 
 # RegEx by https://t.me/c/1220993104/50065
 
@@ -59,7 +59,7 @@ async def sticklet(event):
             return
     if event.reply_to_msg_id:
         reply_message = await event.get_reply_message()
-    # delete the ULTRA command,
+    # delete the userbot command,
     # i don't know why this is required
     await event.delete()
     sticktext = deEmojify(sticktext)

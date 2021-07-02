@@ -1,5 +1,5 @@
 """
-GITHUB File Uploader Plugin for ULTRA. Heroku Automation should be Enabled. Else u r not that lazy // For lazy people
+GITHUB File Uploader Plugin for userbot. Heroku Automation should be Enabled. Else u r not that lazy // For lazy people
 Instructions:- Set GITHUB_ACCESS_TOKEN and GIT_REPO_NAME Variables in Heroku vars First
 usage:- .commit reply_to_any_plugin //can be any type of file too. but for plugin must be in .py 
 """
@@ -13,9 +13,9 @@ import time
 from datetime import datetime
 from telethon import events
 from telethon.tl.types import DocumentAttributeVideo
-from ULTRA.utils import admin_cmd
+from userbot.utils import admin_cmd
 
-GIT_TEMP_DIR = "./ULTRA/temp/"
+GIT_TEMP_DIR = "./userbot/temp/"
 #@command(pattern="^.commit", outgoing=True)
 @borg.on(admin_cmd(pattern=r"commit"))
 async def download(event):
@@ -67,16 +67,16 @@ async def git_commit(file_name,mone):
         if i == 'ContentFile(path="'+file_name+'")':
             return await mone.edit("`File Already Exists`")
             create_file = False
-    file_name = "ULTRA/plugins/" + file_name		
+    file_name = "userbot/plugins/" + file_name		
     if create_file == True:
-        file_name = file_name.replace("./ULTRA/temp/","")
+        file_name = file_name.replace("./userbot/temp/","")
         print(file_name)
         try:
             repo.create_file(file_name, "Uploaded New Plugin", commit_data, branch="master")
             print("Committed File")
             ccess = Var.GIT_REPO_NAME
             ccess = ccess.strip()
-            await mone.edit(f"`Commited On Your Github Repo`\n\n[Your STDPLUGINS](https://github.com/{ccess}/tree/master/ULTRA/plugins/)")
+            await mone.edit(f"`Commited On Your Github Repo`\n\n[Your STDPLUGINS](https://github.com/{ccess}/tree/master/userbot/plugins/)")
         except:    
             print("Cannot Create Plugin")
             await mone.edit("Cannot Upload Plugin")

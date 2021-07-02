@@ -1,5 +1,5 @@
 """
-GITHUB File Uploader Plugin for ULTRA. Heroku Automation should be Enabled. Else u r not that lazy // For lazy people
+GITHUB File Uploader Plugin for userbot. Heroku Automation should be Enabled. Else u r not that lazy // For lazy people
 Instructions:- Set GITHUB_ACCESS_TOKEN and GIT_REPO_NAME Variables in Heroku vars First
 usage:- .commit reply_to_any_plugin //can be any type of file too. but for plugin must be in .py 
 By:- @Zero_cool7870 
@@ -28,7 +28,7 @@ async def download(event):
 		await event.edit("`Please ADD Proper Access Token from github.com`") 
 		return   
 	if Config.GIT_REPO_NAME is None:
-		await event.edit("`Please ADD Proper Github Repo Name of your ULTRA`")
+		await event.edit("`Please ADD Proper Github Repo Name of your userbot`")
 		return 
 	mone = await event.reply("Processing ...")
 	input_str = event.pattern_match.group(1)

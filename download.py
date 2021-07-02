@@ -9,8 +9,8 @@ from datetime import datetime
 
 from pySmartDL import SmartDL
 
-from ULTRA.utils import admin_cmd, sudo_cmd, humanbytes, progress
-from ULTRA import ALIVE_NAME, CMD_HELP
+from userbot.utils import admin_cmd, sudo_cmd, humanbytes, progress
+from userbot import ALIVE_NAME, CMD_HELP
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

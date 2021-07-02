@@ -6,8 +6,8 @@ from datetime import datetime
 from telethon import events
 from telethon.tl import functions, types
 
-from ULTRA import CMD_HELP
-from ULTRA.utils import admin_cmd
+from userbot import CMD_HELP
+from userbot.utils import admin_cmd
 
 global USER_AFK  # pylint:disable=E0602
 global afk_time  # pylint:disable=E0602
@@ -82,7 +82,7 @@ async def on_afk(event):
         total_afk_time = str((afk_end - afk_start))
     current_message_text = event.message.message.lower()
     if "mafk" in current_message_text:
-        # ULTRA's should not reply to other ULTRA's
+        # userbot's should not reply to other userbot's
         # https://core.telegram.org/bots/faq#why-doesn-39t-my-bot-see-messages-from-other-bots
         return False
     if USER_AFK and not (await event.get_sender()).bot:

@@ -5,15 +5,15 @@ ported to telethon by @mrconfused and @sandy1709
 import asyncio
 import shlex
 from PIL import Image 
-from ULTRA import LOGS , CMD_HELP
+from userbot import LOGS , CMD_HELP
 from telethon import functions, types
-from ULTRA.utils import admin_cmd
+from userbot.utils import admin_cmd
 from glitch_this import ImageGlitcher
 from typing import Optional, Tuple
 
 
-from ULTRA import bot, CMD_HELP, LOGS
-from ULTRA.events import register
+from userbot import bot, CMD_HELP, LOGS
+from userbot.events import register
 
 async def take_screen_shot(
     video_file: str, duration: int, path: str = ""

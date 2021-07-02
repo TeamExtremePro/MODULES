@@ -4,9 +4,9 @@ from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from ULTRA.utils import admin_cmd
+from userbot.utils import admin_cmd
 import time
-from ULTRA import ALIVE_NAME
+from userbot import ALIVE_NAME
 
 naam = str(ALIVE_NAME)
 
@@ -39,7 +39,7 @@ async def _(event):
               response = await conv.get_response()
               await conv.send_message("/ss")
               audio = await conv.get_response()
-              await borg.send_file(event.chat_id, audio, caption="**CREDITS : Dr.jr Genesis**\n`Check out` [Sensible Userbot Support](t.me/sensible_ULTRA)")
+              await borg.send_file(event.chat_id, audio, caption="**CREDITS : Dr.jr Genesis**\n`Check out` [Sensible Userbot Support](t.me/sensible_userbot)")
               await event.delete()
           except YouBlockedUserError:
               await event.edit("**Error:** `unblock` @ceowhitehatcracks `and retry!`")
@@ -50,7 +50,7 @@ async def _(event):
               response = await conv.get_response()
               await conv.send_message("/help")
               audio = await conv.get_response()
-              await borg.send_file(event.chat_id, audio, caption="**Dr.Bot Is Here To Help**\n`Check out` [Sensible Userbot Support](t.me/sensible_ULTRA)")
+              await borg.send_file(event.chat_id, audio, caption="**Dr.Bot Is Here To Help**\n`Check out` [Sensible Userbot Support](t.me/sensible_userbot)")
               await event.delete()
           except YouBlockedUserError:
               await event.edit("**Error:** `unblock` @ceowhitehatcracks `and retry!`")
@@ -61,10 +61,10 @@ async def _(event):
               response = await conv.get_response()
               await conv.send_message("/nudepic")
               audio = await conv.get_response()
-              await borg.send_file(event.chat_id, audio, caption="**For" + naam +" **\n`Check out` [Sensible Userbot Support](t.me/sensible_ULTRA)")
+              await borg.send_file(event.chat_id, audio, caption="**For" + naam +" **\n`Check out` [Sensible Userbot Support](t.me/sensible_userbot)")
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** `unblock` @sensible_ULTRA `and retry!`")
+              await event.edit("**Error:** `unblock` @sensible_userbot `and retry!`")
     elif sysarg == "rs":
       async with borg.conversation(bot) as conv:
           try:
@@ -72,7 +72,7 @@ async def _(event):
               response = await conv.get_response()
               await conv.send_message("/rs")
               audio = await conv.get_response()
-              await borg.send_file(event.chat_id, audio, caption="**CREDITS : @CEOWHITEHATCRACKS**\n`Check out` [Sensible Userbot Support](t.me/sensible_ULTRA)")
+              await borg.send_file(event.chat_id, audio, caption="**CREDITS : @CEOWHITEHATCRACKS**\n`Check out` [Sensible Userbot Support](t.me/sensible_userbot)")
               await event.delete()
           except YouBlockedUserError:
               await event.edit("**Error:** `unblock` @ceowhitehatcracks `and retry!`")

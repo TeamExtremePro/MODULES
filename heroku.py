@@ -3,7 +3,7 @@
 # Copyright (C) 2020 Adek Maulana.
 # All rights reserved.
 """
-   Heroku manager for your ULTRA
+   Heroku manager for your userbot
 """
 
 import heroku3
@@ -11,9 +11,9 @@ import asyncio
 import os
 import requests
 import math
-from ULTRA.utils import admin_cmd
-from ULTRA import CMD_HELP
-from ULTRA.uniborgConfig import Config
+from userbot.utils import admin_cmd
+from userbot import CMD_HELP
+from userbot.uniborgConfig import Config
 
 # ================= 
 

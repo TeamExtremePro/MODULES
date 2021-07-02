@@ -3,8 +3,8 @@
 
 from pokedex import pokedex
 
-from ULTRA import CMD_HELP
-from ULTRA.utils import admin_cmd
+from userbot import CMD_HELP
+from userbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="pokedex (.*)"))

@@ -1,6 +1,6 @@
 from telethon import events
 import random, re
-from ULTRA.utils import admin_cmd
+from userbot.utils import admin_cmd
 import asyncio 
 
 

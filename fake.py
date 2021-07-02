@@ -14,8 +14,8 @@ document
 cancel"""
 
 import asyncio
-from ULTRA.utils import admin_cmd
-from ULTRA import CMD_HELP
+from userbot.utils import admin_cmd
+from userbot import CMD_HELP
 
  
 @borg.on(admin_cmd(pattern="fake ?(.*)"))

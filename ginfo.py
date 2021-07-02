@@ -12,8 +12,8 @@
 """
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from ULTRA import CMD_HELP
-from ULTRA.utils import admin_cmd
+from userbot import CMD_HELP
+from userbot.utils import admin_cmd
 from LEGENDX import MASTER
 LEGEND = MASTER
 PROBOY = "@tgscanrobot"

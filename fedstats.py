@@ -2,9 +2,9 @@ import asyncio
 # made by telebot
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from LEGENDX import NAME
-from ULTRA import CMD_HELP
-from ULTRA import bot
-from ULTRA.utils import admin_cmd
+from userbot import CMD_HELP
+from userbot import bot
+from userbot.utils import admin_cmd
 
 bot = "@MissRose_bot"
 LEGENDX = NAME

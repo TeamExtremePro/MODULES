@@ -3,9 +3,9 @@
 import asyncio
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
-import ULTRA.plugins.sql_helper.antiflood_sql as sql
-from ULTRA import CMD_HELP
-from ULTRA.utils import admin_cmd, edit_or_reply, sudo_cmd
+import userbot.plugins.sql_helper.antiflood_sql as sql
+from userbot import CMD_HELP
+from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 CHAT_FLOOD = sql.__load_flood_settings()
 # warn mode for anti flood

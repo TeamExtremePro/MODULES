@@ -20,8 +20,8 @@ import os
 from telegraph import exceptions, upload_file
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from ULTRA import CMD_HELP
-from ULTRA.helpers.functions import (
+from userbot import CMD_HELP
+from userbot.helpers.functions import (
     convert_toimage,
     deEmojify,
     phcomment,
@@ -29,7 +29,7 @@ from ULTRA.helpers.functions import (
     trap,
     trash,
 )
-from ULTRA.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 from . import *
 
