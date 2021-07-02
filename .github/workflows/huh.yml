@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "ULTRA"
+          find: "userbot.plugins.sql_helper"
 
-          replace: "userbot"
+          replace: "sql_helper"
 
       - name: Create Pull Request
 
