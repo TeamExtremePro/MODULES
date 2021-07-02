@@ -69,7 +69,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 Heroku = heroku3.from_key(HEROKU_API_KEY)
 GIT_REPO_NAME = "LEGEND-BOT"
 heroku_api = "https://api.heroku.com"
-UPSTREAM_REPO_URL="https://github.com/legendx22/LEGEND-BOT"
+UPSTREAM_REPO_URL="https://github.com/TeamExtremePro/ExtremeProUserbot"
 
 # ================= CONSTANT =================
 JAVES_NNAME = str(HEROKU_APPNAME)
