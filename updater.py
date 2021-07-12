@@ -67,9 +67,9 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)
-GIT_REPO_NAME = "ExtremeProUserbot"
+GIT_REPO_NAME = "Andencento UB"
 heroku_api = "https://api.heroku.com"
-UPSTREAM_REPO_URL="https://github.com/TeamExtremePro/ExtremeProUserbot"
+UPSTREAM_REPO_URL="https://github.com/TeamExtremePro/Andencento UB"
 
 # ================= CONSTANT =================
 JAVES_NNAME = str(HEROKU_APPNAME)

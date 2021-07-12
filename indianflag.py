@@ -1,5 +1,5 @@
 # Coded by @CyberBoyAyush
-# For LEGENDBOT : https://github.com/LEGENDXOP/ExtremeProUserbot
+# For LEGENDBOT : https://github.com/LEGENDXOP/Andencento UB
 
 
 from telethon import events
