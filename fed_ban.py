@@ -3,10 +3,10 @@
 # KEEP CREDITS PLEASE 🥺
 import asyncio
 from LEGENDX import NAME
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import admin_cmd
 # By (@proboy22), and (@LEGENDX22)
-from userbot import bot
+from . import bot
 PRO = NAME
 @bot.on(admin_cmd("superfban ?(.*)"))
 async def _(event):

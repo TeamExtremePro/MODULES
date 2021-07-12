@@ -1,6 +1,6 @@
 
 
-from userbot import bot as borg
+from . import bot as borg
 
 
 

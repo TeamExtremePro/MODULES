@@ -3,7 +3,7 @@ import asyncio
 import io
 
 from userbot.utils import admin_cmd
-from userbot import CmdHelp
+from . import CmdHelp
 
 
 # @command(pattern="^.cmds", outgoing=True)

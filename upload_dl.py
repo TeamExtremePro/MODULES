@@ -15,7 +15,7 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from telethon.tl.types import DocumentAttributeVideo
 
-from userbot import LOGS, CmdHelp, TEMP_DOWNLOAD_DIRECTORY
+from . import LOGS, CmdHelp, TEMP_DOWNLOAD_DIRECTORY
 from userbot.events import register
 
 

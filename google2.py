@@ -2,7 +2,7 @@ from re import findall
 
 from search_engine_parser import GoogleSearch
 
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import admin_cmd
 
 

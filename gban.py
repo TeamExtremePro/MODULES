@@ -2,7 +2,7 @@
 
 
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import admin_cmd
 import html
 from telethon import events

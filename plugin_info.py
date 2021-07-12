@@ -5,7 +5,7 @@
 #
 """ Userbot plugin_info command """
 
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import admin_cmd
 
 @borg.on(admin_cmd(outgoing=True, pattern="plinfo(?: |$)(.*)"))

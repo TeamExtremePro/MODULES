@@ -10,7 +10,7 @@ import os
 import requests
 import json
 from userbot.utils import admin_cmd
-from userbot import CmdHelp
+from . import CmdHelp
 
 @borg.on(admin_cmd("dns (.*)"))
 async def _(event):

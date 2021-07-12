@@ -6,7 +6,7 @@
 import asyncio
 
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import ALIVE_NAME, CmdHelp
+from . import ALIVE_NAME, CmdHelp
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

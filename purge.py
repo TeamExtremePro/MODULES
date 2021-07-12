@@ -9,7 +9,7 @@ from asyncio import sleep
 
 from telethon.errors import rpcbaseerrors
 
-from userbot import BOTLOG, BOTLOG_CHATID, CmdHelp
+from . import BOTLOG, BOTLOG_CHATID, CmdHelp
 from userbot.utils import register, errors_handler
 from userbot.utils import admin_cmd
 

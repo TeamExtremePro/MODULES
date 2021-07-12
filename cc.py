@@ -6,7 +6,7 @@
 ##############################
 from faker import Faker as dc
 from userbot.utils import admin_cmd as hehe
-from userbot import bot as cobra
+from . import bot as cobra
 @cobra.on(hehe("cc"))
 async def _cobra(dark):
     cyber = dc()

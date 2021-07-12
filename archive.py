@@ -22,7 +22,7 @@ from userbot.utils import admin_cmd, humanbytes, progress, time_formatter
 import subprocess
 import patoolib
 import tarfile
-from userbot import CmdHelp
+from . import CmdHelp
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"
 extracted = Config.TMP_DOWNLOAD_DIRECTORY + "extracted/"

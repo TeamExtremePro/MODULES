@@ -15,7 +15,7 @@ cancel"""
 
 import asyncio
 from userbot.utils import admin_cmd
-from userbot import CmdHelp
+from . import CmdHelp
 
  
 @borg.on(admin_cmd(pattern="fake ?(.*)"))

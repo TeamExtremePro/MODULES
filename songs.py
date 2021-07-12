@@ -84,7 +84,7 @@ from validators.url import url
 from html import unescape
 from urllib.error import HTTPError
 from userbot.utils import admin_cmd, edit_or_reply, progress, humanbytes, time_formatter
-from userbot import CmdHelp
+from . import CmdHelp
 import bs4
 from bs4 import BeautifulSoup
 from youtube_dl import YoutubeDL
@@ -349,7 +349,7 @@ async def download_video(v_url):
 from telethon import events
 import asyncio
 from userbot.events import register 
-from userbot import bot, CmdHelp
+from . import bot, CmdHelp
 from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 import os
@@ -402,7 +402,7 @@ from telethon import events
 import asyncio
 #from userbot.utils import admin_cmd
 from userbot.events import register 
-from userbot import bot, CmdHelp
+from . import bot, CmdHelp
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 try:

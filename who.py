@@ -7,7 +7,7 @@ from telethon.tl import types
 from telethon.errors import (BadRequestError, ChatAdminRequiredError,
                              ImageProcessFailedError, PhotoCropSizeSmallError,
                              UserAdminInvalidError)
-from userbot import CmdHelp
+from . import CmdHelp
 
 
 def get_who_string(who):

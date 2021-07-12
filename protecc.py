@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from google_images_download import google_images_download
 from userbot.utils import admin_cmd
 from userbot.utils import admin_cmd
-from userbot import CmdHelp
+from . import CmdHelp
 DELETE_TIMEOUT = 0
 
 def progress(current, total):

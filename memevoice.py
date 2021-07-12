@@ -6,7 +6,7 @@
 
 import re
 import random
-from userbot import bot
+from . import bot
 from userbot.utils import admin_cmd
 
 

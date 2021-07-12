@@ -5,7 +5,7 @@
 
 import asyncio
 from asyncio import wait
-from userbot import CmdHelp
+from . import CmdHelp
 
 
 from userbot.events import register

@@ -10,7 +10,7 @@ import os
 import subprocess
 import sys
 from userbot.utils import admin_cmd, humanbytes, progress, time_formatter
-from userbot import CmdHelp
+from . import CmdHelp
 
 @borg.on(admin_cmd(pattern=r"getc"))
 async def get_media(event):

@@ -5,7 +5,7 @@ from telethon import events
 import asyncio
 #from userbot.utils import admin_cmd
 from userbot.events import register 
-from userbot import bot, CmdHelp
+from . import bot, CmdHelp
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 try:

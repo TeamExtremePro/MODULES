@@ -9,9 +9,9 @@ import asyncio
 import os
 import sys
 import random
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import admin_cmd
-from userbot import bot as borg
+from . import bot as borg
 
 @borg.on(admin_cmd(pattern="hack ?(.*)"))
 async def _(event):

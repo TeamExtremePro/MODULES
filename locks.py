@@ -1,7 +1,7 @@
 from telethon.tl.functions.messages import EditChatDefaultBannedRightsRequest
 from telethon.tl.types import ChatBannedRights
-from userbot import ALIVE_NAME
-from userbot import CmdHelp
+from . import ALIVE_NAME
+from . import CmdHelp
 from userbot.events import register, errors_handler
 from userbot.utils import admin_cmd
 

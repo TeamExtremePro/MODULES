@@ -3,7 +3,7 @@ import random, re
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 import asyncio
 from telethon import events
-from userbot import CmdHelp
+from . import CmdHelp
 
 @bot.on(admin_cmd(pattern="degi$"))
 @bot.on(sudo_cmd(pattern="degi$", allow_sudo=True))

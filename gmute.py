@@ -1,6 +1,6 @@
 from sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import admin_cmd
 
 #@command(outgoing=True, pattern=r"^.gmute ?(\d+)?")

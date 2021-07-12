@@ -10,7 +10,7 @@ KEEP CREDITS
 import random
 import re
 
-from userbot import CmdHelp, bot
+from . import CmdHelp, bot
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 EMOJI_PATTERN = re.compile(

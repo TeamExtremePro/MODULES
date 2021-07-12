@@ -9,7 +9,7 @@ import os.path
 import time
 from os.path import exists, isdir
 
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.events import register
 from userbot.utils import humanbytes
 

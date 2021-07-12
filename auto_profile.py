@@ -5,7 +5,7 @@ from telethon.errors import FloodWaitError
 from telethon.tl import functions
 from userbot.utils import edit_or_reply, admin_cmd
 
-from userbot import ALIVE_NAME, CmdHelp, BIO_MSG
+from . import ALIVE_NAME, CmdHelp, BIO_MSG
 
 
 DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt"

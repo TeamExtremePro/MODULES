@@ -5,14 +5,14 @@ ported to telethon by @mrconfused and @sandy1709
 import asyncio
 import shlex
 from PIL import Image 
-from userbot import LOGS , CmdHelp
+from . import LOGS , CmdHelp
 from telethon import functions, types
 from userbot.utils import admin_cmd
 from glitch_this import ImageGlitcher
 from typing import Optional, Tuple
 
 
-from userbot import bot, CmdHelp, LOGS
+from . import bot, CmdHelp, LOGS
 from userbot.events import register
 
 async def take_screen_shot(

@@ -33,7 +33,7 @@ from urllib.error import HTTPError
 from pySmartDL import SmartDL
 
 from userbot.utils import admin_cmd, edit_or_reply, humanbytes, time_formatter
-from userbot import CmdHelp, LOGS
+from . import CmdHelp, LOGS
 
 TEMP_DOWNLOAD_DIRECTORY = Config.TMP_DOWNLOAD_DIRECTORY
 

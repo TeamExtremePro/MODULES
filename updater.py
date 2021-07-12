@@ -9,7 +9,7 @@ from asyncio import sleep
 from os import execl
 import sys
 import os
-from userbot import bot as javes
+from . import bot as javes
 from userbot.utils import admin_cmd
 import io
 import heroku3
@@ -19,7 +19,7 @@ from asyncio.subprocess import PIPE as asyncPIPE
 
 import sys
 import json
-from userbot import BOTLOG, BOTLOG_CHATID, CmdHelp, bot
+from . import BOTLOG, BOTLOG_CHATID, CmdHelp, bot
 from speedtest import Speedtest
 from telethon import functions
 from os import remove, execle, path, makedirs, getenv, environ
@@ -42,15 +42,15 @@ try:
    from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 except:
 	pass
-from userbot import CmdHelp, bot
-from userbot import CmdHelp, LOGS
+from . import CmdHelp, bot
+from . import CmdHelp, LOGS
 from asyncio import create_subprocess_shell as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
 from platform import python_version, uname
 from shutil import which
 from os import remove
 from telethon import version
-from userbot import CmdHelp
+from . import CmdHelp
 
 import heroku3
 import asyncio
@@ -58,7 +58,7 @@ import os
 import requests
 import math
 
-from userbot import CmdHelp
+from . import CmdHelp
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_APIKEY", None)
 HEROKU_APPNAME = os.environ.get("HEROKU_APP_NAME", None)

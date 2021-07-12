@@ -10,7 +10,7 @@ import traceback
 import asyncio
 import sys
 import io
-from userbot import CmdHelp
+from . import CmdHelp
 from uniborg.util import admin_cmd
 
 

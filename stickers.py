@@ -12,7 +12,7 @@ from os import remove
 from PIL import Image
 import random
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
-from userbot import bot, CmdHelp
+from . import bot, CmdHelp
 from userbot.utils import register
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID

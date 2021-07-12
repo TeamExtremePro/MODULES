@@ -2,7 +2,7 @@
 Syntax: .get_bot"""
 from telethon import events
 from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantsBots
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import admin_cmd
 
 

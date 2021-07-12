@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw
 import pygments, os, asyncio, shutil, scapy, sys, requests, re, subprocess, urllib
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
-from userbot import bot, CmdHelp
+from . import bot, CmdHelp
 from userbot.utils import admin_cmd, sudo_cmd
 from telegraph import upload_file
 from telethon import events

@@ -14,7 +14,7 @@ import random
 from asyncio import sleep
 
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import CmdHelp
+from . import CmdHelp
 
 
 @bot.on(admin_cmd(pattern=r"sing$", outgoing=True))

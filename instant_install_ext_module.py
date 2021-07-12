@@ -12,14 +12,14 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from userbot import bot
+from . import bot
 from telethon import events
 from telethon import functions, types
 from telethon.tl.types import InputMessagesFilterDocument
 from userbot.utils import command, remove_plugin, load_module
 from var import Var
 from pathlib import Path
-from userbot import LOAD_PLUG
+from . import LOAD_PLUG
 import sys
 import asyncio
 import traceback

@@ -8,7 +8,7 @@
 from subprocess import PIPE
 from subprocess import run as runapp
 import pybase64
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.events import register, errors_handler
 
 

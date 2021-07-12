@@ -5,7 +5,7 @@ Userbot module to help you dm msg
 
 from telethon import *
 
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import admin_cmd
 
 

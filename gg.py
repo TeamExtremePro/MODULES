@@ -19,8 +19,8 @@ from telethon import events
 import asyncio
 #made by Sh1vam Donot kang
 from userbot.utils import admin_cmd
-from userbot import bot as tgbot
-from userbot import bot as borg
+from . import bot as tgbot
+from . import bot as borg
 import os
 import re
 import urllib

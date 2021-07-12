@@ -6,7 +6,7 @@ from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from userbot.utils import admin_cmd
-from userbot import bot, CmdHelp
+from . import bot, CmdHelp
 
 @borg.on(admin_cmd(pattern="sg ?(.*)"))
 async def _(event):

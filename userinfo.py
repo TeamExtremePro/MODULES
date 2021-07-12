@@ -9,7 +9,7 @@
 from telethon.events import NewMessage
 from typing import Union
 
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.events import register
 
 from re import findall, match

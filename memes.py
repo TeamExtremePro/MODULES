@@ -11,7 +11,7 @@ import asyncio
 import random
 import re
 import time
-from userbot import ALIVE_NAME
+from . import ALIVE_NAME
 
 from collections import deque
 
@@ -21,8 +21,8 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
 from cowpy import cow
-from userbot import bot
-from userbot import CmdHelp,YOUTUBE_API_KEY
+from . import bot
+from . import CmdHelp,YOUTUBE_API_KEY
 from userbot.utils import register,admin_cmd
 
 # ================= CONSTANT =================

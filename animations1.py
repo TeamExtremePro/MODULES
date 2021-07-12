@@ -3,7 +3,7 @@ from collections import deque
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import ALIVE_NAME, CmdHelp
+from . import ALIVE_NAME, CmdHelp
 from LEGENDX import NAME
 DEFAULTUSER = NAME
 

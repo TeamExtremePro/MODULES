@@ -16,7 +16,7 @@ from telethon.errors.rpcerrorlist import (UserIdInvalidError,
 from telethon.errors import (BadRequestError, ChatAdminRequiredError,
                              ImageProcessFailedError, PhotoCropSizeSmallError,
                              UserAdminInvalidError)
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import  errors_handler, admin_cmd
 
 @borg.on(admin_cmd(pattern="leave$"))

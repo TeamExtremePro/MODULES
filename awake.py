@@ -13,7 +13,7 @@ import time
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
-from userbot import ALIVE_NAME, StartTime, CmdHelp
+from . import ALIVE_NAME, StartTime, CmdHelp
 from . import legend
 from LEGENDX import BOT, PHOTO, VERSION
 from userbot.utils import admin_cmd

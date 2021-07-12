@@ -12,7 +12,7 @@
 """
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.utils import admin_cmd
 from LEGENDX import MASTER
 LEGEND = MASTER

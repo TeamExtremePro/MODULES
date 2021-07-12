@@ -40,7 +40,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 import sql_helper.pmpermit_sql as lightning_sql
 
-from userbot import ALIVE_NAME, bot
+from . import ALIVE_NAME, bot
 
 from userbot.uniborgConfig import Config
 

@@ -75,7 +75,7 @@ from telethon import Button, custom, events, functions
 
 
 
-from userbot import ALIVE_NAME, CmdHelp, CMD_LIST, bot
+from . import ALIVE_NAME, CmdHelp, CMD_LIST, bot
 
 
 
@@ -195,7 +195,7 @@ else:
 
 
 
-from userbot import CmdHelp
+from . import CmdHelp
 
 @tgbot.on(events.InlineQuery)
 

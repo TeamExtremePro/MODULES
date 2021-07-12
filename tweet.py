@@ -9,7 +9,7 @@
 import requests , re
 from PIL import Image
 from validators.url import url
-from userbot import CmdHelp
+from . import CmdHelp
 from userbot.helpers.functions import trumptweet, changemymind, kannagen, moditweet, miatweet, papputweet, sunnytweet, sinstweet, taklatweet, deEmojify, tweets
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 

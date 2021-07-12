@@ -14,7 +14,7 @@ import re
 from telethon.tl.types import MessageMediaPhoto
 from PIL import Image
 
-from userbot import bot, CmdHelp
+from . import bot, CmdHelp
 from userbot.utils import register, errors_handler
 
 opener = urllib.request.build_opener()
