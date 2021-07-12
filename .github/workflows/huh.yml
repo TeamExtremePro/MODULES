@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "ExtremeProUserbot"
+          find: "CMD_HELP"
 
-          replace: "Andencento UB"
+          replace: "CmdHelp"
 
       - name: Create Pull Request
 
