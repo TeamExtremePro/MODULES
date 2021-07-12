@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "from userbot import"
+          find: "CmdHelp"
 
-          replace: "from . import"
+          replace: "CMD_HELP"
 
       - name: Create Pull Request
 
