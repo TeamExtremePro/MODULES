@@ -1,7 +1,7 @@
 import asyncio
 
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import ALIVE_NAME, CmdHelp
+from . import ALIVE_NAME, CMD_HELP
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell user"
 
@@ -414,7 +414,7 @@ async def _(event):
     await asyncio.sleep(6)
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "animation3": """**Plugin : **`animation3`
         

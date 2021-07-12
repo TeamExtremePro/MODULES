@@ -12,7 +12,7 @@ from os import remove
 from PIL import Image
 import random
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
-from . import bot, CmdHelp
+from . import bot, CMD_HELP
 from userbot.utils import register
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID
@@ -309,7 +309,7 @@ async def get_pack_info(event):
     await event.edit(OUTPUT)
 
 
-CmdHelp.update({
+CMD_HELP.update({
     "stickers":
     ".kang\
 \nUsage: Reply .kang to a sticker or an image to kang it to your userbot pack.\

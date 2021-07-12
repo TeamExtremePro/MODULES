@@ -1,7 +1,7 @@
 import asyncio
 from datetime import datetime
 from LEGENDX import BOT
-from .. import ALIVE_NAME, CmdHelp
+from .. import ALIVE_NAME, CMD_HELP
 from ..utils import admin_cmd, edit_or_reply, sudo_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
@@ -68,7 +68,7 @@ async def _(event):
     )
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "ping": "__**PLUGIN NAME :** Ping__\
     \n\n📌** CMD ★** `.hping`\

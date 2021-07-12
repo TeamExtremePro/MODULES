@@ -8,7 +8,7 @@ import requests
 import re
 import json
 import asyncio
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 async def callAPI(search_str):
@@ -86,7 +86,7 @@ async def anilist(event):
     msg = await formatJSON(result)
     await event.edit(msg, link_preview=True)
 
-CmdHelp.update({
+CMD_HELP.update({
     "anilist":
     ".anilist <anime name >\
      \nUSAGE: Shows you the details of the anime."

@@ -7,7 +7,7 @@ import urllib.request
 
 from uniborg.util import admin_cmd
 
-from . import CmdHelp
+from . import CMD_HELP
 
 
 @borg.on(admin_cmd(pattern="ip (.*)"))
@@ -39,7 +39,7 @@ async def _(event):
     )
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "iphack": "**IP HACK**\
 \n\n**Syntax : **`.ip <ip address>`\

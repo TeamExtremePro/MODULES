@@ -7,7 +7,7 @@
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import CmdHelp, ALIVE_NAME
+from . import CMD_HELP, ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
@@ -95,7 +95,7 @@ async def _(event):
         )
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "ascii": "__**PLUGIN NAME :** ascii__\
       \n\n** CMD ** `.ascii` reply to any image file:\

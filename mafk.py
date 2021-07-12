@@ -6,7 +6,7 @@ from datetime import datetime
 from telethon import events
 from telethon.tl import functions, types
 
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd
 
 global USER_AFK  # pylint:disable=E0602
@@ -150,7 +150,7 @@ async def _(event):
 
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "mafk": ".mafk (reason) (Reply to any Media)"
         "\nUsage mention u as afk with cool media when someone tag or reply to any of ur msg or dm."

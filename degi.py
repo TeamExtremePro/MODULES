@@ -3,7 +3,7 @@ import random, re
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 import asyncio
 from telethon import events
-from . import CmdHelp
+from . import CMD_HELP
 
 @bot.on(admin_cmd(pattern="degi$"))
 @bot.on(sudo_cmd(pattern="degi$", allow_sudo=True))
@@ -39,7 +39,7 @@ async def _(event):
     await event.edit("`Wo PaKkA DeGi Tu ManG KaR ToH DekH\n AuR NaA De To UskI BheN Ko PakaD😚😚`")
     await asyncio.sleep(999)
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "degi": """**Plugin : **`degi`
         

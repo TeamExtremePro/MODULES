@@ -10,7 +10,7 @@ import os
 import subprocess
 import sys
 from userbot.utils import admin_cmd, humanbytes, progress, time_formatter
-from . import CmdHelp
+from . import CMD_HELP
 
 @borg.on(admin_cmd(pattern=r"getc"))
 async def get_media(event):
@@ -81,7 +81,7 @@ async def get_media(event):
 
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "channel_download": f"""**Plugin : **`channel_download`
 **Telegram Channel Media Downloader Plugin for userbot.**

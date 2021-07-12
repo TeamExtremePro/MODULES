@@ -7,7 +7,7 @@ from telethon import functions, types
 from telethon.tl.types import InputMessagesFilterDocument
 from userbot.utils import command, remove_plugin, load_module
 from pathlib import Path
-from . import LOAD_PLUG, CmdHelp
+from . import LOAD_PLUG, CMD_HELP
 from userbot.utils import admin_cmd
 import os
 @bot.on(admin_cmd(pattern=r"^uninstall (?P<shortname>\w+)$"))
@@ -23,7 +23,7 @@ async def unload(event):
     except OSError as e:
         await event.edit("Error: %s : %s" % (dir_path, e.strerror))
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "uninstall": "**Plugin : **`uninstall`\
     \n\n**Syntax : **`uninstall`\

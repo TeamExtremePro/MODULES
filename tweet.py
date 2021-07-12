@@ -9,7 +9,7 @@
 import requests , re
 from PIL import Image
 from validators.url import url
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.helpers.functions import trumptweet, changemymind, kannagen, moditweet, miatweet, papputweet, sunnytweet, sinstweet, taklatweet, deEmojify, tweets
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
@@ -290,7 +290,7 @@ async def nekobot(borg):
     await borg.client.send_file(borg.chat_id , borgfile , reply_to = reply_to_id ) 
     await borg.delete()
     
-CmdHelp.update({
+CMD_HELP.update({
 "tweet":
 "Tweet\
 \n\n`.tweet` (text)\

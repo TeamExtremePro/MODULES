@@ -5,7 +5,7 @@ from telethon.errors import FloodWaitError
 from telethon.tl import functions
 from userbot.utils import edit_or_reply, admin_cmd
 
-from . import ALIVE_NAME, CmdHelp, BIO_MSG
+from . import ALIVE_NAME, CMD_HELP, BIO_MSG
 
 
 DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt"
@@ -89,7 +89,7 @@ async def _(event):
 
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "auto_profile": "**Auto_Profile**\
 \n\n**Syntax : **`.autobio`\

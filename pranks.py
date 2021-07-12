@@ -20,7 +20,7 @@ import os
 from telegraph import exceptions, upload_file
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.helpers.functions import (
     convert_toimage,
     deEmojify,
@@ -266,7 +266,7 @@ async def LEGENDBOT(hellmemes):
     await hellmemes.client.send_file(hellmemes.chat_id, hell, reply_to=replied)
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "pranks": "**Plugin : **`pranks`\
       \n\n**Syntax :**`.threats` reply to image or sticker \

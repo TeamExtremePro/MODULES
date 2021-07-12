@@ -2,7 +2,7 @@ import asyncio
 import time
 from datetime import datetime
 
-from . import ALIVE_NAME, StartTime, CmdHelp
+from . import ALIVE_NAME, StartTime, CMD_HELP
 from userbot.utils import admin_cmd, sudo_cmd, edit_or_reply
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND USER"
@@ -51,7 +51,7 @@ async def _(event):
     )
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "loda": "**Plugin : **`loda`\
     \n\n**Syntax : **`.loda`\

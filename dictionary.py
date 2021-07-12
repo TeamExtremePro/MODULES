@@ -6,7 +6,7 @@ Syntax: .ud Query"""
 import asyncurban
 from PyDictionary import PyDictionary
 
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
@@ -48,7 +48,7 @@ async def _(event):
         await edit_or_reply(event, f"Couldn't fetch meaning of {word}")
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "dictionary": "**Plugin :** `dictionary`\
     \n\n**Syntax :** `.ud query`\

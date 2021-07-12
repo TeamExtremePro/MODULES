@@ -22,7 +22,7 @@ from userbot.utils import admin_cmd, humanbytes, progress, time_formatter
 import subprocess
 import patoolib
 import tarfile
-from . import CmdHelp
+from . import CMD_HELP
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"
 extracted = Config.TMP_DOWNLOAD_DIRECTORY + "extracted/"
@@ -556,7 +556,7 @@ def get_lst_of_files(input_directory, output_lst):
 
 
 
-CmdHelp.update({
+CMD_HELP.update({
     "archive":
     ".zip reply to a file/media\
     \nUSEAGE: it will zip that file/media\

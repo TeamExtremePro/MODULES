@@ -5,7 +5,7 @@ from urllib.parse import quote_plus
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import ALIVE_NAME, CmdHelp
+from . import ALIVE_NAME, CMD_HELP
 from userbot.helpers.functions import deEmojify
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
@@ -565,7 +565,7 @@ async def carbon_api(e):
     await hell.delete()  # Deleting msg
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "carbon": "**Plugin : **`carbon`\
     \n\n**Commands are :** \

@@ -14,7 +14,7 @@ from requests import exceptions, get
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd
 
 logging.basicConfig(
@@ -295,7 +295,7 @@ async def _(event):
             )
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "pastebin": ".paste <text/reply>\
 \nUsage: Create a paste or a shortened url using dogbin (https://del.dog/)\

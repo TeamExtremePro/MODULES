@@ -1,7 +1,7 @@
 from telethon.tl.functions.messages import EditChatDefaultBannedRightsRequest
 from telethon.tl.types import ChatBannedRights
 from . import ALIVE_NAME
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.events import register, errors_handler
 from userbot.utils import admin_cmd
 
@@ -185,7 +185,7 @@ async def rem_locks(event):
         return
 
 
-CmdHelp.update({
+CMD_HELP.update({
     "locks":
     ".lock <all (or) type(s)> or .unlock <all (or) type(s)>\
 \nUsage: Allows you to lock/unlock some common message types in the chat.\

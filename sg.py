@@ -6,7 +6,7 @@ from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from userbot.utils import admin_cmd
-from . import bot, CmdHelp
+from . import bot, CMD_HELP
 
 @borg.on(admin_cmd(pattern="sg ?(.*)"))
 async def _(event):
@@ -44,7 +44,7 @@ async def _(event):
              await event.client.send_message(event.chat_id, response3.message)
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "sg": "__**PLUGIN NAME :** sg__\
     \n\n📌** CMD ★** `.sg`\

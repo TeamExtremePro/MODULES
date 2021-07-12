@@ -7,7 +7,7 @@ import re
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterDocument
 
-from . import CmdHelp, bot
+from . import CMD_HELP, bot
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from userbot.helpers.functions import deEmojify
 
@@ -114,7 +114,7 @@ async def get_font_file(client, channel_id, search_kw=""):
     return await client.download_media(font_file_message)
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "stickerfun": "**Plugin : **`stickerfun`\
         \n\n**Syntax : **`.waifu` <your txt>\

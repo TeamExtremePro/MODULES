@@ -24,7 +24,7 @@ from telethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
 from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from . import bot, CmdHelp , AUTONAME , BIO_MSG , ALIVE_NAME
+from . import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
@@ -154,7 +154,7 @@ async def get_full_user(event):
             except Exception as e:
                 return None, e
 
-CmdHelp.update({
+CMD_HELP.update({
     "clone":
     ".clone <username/reply>\
 \nUsage: steals others profile including dp, name.\

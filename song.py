@@ -75,7 +75,7 @@ from telethon import Button, custom, events, functions
 
 
 
-from . import ALIVE_NAME, CmdHelp, CMD_LIST, bot
+from . import ALIVE_NAME, CMD_HELP, CMD_LIST, bot
 
 
 
@@ -195,7 +195,7 @@ else:
 
 
 
-from . import CmdHelp
+from . import CMD_HELP
 
 @tgbot.on(events.InlineQuery)
 
@@ -385,11 +385,11 @@ async def lightning_pugins_query_hndlr(lightning):
 
     try:
 
-        if light_pulu_name in CmdHelp:
+        if light_pulu_name in CMD_HELP:
 
            
 
-           lightning_help_strin  = f"**🔱🔱 NAME 🔱🔱 :** `{light_pulu_name}` \n\n{CmdHelp[light_pulu_name]}"
+           lightning_help_strin  = f"**🔱🔱 NAME 🔱🔱 :** `{light_pulu_name}` \n\n{CMD_HELP[light_pulu_name]}"
 
            lightning_is_best = lightning_help_strin 
 
@@ -401,11 +401,11 @@ async def lightning_pugins_query_hndlr(lightning):
 
             lightning_help_strin = "Commands found in {}:\n".format(light_pulu_name)
 
-            for i in CmdHelp:
+            for i in CMD_HELP:
 
                 lightning_help_strin += "🔥🔥 " + i + "\n"
 
-                for iter_list in CmdHelp[i]:
+                for iter_list in CMD_HELP[i]:
 
                     lightning_help_strin += "    `" + str(iter_list) + "`"
 

@@ -12,7 +12,7 @@
 """
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd
 from LEGENDX import MASTER
 LEGEND = MASTER
@@ -65,5 +65,5 @@ async def _(event):
                 await event.delete()
             except YouBlockedUserError:
                 await event.edit("Error: unblock  @tgscanrobot `and try again!")
-CmdHelp.update({
+CMD_HELP.update({
     "ginfo ":"type .ginfo <@username> or tag a user type .ginfo 🔥"})

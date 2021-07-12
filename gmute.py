@@ -1,6 +1,6 @@
 from sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd
 
 #@command(outgoing=True, pattern=r"^.gmute ?(\d+)?")
@@ -66,5 +66,5 @@ async def endgmute(event):
 async def watcher(event):
     if is_muted(event.sender_id, "gmute"):
         await event.delete()
-CmdHelp.update({
+CMD_HELP.update({
     "gmute":"ye plug-in se aap kisi ke bhi muh me deke chup krwa skte h"})

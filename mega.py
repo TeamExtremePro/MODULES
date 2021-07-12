@@ -33,7 +33,7 @@ from urllib.error import HTTPError
 from pySmartDL import SmartDL
 
 from userbot.utils import admin_cmd, edit_or_reply, humanbytes, time_formatter
-from . import CmdHelp, LOGS
+from . import CMD_HELP, LOGS
 
 TEMP_DOWNLOAD_DIRECTORY = Config.TMP_DOWNLOAD_DIRECTORY
 
@@ -184,7 +184,7 @@ async def decrypt_file(megadl, file_path, temp_file_path, hex_key, hex_raw_key):
     return
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "mega": "**Plugin :** `mega`\
         \n\n**Syntax :** `.mega` <MEGA.nz link>\

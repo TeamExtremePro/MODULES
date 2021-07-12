@@ -2,7 +2,7 @@
 Syntax: .get_bot"""
 from telethon import events
 from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantsBots
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd
 
 
@@ -32,7 +32,7 @@ async def _(event):
     except Exception as e:
         mentions += " " + str(e) + "\n"
     await event.edit(mentions)
-CmdHelp.update(
+CMD_HELP.update(
     {
         "get_bot": "**Plugin : **`get_bot`\
     \n\n**Syntax : **`.get_bot`\

@@ -13,7 +13,7 @@ import requests
 from pytz import country_names as c_n
 from pytz import country_timezones as c_tz
 from pytz import timezone as tz
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd, edit_or_reply, errors_handler, sudo_cmd
 
 logging.basicConfig(
@@ -212,7 +212,7 @@ async def _(event):
         pass
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "climate": "**Plugin : **`climate`\
         \n\n  •  **Syntax : **`.climate <city>`\

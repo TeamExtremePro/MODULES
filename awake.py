@@ -13,7 +13,7 @@ import time
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
-from . import ALIVE_NAME, StartTime, CmdHelp
+from . import ALIVE_NAME, StartTime, CMD_HELP
 from . import legend
 from LEGENDX import BOT, PHOTO, VERSION
 from userbot.utils import admin_cmd
@@ -67,7 +67,7 @@ async def amireallyalive(awake):
    else:
      await awake.edit("please add right value on ALIVE_PHOTTO var")
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "awake": "Plugin : awake\
     \n\nSyntax : .awake\

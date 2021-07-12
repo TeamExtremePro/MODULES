@@ -12,7 +12,7 @@ import time
 from datetime import datetime
 
 from userbot.utils import admin_cmd, sudo_cmd , edit_or_reply
-from . import CmdHelp, bot
+from . import CMD_HELP, bot
 
 @borg.on(admin_cmd(pattern=r"open", outgoing=True))
 async def _(event):
@@ -173,7 +173,7 @@ async def teamcobra(hehe):
         await cobra.edit("reply to a non animated sticker")
 
   
-CmdHelp.update(
+CMD_HELP.update(
     {
         "fileconverter": "PLUGIN NAME : fileconverter\
     \n\n📌 CMD ★ .open\

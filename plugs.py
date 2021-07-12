@@ -9,7 +9,7 @@ import asyncio
 import os
 import sys
 import random
-from . import ALIVE_NAME, CmdHelp
+from . import ALIVE_NAME, CMD_HELP
 from userbot.utils import admin_cmd, edit_or_reply
 
 

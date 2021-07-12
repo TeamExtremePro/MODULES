@@ -9,7 +9,7 @@ import time
 import math
 from datetime import datetime
 from telethon import events
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd, progress
 #
 from googleapiclient.discovery import build
@@ -330,5 +330,5 @@ async def _(event):
     folder_link = "https://drive.google.com/folderview?id="+parent_id    
     await event.edit("`Here is Your G-Drive Folder link : `\n"+folder_link)
 
-CmdHelp.update({
+CMD_HELP.update({
     "gdrive":"Abhi to mene bhi use ni kiya saar use krke bata ta hu ok"})

@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 from telethon.tl.functions.messages import SaveDraftRequest
 
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
@@ -28,7 +28,7 @@ async def _(event):
     await event.edit(f"Chain length: {count}")
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "chain": """**Plugin :**`chain`
         

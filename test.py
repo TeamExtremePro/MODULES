@@ -3,7 +3,7 @@
 
 
 import random, re
-from . import CmdHelp
+from . import CMD_HELP
 from uniborg.util import admin_cmd
 import asyncio
 from telethon import events
@@ -24,7 +24,7 @@ async def _(event):
         await asyncio.sleep(3.5)
         await event.edit("Your[LEGEND BOT](https:/t.me/hackerget0) is working Fine...\n       Join @teamishere For Any Help......")
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "test": "**Plugin : **`test`\
     \n\n**Syntax : **`.test`\

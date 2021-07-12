@@ -22,7 +22,7 @@ from telethon.tl.types import MessageEntityMentionName
 
 from cowpy import cow
 from . import bot
-from . import CmdHelp,YOUTUBE_API_KEY
+from . import CMD_HELP,YOUTUBE_API_KEY
 from userbot.utils import register,admin_cmd
 
 # ================= CONSTANT =================
@@ -1173,7 +1173,7 @@ async def let_me_google_that_for_you(lmgtfy_q):
             
 			  
 
-CmdHelp.update({
+CMD_HELP.update({
     "memes": ".cowsay\
 \nUsage: cow which says things.\
 \n\n.milksay\

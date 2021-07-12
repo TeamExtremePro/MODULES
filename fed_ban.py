@@ -3,7 +3,7 @@
 # KEEP CREDITS PLEASE 🥺
 import asyncio
 from LEGENDX import NAME
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd
 # By (@proboy22), and (@LEGENDX22)
 from . import bot
@@ -220,7 +220,7 @@ async def _(event):
 # By TEAMLEGEND
 # OWNED BY TELEBOT
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "superban": ".superfban <username/userid> <reason>\
         \n**Usage**: Mass-Ban in all feds you are admin in.\

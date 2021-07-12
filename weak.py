@@ -3,7 +3,7 @@
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from . import CmdHelp
+from . import CMD_HELP
 
 from userbot.utils import admin_cmd
 
@@ -50,5 +50,5 @@ async def _(event):
           except YouBlockedUserError:
               await event.edit("Error: unblock @MadBoy_Rotomgram2_Bot `and try again!")
 
-CmdHelp.update({
+CMD_HELP.update({
    "weak":"this plugin is info of pokemon weakness type .weak fire or .weak any types"})

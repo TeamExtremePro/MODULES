@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw
 import pygments, os, asyncio, shutil, scapy, sys, requests, re, subprocess, urllib
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
-from . import bot, CmdHelp
+from . import bot, CMD_HELP
 from userbot.utils import admin_cmd, sudo_cmd
 from telegraph import upload_file
 from telethon import events
@@ -220,7 +220,7 @@ async def _(event):
     await bot.send_message(event.chat_id, file = result, reply_to=event.reply_to_msg_id)
     await event.delete()
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "imagefun1": "__**PLUGIN NAME :** Image Fun _\
     \n\n📌** CMD ★** `.trig (reply to media)`\

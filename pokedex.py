@@ -3,7 +3,7 @@
 
 from pokedex import pokedex
 
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd
 
 
@@ -108,7 +108,7 @@ async def _(event):
     await event.delete()
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "pokedex": "Pokedex\
 \n\nSyntax : .pokedex <pokemon name>\

@@ -2,7 +2,7 @@ import asyncio
 # made by telebot
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from LEGENDX import NAME
-from . import CmdHelp
+from . import CMD_HELP
 from . import bot
 from userbot.utils import admin_cmd
 
@@ -68,7 +68,7 @@ async def _(event):
             await ok.edit("**Error**\n `Unblock` @MissRose_Bot `and try again!")
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "fedstuff": ".fstat <username/userid/reply to user>\nUse - To check the persons fedban stat in @MissRose_Bot.\
         \n\n.fedinfo <fedid>\nUse - To see info about the fed."

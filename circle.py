@@ -4,7 +4,7 @@ from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import CmdHelp
+from . import CMD_HELP
 
 
 

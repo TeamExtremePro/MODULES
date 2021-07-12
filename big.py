@@ -10,7 +10,7 @@ Credits to @TeleBotHelp
 
 import asyncio
 from userbot.utils import admin_cmd
-from . import CmdHelp
+from . import CMD_HELP
 from telethon import events
 import random
 import logging
@@ -49,7 +49,7 @@ async def _(event):
         	
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 40])
-CmdHelp.update(
+CMD_HELP.update(
     {
         "big": ".bigoof\
 \nUsage: backchodi use krke dekhlo.\

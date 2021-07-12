@@ -13,7 +13,7 @@ from PIL import Image, ImageColor
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import CmdHelp
+from . import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern="scan ?(.*)"))
@@ -373,7 +373,7 @@ Year: {}""".format(
         await hellevent.edit("xkcd n.{} not found!".format(xkcd_id))
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "tools": "**Plugin : **`tools`\
         \n\n**Syntax : **`.scan` reply to media or file\

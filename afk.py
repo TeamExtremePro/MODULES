@@ -8,7 +8,7 @@ from datetime import datetime
 from telethon import events
 from telethon.tl import functions, types
 
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.utils import admin_cmd
 
 global USER_AFK  # pylint:disable=E0602
@@ -170,7 +170,7 @@ async def _(event):
             logger.warn(str(e))  # pylint:disable=E0602
 
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "afk": "__**PLUGIN NAME :** Afk__\
 \n\n ** CMD ** `.afk` [Optional Reason]\

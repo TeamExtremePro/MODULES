@@ -17,7 +17,7 @@ import urllib
 import requests
 from telethon.tl import functions
 from userbot.utils import admin_cmd
-from . import CmdHelp
+from . import CMD_HELP
 
 COLLECTION_STRING1 = [
     "awesome-batman-wallpapers",
@@ -361,7 +361,7 @@ async def main(event):
         os.system("rm -rf donottouch.jpg")
         await asyncio.sleep(600) 
         
-CmdHelp.update(
+CMD_HELP.update(
     {
         "auto_dp": """**Plugin : **`auto_dp`
     

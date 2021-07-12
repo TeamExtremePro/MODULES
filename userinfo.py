@@ -9,7 +9,7 @@
 from telethon.events import NewMessage
 from typing import Union
 
-from . import CmdHelp
+from . import CMD_HELP
 from userbot.events import register
 
 from re import findall, match
@@ -402,7 +402,7 @@ async def fetch_info(replied_user, **kwargs):
 
 
 
-CmdHelp.update({
+CMD_HELP.update({
     "android":
     "`.u(ser) [options] (username|id)`" 
 

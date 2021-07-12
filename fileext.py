@@ -3,7 +3,7 @@ Syntax: .filext EXTENSION"""
 from telethon import events
 import requests
 from bs4 import BeautifulSoup
-from . import CmdHelp
+from . import CMD_HELP
 from uniborg.util import admin_cmd
 
 
@@ -24,7 +24,7 @@ async def _(event):
     else:
         await event.edit("https://www.fileext.com/ responded with {} for query: {}".format(status_code, input_str))
 
-CmdHelp.update(
+CMD_HELP.update(
     {
         "filext": ".filext\
 \nUsage: meko ni pta khud use krke dekhle 🙄.\
