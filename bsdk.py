@@ -7,7 +7,7 @@ from telethon import events
 
 import asyncio
 
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd
 
 @borg.on(admin_cmd("bsdk"))
@@ -45,5 +45,5 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 18])
 
-CMD_HELP.update({
+CmdHelp.update({
     "bsdk":"gali plugin h yrr use .bsdk"})

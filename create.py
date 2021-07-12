@@ -5,7 +5,7 @@
 Available Commands:
 .create (b|g) GroupName"""
 from telethon.tl import functions
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
@@ -72,7 +72,7 @@ async def _(event):
         await event.edit("Read `.plinfo create` to know how to use me")
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "create": "**SYNTAX :** `.create b`\
     \n**USAGE : **Creates a super group and send you link\

@@ -10,7 +10,7 @@ KEEP CREDITS
 import random
 import re
 
-from userbot import CMD_HELP, bot
+from userbot import CmdHelp, bot
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 EMOJI_PATTERN = re.compile(
@@ -61,4 +61,4 @@ async def waifu(animu):
     )
     await animu.delete()
 
-    CMD_HELP.update({"waifu": ".waifu : Anime that makes your writing fun."})
+    CmdHelp.update({"waifu": ".waifu : Anime that makes your writing fun."})

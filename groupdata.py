@@ -16,7 +16,7 @@ from telethon.errors.rpcerrorlist import (UserIdInvalidError,
 from telethon.errors import (BadRequestError, ChatAdminRequiredError,
                              ImageProcessFailedError, PhotoCropSizeSmallError,
                              UserAdminInvalidError)
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import  errors_handler, admin_cmd
 
 @borg.on(admin_cmd(pattern="leave$"))
@@ -268,7 +268,7 @@ async def get_users(show):
             )
             remove("userslist.txt")  
   
-CMD_HELP.update({
+CmdHelp.update({
     "chatinfo":
     ".chatinfo or .chatinfo <username of group>\
      \nUsage: Shows you the total information of the required chat.\

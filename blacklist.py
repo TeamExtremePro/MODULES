@@ -11,7 +11,7 @@ import re
 from telethon import events
 import sql_helper.blacklist_sql as sql
 
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
@@ -94,7 +94,7 @@ async def on_view_blacklist(event):
         await edit_or_reply(event, OUT_STR)
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "blacklist": "**blacklist**\
     \n**Syntax : **`.addblacklist` <word/words>\

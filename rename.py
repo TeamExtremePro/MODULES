@@ -5,7 +5,7 @@ from datetime import datetime
 
 from uniborg.util import admin_cmd
 
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd, progress
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "thumb_image.jpg"
@@ -84,7 +84,7 @@ async def get(event):
     await borg.send_file(event.chat_id, name, force_document=True)
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "rename": ".rename filename."
         "\nReply to media with above command to rename and upload the file with given name__"

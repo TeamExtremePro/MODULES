@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 import asyncio
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
 from telethon import events
 
@@ -27,7 +27,7 @@ async def _(event):
         borg.send_message(chat, message, reply_to=event.reply_to_msg_id)
     ])
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "fixreply": "**Plugin : **`fixreply`\
     \n\n**Syntax : **`.fixreply`\

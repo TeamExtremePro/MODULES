@@ -10,7 +10,7 @@ import os
 import requests
 import json
 from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
 @borg.on(admin_cmd("dns (.*)"))
 async def _(event):
@@ -51,7 +51,7 @@ async def _(event):
     else:
         await event.edit("Input URL {} returned status_code {}".format(input_str, r.status_code))
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "links": "**Plugin : **`links`\
         \n\n**Syntax :** `.dns link`\

@@ -5,7 +5,7 @@ import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 import asyncio
 
@@ -38,7 +38,7 @@ async def _(event):
             await event.edit("```This user had disabled their forward privacy... Just tag and type .sg```")
          else: 
             await event.edit(f"{response.message.message}")
-CMD_HELP.update(
+CmdHelp.update(
     {
         "history": "**Plugin : **`history`\
     \n\n**Syntax : **`.history`\

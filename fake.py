@@ -15,7 +15,7 @@ cancel"""
 
 import asyncio
 from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
  
 @borg.on(admin_cmd(pattern="fake ?(.*)"))
@@ -32,7 +32,7 @@ async def _(event):
         
         
         
-CMD_HELP.update({
+CmdHelp.update({
     "fake":
     ".fake (action name)\
     \nUsage: Type .fake (action name) this shows the fake action in the group  the actions are typing contact ,game, location, voice, round, video,photo,document.\

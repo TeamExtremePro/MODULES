@@ -7,7 +7,7 @@ import bs4
 import requests
 
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import ALIVE_NAME, CMD_HELP
+from userbot import ALIVE_NAME, CmdHelp
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
@@ -166,7 +166,7 @@ async def mod(event):
     await event.delete()
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "app": "**Plugin :** `app`\
         \n**Syntax : **`.app [app name]`\

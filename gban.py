@@ -2,7 +2,7 @@
 
 
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd
 import html
 from telethon import events
@@ -209,5 +209,5 @@ async def handler(rkG):
                  except:       
                     rkG.reply("`No Permission To Ban`")                   
                     return 
-CMD_HELP.update({
+CmdHelp.update({
     "gban":"gban any user using username or tag dont use id "})

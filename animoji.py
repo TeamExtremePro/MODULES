@@ -2,7 +2,7 @@ import asyncio
 from collections import deque
 
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
 
 @bot.on(admin_cmd(pattern="think$", outgoing=True))
@@ -346,7 +346,7 @@ async def _(event):
 
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "animoji": """**Plugin : **`animoji`
         

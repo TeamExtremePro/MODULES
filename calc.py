@@ -6,7 +6,7 @@ import io
 import sys
 import traceback
 
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
@@ -49,7 +49,7 @@ async def aexec(code, event):
     return await locals()["__aexec"](event)
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "calc": "**Plugin : **`calc`\
         \n\n**Syntax : **`.calc expression` \

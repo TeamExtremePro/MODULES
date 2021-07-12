@@ -7,7 +7,7 @@ from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from telegraph import Telegraph
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd
 from var import Var
 telegraph = Telegraph()
@@ -164,7 +164,7 @@ async def _(event):
 
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "bots": ".purl (reply to file)\nUse - Get a direct download link of that file/doc/pic/vid\
         \n\n.reader (reply to url)\nUse - Open that url in telegraph .\

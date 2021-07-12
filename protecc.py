@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from google_images_download import google_images_download
 from userbot.utils import admin_cmd
 from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from userbot import CmdHelp
 DELETE_TIMEOUT = 0
 
 def progress(current, total):
@@ -71,7 +71,7 @@ async def _(event):
     await event.delete()
     await event.reply(OUTPUT_STR, parse_mode="HTML", link_preview=False)
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "protecc": "**Plugin : **`protecc`\
     \n\n**Syntax : **`.protec`\

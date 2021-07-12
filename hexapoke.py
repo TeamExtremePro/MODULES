@@ -5,7 +5,7 @@ from telethon import events
 import asyncio
 #from userbot.utils import admin_cmd
 from userbot.events import register 
-from userbot import bot, CMD_HELP
+from userbot import bot, CmdHelp
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 try:
@@ -100,7 +100,7 @@ async def DeezLoader(Deezlod):
                                              [msg_start.id, response.id, r.id, msg.id, details.id, song.id])
           await Deezlod.delete()          
     
-CMD_HELP.update({
+CmdHelp.update({
         "music":
         ".spd`<Artist - Song Title>\
             \nUsage:For searching songs from Spotify.\

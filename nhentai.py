@@ -4,7 +4,7 @@ import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbot import bot, CMD_HELP
+from userbot import bot, CmdHelp
 from userbot.events import register
 
 @register(outgoing=True, pattern="^.nhentai(?: |$)(.*)")
@@ -28,7 +28,7 @@ async def _(event):
              await event.delete()   
              await bot.forward_messages(event.chat_id, response.message)
 
-CMD_HELP.update({
+CmdHelp.update({
 "nhentai": 
 ".nhentai <link / code> \
 \nUsage: view nhentai in telegra.ph D\n"})

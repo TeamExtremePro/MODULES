@@ -3,7 +3,7 @@
 
 from telethon import events, functions, types
 from uniborg.util import admin_cmd
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest
 
 @borg.on(admin_cmd("listmyusernames"))
@@ -18,7 +18,7 @@ async def mine(event):
 
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "LIST MY USERNAMES": "**Plugin : **`listmyusernames`\
     \n\n**Syntax : **`.listmyusernames`\

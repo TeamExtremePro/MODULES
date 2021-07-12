@@ -1,6 +1,6 @@
 # maded by shivam
 # ported by LEGENDX22
-from userbot import bot, CMD_HELP, CMD_LIST
+from userbot import bot, CmdHelp, CMD_LIST
 from telethon import events
 from userbot.utils import remove_plugin, load_module, register
 from telethon import functions, types
@@ -11,7 +11,7 @@ from datetime import datetime
 DELETE_TIMEOUT = 5
 import sys, asyncio, traceback, os, importlib
 import userbot.utils
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
 
 

@@ -14,7 +14,7 @@ import re
 from telethon.tl.types import MessageMediaPhoto
 from PIL import Image
 
-from userbot import bot, CMD_HELP
+from userbot import bot, CmdHelp
 from userbot.utils import register, errors_handler
 
 opener = urllib.request.build_opener()
@@ -141,7 +141,7 @@ async def scam(results, lim):
     return imglinks
 
 
-CMD_HELP.update({
+CmdHelp.update({
     'reverse':
     '.reverse\
         \nUsage: Reply to a pic/sticker to revers-search it on Google Images !!'

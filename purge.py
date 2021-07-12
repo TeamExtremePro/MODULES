@@ -9,7 +9,7 @@ from asyncio import sleep
 
 from telethon.errors import rpcbaseerrors
 
-from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP
+from userbot import BOTLOG, BOTLOG_CHATID, CmdHelp
 from userbot.utils import register, errors_handler
 from userbot.utils import admin_cmd
 
@@ -133,28 +133,28 @@ async def selfdestruct(destroy):
                                           "sd query done successfully")
 
 
-CMD_HELP.update({
+CmdHelp.update({
     'purge':
     '.purge\
         \nUsage: Purges all messages starting from the reply.'
 })
 
-CMD_HELP.update({
+CmdHelp.update({
     'purgeme':
     '.purgeme <x>\
         \nUsage: Deletes x amount of your latest messages.'
 })
 
-CMD_HELP.update({"del": ".del\
+CmdHelp.update({"del": ".del\
 \nUsage: Deletes the message you replied to."})
 
-CMD_HELP.update({
+CmdHelp.update({
     'edit':
     ".edit <newmessage>\
 \nUsage: Replace your last message with <newmessage>."
 })
 
-CMD_HELP.update({
+CmdHelp.update({
     'sd':
     '.sd <x> <message>\
 \nUsage: Creates a message that selfdestructs in x seconds.\

@@ -10,7 +10,7 @@ import asyncio, time, io, math, os, logging, asyncio, shutil, re, subprocess, js
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from base64 import b64decode
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
@@ -137,7 +137,7 @@ async def _(event):
             await edit_or_reply(event, "Added user to the chat....")
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "invite": """**Plugin : **`invite`
   •  **Syntax : **`.add username(s)/userid(s)`

@@ -4,7 +4,7 @@ from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
 from telethon.tl.types import Channel, Chat, User
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
 
 @bot.on(admin_cmd(pattern="stats$"))
@@ -97,7 +97,7 @@ def user_full_name(user):
     return " ".join(names)
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "stat": "**Plugin : **`stat`\
     \n\n**Syntax : **`.stat`\

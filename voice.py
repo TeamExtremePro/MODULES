@@ -2,7 +2,7 @@
 Available Commands:
 .tts LanguageCode as reply to a message
 .tts LangaugeCode | text to speak"""
-from userbot import CMD_HELP
+from userbot import CmdHelp
 import asyncio
 import os
 import subprocess
@@ -75,7 +75,7 @@ async def _(event):
         await event.edit(str(e))
 
         
-CMD_HELP.update({
+CmdHelp.update({
     "voice":
     " Google Text to Speech\
 \nAvailable Commands:\

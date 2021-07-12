@@ -4,7 +4,7 @@ import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 from userbot.utils import admin_cmd
-from userbot import CMD_HELP, LOGS
+from userbot import CmdHelp, LOGS
 
 
 @borg.on(admin_cmd(pattern="join"))

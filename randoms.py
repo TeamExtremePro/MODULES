@@ -14,7 +14,7 @@ import random
 from asyncio import sleep
 
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
 
 @bot.on(admin_cmd(pattern=r"sing$", outgoing=True))
@@ -1886,7 +1886,7 @@ async def _(event):
         await event.edit("`Do You Know, We can't see Ghosts But Ghosts Can see Us...`")
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "randoms": """**Plugin : **`randoms`
 **Commands : **

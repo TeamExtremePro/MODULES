@@ -3,7 +3,7 @@ from collections import deque
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import ALIVE_NAME, CMD_HELP
+from userbot import ALIVE_NAME, CmdHelp
 from LEGENDX import NAME
 DEFAULTUSER = NAME
 
@@ -272,7 +272,7 @@ async def timer_blankx(e):
     )
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "animation1": """**Plugin : **`animation1`
         

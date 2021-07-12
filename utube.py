@@ -7,7 +7,7 @@
 
 import re
 import random
-from userbot import bot, CMD_HELP
+from userbot import bot, CmdHelp
 import asyncio
 import os
 from pathlib import Path
@@ -132,7 +132,7 @@ async def fetcher(event):
         await delete_messages(event, chat, purgeflag)
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "utube": "__**PLUGIN NAME :** All YouTube__\
     \n\n📌** CMD ★** `.uta (song name)`\

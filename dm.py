@@ -5,7 +5,7 @@ Userbot module to help you dm msg
 
 from telethon import *
 
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd
 
 
@@ -41,7 +41,7 @@ async def _(dc):
         await dc.edit(".dm (username) (text)")
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "dm": ".dm (username) (text)\n or\n .dm (username)(reply to msg)\n it'll forward the replyed msg"
     }

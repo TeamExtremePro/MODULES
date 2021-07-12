@@ -1,6 +1,6 @@
 import asyncio, subprocess
 import time, re, io
-from userbot import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
+from userbot import bot, BOTLOG, BOTLOG_CHATID, CmdHelp
 from telethon import events, functions, types
 from telethon.events import StopPropagation
 from telethon.tl.functions.messages import ExportChatInviteRequest
@@ -115,42 +115,42 @@ async def _(event):
 
 
 
-CMD_HELP.update({
+CmdHelp.update({
     ";__;": "You try it!"
 })
-CMD_HELP.update({
+CmdHelp.update({
     "evil": "Evil Guy"
 })
-CMD_HELP.update({
+CmdHelp.update({
     "cry": "Cry"
 })
-CMD_HELP.update({
+CmdHelp.update({
     "fp": "Send face palm emoji."
 })
-CMD_HELP.update({
+CmdHelp.update({
     "moon": "Bot will send a cool moon animation."
 })
-CMD_HELP.update({
+CmdHelp.update({
     "clock": "Bot will send a cool clock animation."
 })
-CMD_HELP.update({
+CmdHelp.update({
     "readme": "Reedme."
 })
-CMD_HELP.update({
+CmdHelp.update({
     "source": "Gives the source of your userbot"
 })
-CMD_HELP.update({
+CmdHelp.update({
     "myusernames": "List of Usernames owned by you."
 })
-CMD_HELP.update({
+CmdHelp.update({
     "oof": "Same as ;__; but ooof"
 })
-CMD_HELP.update({
+CmdHelp.update({
     "earth": "Sends Kensar Earth animation"
 })
-CMD_HELP.update({
+CmdHelp.update({
     "heart": "Try and you'll get your emotions back"
 })
-CMD_HELP.update({
+CmdHelp.update({
     "fap": "Faking orgasm"
 })

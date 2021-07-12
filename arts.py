@@ -1,7 +1,7 @@
 
 
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import CMD_HELP, ALIVE_NAME
+from userbot import CmdHelp, ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
@@ -577,7 +577,7 @@ async def bluedevildislike(dislike):
 
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "arts": "__**PLUGIN NAME :** Arts__\
       \n\n** CMD ~>** `.elove` | `.monster` | `.pig` | `.gun` | `.dog` | `.hello` | `.hmf` | `.couple` | `.sup` | `.india` | `.wc` | `.snk` | `.bye` | `.shitos` | `.dislike`\

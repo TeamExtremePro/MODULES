@@ -22,7 +22,7 @@ from telethon.tl.types import (ChannelParticipantsAdmins, ChatAdminRights,
                                ChatBannedRights, MessageEntityMentionName,
                                MessageMediaPhoto)
 
-from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
+from userbot import BOTLOG, BOTLOG_CHATID, CmdHelp, bot
 from userbot.utils import register, errors_handler
 from userbot.utils import admin_cmd
 from LEGENDX import NAME, MASTER, BOT
@@ -817,7 +817,7 @@ async def get_user_sender_id(user, event):
     return user_obj
 
 
-CMD_HELP.update({
+CmdHelp.update({
     "admin":
     ".promote <username/reply> <custom rank (optional)>\
 \nUsage: Provides admin rights to the person in the chat.\

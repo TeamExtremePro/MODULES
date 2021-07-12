@@ -5,7 +5,7 @@
 
 import asyncio
 from asyncio import wait
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
 
 from userbot.events import register
@@ -84,7 +84,7 @@ async def spammer(e):
             "DelaySpam was executed successfully")
             
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "spam": ".spam <no of msgs> <your msg>"
         "\nUsage: spams the current chat, the current limit for this is from 1 to 99.\n\n"

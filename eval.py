@@ -10,7 +10,7 @@ import traceback
 import asyncio
 import sys
 import io
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from uniborg.util import admin_cmd
 
 
@@ -75,7 +75,7 @@ async def aexec(code, event):
     )
     return await locals()['__aexec'](event)
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "eval": ".eval (?)\
 \nUsage: this is a plug-in but abhi meko iska poora usage ni pta jaldi add krduga.\

@@ -5,14 +5,14 @@ ported to telethon by @mrconfused and @sandy1709
 import asyncio
 import shlex
 from PIL import Image 
-from userbot import LOGS , CMD_HELP
+from userbot import LOGS , CmdHelp
 from telethon import functions, types
 from userbot.utils import admin_cmd
 from glitch_this import ImageGlitcher
 from typing import Optional, Tuple
 
 
-from userbot import bot, CMD_HELP, LOGS
+from userbot import bot, CmdHelp, LOGS
 from userbot.events import register
 
 async def take_screen_shot(
@@ -133,7 +133,7 @@ async def glitch(event):
         if files and os.path.exists(files):
             os.remove(files)
 
-CMD_HELP.update({
+CmdHelp.update({
     "glitch":
     ".glitch` reply to media file\
 \nUsage:glitches the given mediafile(gif , stickers , image, videos) to a gif and glitch range is from 1 to 8.\

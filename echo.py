@@ -7,7 +7,7 @@ import base64
 import requests
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from sql_helper.echo_sql import addecho, get_all_echos, is_echo, remove_echo
 
@@ -107,7 +107,7 @@ async def samereply(hell):
             await hell.reply(hell.message)
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "echo": "**Syntax :** `.echo` reply to user to whom you want to enable\
     \n**Usage : **replays his every message for whom you enabled echo\

@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from humanize import naturalsize
 
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
 
 @bot.on(admin_cmd(outgoing=True, pattern=r"direct(?: |$)([\s\S]*)"))
@@ -348,7 +348,7 @@ def useragent():
     return user_agent.text
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "direct_links": "**Plugin : **`direct`\
         \n\n**Syntax : **`.direct <url>`\n"

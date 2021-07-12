@@ -11,7 +11,7 @@ import re
 from bs4 import BeautifulSoup
 from requests import get
 
-from userbot import CMD_HELP
+from userbot import CmdHelp
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 GITHUB = "https://github.com"
@@ -231,7 +231,7 @@ async def twrp(request):
     await edit_or_reply(request, reply)
 
 
-CMD_HELP.update(
+CmdHelp.update(
     {
         "android": "**Plugin : **`android`\
 \n\n  •  **Syntax : **`.magisk`\

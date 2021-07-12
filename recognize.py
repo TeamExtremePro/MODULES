@@ -5,7 +5,7 @@ from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from userbot.utils import admin_cmd
-from userbot import CMD_HELP
+from userbot import CmdHelp
 
 @borg.on(admin_cmd(pattern="recognize ?(.*)"))
 async def _(event):
@@ -43,7 +43,7 @@ async def _(event):
               await event.edit("sorry, I couldnt find it")
       
            
-CMD_HELP.update({
+CmdHelp.update({
     "recognize":
     "`.recognize` reply this to any media file\
     \nUSAGE : Get information about an image using AWS Rekognition.\

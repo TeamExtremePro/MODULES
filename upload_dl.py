@@ -15,7 +15,7 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from telethon.tl.types import DocumentAttributeVideo
 
-from userbot import LOGS, CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from userbot import LOGS, CmdHelp, TEMP_DOWNLOAD_DIRECTORY
 from userbot.events import register
 
 
@@ -398,7 +398,7 @@ async def uploadas(uas_event):
         await uas_event.edit("404: File Not Found")
 
 
-CMD_HELP.update({
+CmdHelp.update({
     "download":
     ".dl <link|filename> or reply to media\
 \nUsage: Downloads file to the server.\
