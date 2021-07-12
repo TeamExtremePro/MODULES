@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "Legend Boy"
+          find: "ExtremeProUserbot"
 
-          replace: "ExtremeProUserbot"
+          replace: "Andencento UB"
 
       - name: Create Pull Request
 
