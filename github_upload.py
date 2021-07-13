@@ -7,15 +7,15 @@ By:- @Zero_cool7870
 """
 
 
-from userbotithub import Github
+from userbotserbotithub import Github
 import aiohttp
 import asyncio
 import os
 import time
-from userbotatetime import datetime
-from userbotelethon import events
-from userbotelethon.tl.types import DocumentAttributeVideo
-from userbotniborg.util import admin_cmd, humanbytes, progress, time_formatter
+from userbotserbotatetime import datetime
+from userbotserbotelethon import events
+from userbotserbotelethon.tl.types import DocumentAttributeVideo
+from userbotserbotniborg.util import admin_cmd, humanbytes, progress, time_formatter
 
 
 GIT_TEMP_DIR = "./temp/"
@@ -25,7 +25,7 @@ async def download(event):
 	if event.fwd_from:
 		return	
 	if Config.GITHUB_ACCESS_TOKEN is None:
-		await event.edit("`Please ADD Proper Access Token from userbotithub.com`") 
+		await event.edit("`Please ADD Proper Access Token from userbotserbotithub.com`") 
 		return   
 	if Config.GIT_REPO_NAME is None:
 		await event.edit("`Please ADD Proper Github Repo Name of your userbot`")

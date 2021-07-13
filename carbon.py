@@ -1,12 +1,12 @@
 import asyncio
 import os
 import random
-from userbotrllib.parse import quote_plus
-from userbotelenium import webdriver
-from userbotelenium.webdriver.chrome.options import Options
-from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import ALIVE_NAME, CMD_HELP
-from userbotserbot.helpers.functions import deEmojify
+from userbotserbotrllib.parse import quote_plus
+from userbotserbotelenium import webdriver
+from userbotserbotelenium.webdriver.chrome.options import Options
+from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbot import ALIVE_NAME, CMD_HELP
+from userbotserbotserbot.helpers.functions import deEmojify
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

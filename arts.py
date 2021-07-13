@@ -1,7 +1,7 @@
 
 
-from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import CMD_HELP, ALIVE_NAME
+from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbot import CMD_HELP, ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

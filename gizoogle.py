@@ -1,7 +1,7 @@
 import re
 import bs4
 import requests
-from userbotniborg.util import admin_cmd
+from userbotserbotniborg.util import admin_cmd
 
 @borg.on(admin_cmd(pattern="giz ?(.*)"))
 async def gizoogle(event):
@@ -20,7 +20,7 @@ async def gizoogle(event):
             return await event.edit(result)
 
 def text(input_text: str) -> str:
-        """Taken from userbotttps://github.com/chafla/gizoogle-py/blob/master/gizoogle.py"""
+        """Taken from userbotserbotttps://github.com/chafla/gizoogle-py/blob/master/gizoogle.py"""
         params = {"translatetext": input_text}
         target_url = "http://www.gizoogle.net/textilizer.php"
         resp = requests.post(target_url, data=params)

@@ -2,18 +2,18 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-from userbotelethon import events
+from userbotserbotelethon import events
 import subprocess
-from userbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
+from userbotserbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
 import io
 import asyncio
 import time
 import os
 import sys
-from userbotelethon import events, functions, __version__
-from userbotserbot.utils import admin_cmd
-from userbotsyncio.subprocess import PIPE as asyncPIPE
-from userbotsyncio import create_subprocess_exec as asyncrunapp
+from userbotserbotelethon import events, functions, __version__
+from userbotserbotserbot.utils import admin_cmd
+from userbotserbotsyncio.subprocess import PIPE as asyncPIPE
+from userbotserbotsyncio import create_subprocess_exec as asyncrunapp
 
 
 if not os.path.isdir("./SAVED"):

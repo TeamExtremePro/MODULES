@@ -1,9 +1,9 @@
-from userbotelethon import events
+from userbotserbotelethon import events
 import asyncio
 import os
 import sys
-from userbotelethon import events, functions, __version__
-from userbotniborg.util import admin_cmd
+from userbotserbotelethon import events, functions, __version__
+from userbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="f"))

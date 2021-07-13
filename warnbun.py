@@ -1,8 +1,8 @@
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotelethon import events
-from userbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbot.utils import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("warn1"))
@@ -23,9 +23,9 @@ async def _(event):
 
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotelethon import events
-from userbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotniborg.util import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("warn2"))
@@ -46,9 +46,9 @@ async def _(event):
 
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotelethon import events
-from userbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotniborg.util import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("warn3"))
@@ -69,9 +69,9 @@ async def _(event):
 
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotelethon import events
-from userbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotniborg.util import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("warn0"))
@@ -92,9 +92,9 @@ async def _(event):
 
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotelethon import events
-from userbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotniborg.util import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotniborg.util import admin_cmd
 
 
 

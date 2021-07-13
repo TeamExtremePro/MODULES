@@ -7,11 +7,11 @@ import io
 import os
 import os.path
 import time
-from userbots.path import exists, isdir
+from userbotserbots.path import exists, isdir
 
-from userbot import CMD_HELP
-from userbotserbot.events import register
-from userbotserbot.utils import humanbytes
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.events import register
+from userbotserbotserbot.utils import humanbytes
 
 MAX_MESSAGE_SIZE_LIMIT = 4095
 
@@ -114,7 +114,7 @@ CMD_HELP.update(
     {
         "list": "**Plugin : **`list`\
     \n\n**Syntax : **`.ls`\
-    \n**Function : **this plugin give you your full files from userbotserbot"
+    \n**Function : **this plugin give you your full files from userbotserbotserbot"
     }
 )
 

@@ -1,9 +1,9 @@
-from userbotollections import defaultdict, deque
+from userbotserbotollections import defaultdict, deque
 import re
 
 import regex
-from userbotelethon import events, utils
-from userbotelethon.tl import types, functions
+from userbotserbotelethon import events, utils
+from userbotserbotelethon.tl import types, functions
 
 HEADER = "「sed」\n"
 KNOWN_RE_BOTS = re.compile(

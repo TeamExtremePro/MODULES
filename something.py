@@ -1,10 +1,10 @@
 ''' Whatever Plugin by Noobs of Telegram i.e. @pureindialover '''
 
-from userbotelethon import events
+from userbotserbotelethon import events
 import asyncio
 import os
 import sys
-from userbotniborg.util import admin_cmd
+from userbotserbotniborg.util import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"lmoon"))
 async def test(event):

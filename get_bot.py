@@ -1,9 +1,9 @@
 """ Get the Bots in any chat*
 Syntax: .get_bot"""
-from userbotelethon import events
-from userbotelethon.tl.types import ChannelParticipantAdmin, ChannelParticipantsBots
-from userbot import CMD_HELP
-from userbotserbot.utils import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.tl.types import ChannelParticipantAdmin, ChannelParticipantsBots
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("get_bot ?(.*)"))

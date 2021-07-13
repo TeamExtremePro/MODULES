@@ -7,15 +7,15 @@ Syntax: .iffuci
 
 import logging
 import os
-from userbotatetime import datetime
+from userbotserbotatetime import datetime
 
 import requests
-from userbotequests import exceptions, get
-from userbotelethon import events
-from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotequests import exceptions, get
+from userbotserbotelethon import events
+from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot import CMD_HELP
-from userbotserbot.utils import admin_cmd
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.utils import admin_cmd
 
 logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=logging.WARNING
@@ -300,7 +300,7 @@ CMD_HELP.update(
         "pastebin": ".paste <text/reply>\
 \nUsage: Create a paste or a shortened url using dogbin (https://del.dog/)\
 \n\n.getpaste\
-\nUsage: Gets the content of a paste or shortened url from userbotogbin (https://del.dog/)\
+\nUsage: Gets the content of a paste or shortened url from userbotserbotogbin (https://del.dog/)\
 \n\n.neko <reply>\
 \nUsage: Create a paste or a shortened url using nekobin (https://nekobin.com)\
 \n\n.iffuci <text/reply>\

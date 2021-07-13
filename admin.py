@@ -6,26 +6,26 @@
 Userbot module to help you manage a group
 """
 #credits LEGENDX22
-from userbotsyncio import sleep
-from userbots import remove
+from userbotserbotsyncio import sleep
+from userbotserbots import remove
 
-from userbotelethon.errors import (BadRequestError, ChatAdminRequiredError,
+from userbotserbotelethon.errors import (BadRequestError, ChatAdminRequiredError,
                              ImageProcessFailedError, PhotoCropSizeSmallError,
                              UserAdminInvalidError)
-from userbotelethon.errors.rpcerrorlist import (UserIdInvalidError,
+from userbotserbotelethon.errors.rpcerrorlist import (UserIdInvalidError,
                                           MessageTooLongError)
-from userbotelethon.tl.functions.channels import (EditAdminRequest,
+from userbotserbotelethon.tl.functions.channels import (EditAdminRequest,
                                             EditBannedRequest,
                                             EditPhotoRequest)
-from userbotelethon.tl.functions.messages import UpdatePinnedMessageRequest
-from userbotelethon.tl.types import (ChannelParticipantsAdmins, ChatAdminRights,
+from userbotserbotelethon.tl.functions.messages import UpdatePinnedMessageRequest
+from userbotserbotelethon.tl.types import (ChannelParticipantsAdmins, ChatAdminRights,
                                ChatBannedRights, MessageEntityMentionName,
                                MessageMediaPhoto)
 
-from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
-from userbotserbot.utils import register, errors_handler
-from userbotserbot.utils import admin_cmd
-from userbotEGENDX import NAME, MASTER, BOT
+from userbotserbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
+from userbotserbotserbot.utils import register, errors_handler
+from userbotserbotserbot.utils import admin_cmd
+from userbotserbotEGENDX import NAME, MASTER, BOT
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
 PP_ERROR = "`Failure while processing the image`"
@@ -195,7 +195,7 @@ async def demote(dmod):
         await dmod.client(
             EditAdminRequest(dmod.chat_id, user.id, newrights, rank))
 
-    # If we catch BadRequestError from userbotelethon
+    # If we catch BadRequestError from userbotserbotelethon
     # Assume we don't have permission to demote
     except BadRequestError:
         await dmod.edit(NO_PERM)
@@ -313,7 +313,7 @@ async def spider(spdr):
     """
     # Check if the function running under SQL mode
     try:
-        from userbotserbot.modules.sql_helper.spam_mute_sql import mute
+        from userbotserbotserbot.modules.sql_helper.spam_mute_sql import mute
     except AttributeError:
         await spdr.edit(NO_SQL)
         return
@@ -383,7 +383,7 @@ async def unmoot(unmot):
 
     # Check if the function running under SQL mode
     try:
-        from userbotserbot.modules.sql_helper.spam_mute_sql import unmute
+        from userbotserbotserbot.modules.sql_helper.spam_mute_sql import unmute
     except AttributeError:
         await unmot.edit(NO_SQL)
         return
@@ -421,8 +421,8 @@ async def unmoot(unmot):
 async def muter(moot):
     """ Used for deleting the messages of muted people """
     try:
-        from userbotserbot.modules.sql_helper.spam_mute_sql import is_muted
-        from userbotserbot.modules.sql_helper.gmute_sql import is_gmuted
+        from userbotserbotserbot.modules.sql_helper.spam_mute_sql import is_muted
+        from userbotserbotserbot.modules.sql_helper.gmute_sql import is_gmuted
     except AttributeError:
         return
     muted = is_muted(moot.chat_id)
@@ -465,7 +465,7 @@ async def ungmoot(un_gmute):
 
     # Check if the function running under SQL mode
     try:
-        from userbotserbot.modules.sql_helper.gmute_sql import ungmute
+        from userbotserbotserbot.modules.sql_helper.gmute_sql import ungmute
     except AttributeError:
         await un_gmute.edit(NO_SQL)
         return
@@ -510,7 +510,7 @@ async def gspider(gspdr):
 
     # Check if the function running under SQL mode
     try:
-        from userbotserbot.modules.sql_helper.gmute_sql import gmute
+        from userbotserbotserbot.modules.sql_helper.gmute_sql import gmute
     except AttributeError:
         await gspdr.edit(NO_SQL)
         return
@@ -685,7 +685,7 @@ async def pin(msg):
 @borg.on(admin_cmd(pattern=r"kick(?: |$)(.*)"))
 @errors_handler
 async def kick(usr):
-    """ For .kick command, kicks the replied/tagged person from userbothe group. """
+    """ For .kick command, kicks the replied/tagged person from userbotserbothe group. """
     # Admin or creator check
     chat = await usr.get_chat()
     admin = chat.admin_rights
@@ -768,7 +768,7 @@ async def get_users(show):
 
 
 async def get_user_from_event(event):
-    """ Get the user from userbotrgument or replied message. """
+    """ Get the user from userbotserbotrgument or replied message. """
     args = event.pattern_match.group(1).split(' ', 1)
     extra = None
     if event.reply_to_msg_id:
@@ -826,17 +826,17 @@ CMD_HELP.update({
 \n\n.ban <username/reply> <reason (optional)>\
 \nUsage: Bans the person off your chat.\
 \n\n.unban <username/reply>\
-\nUsage: Removes the ban from userbothe person in the chat.\
+\nUsage: Removes the ban from userbotserbothe person in the chat.\
 \n\n.mute <username/reply> <reason (optional)>\
 \nUsage: Mutes the person in the chat, works on admins too.\
 \n\n.unmute <username/reply>\
-\nUsage: Removes the person from userbothe muted list.\
+\nUsage: Removes the person from userbotserbothe muted list.\
 \n\n.gmute <username/reply> <reason (optional)>\
 \nUsage: Mutes the person in all groups you have in common with them.\
 \n\n.ungmute <username/reply>\
-\nUsage: Reply someone's message with .ungmute to remove them from userbothe gmuted list.\
+\nUsage: Reply someone's message with .ungmute to remove them from userbotserbothe gmuted list.\
 \n\n.delusers\
-\nUsage: Searches for deleted accounts in a group. Use .delusers clean to remove deleted accounts from userbothe group.\
+\nUsage: Searches for deleted accounts in a group. Use .delusers clean to remove deleted accounts from userbotserbothe group.\
 \n\n.admins\
 \nUsage: Retrieves a list of admins in the chat.\
 \n\n.users or .users <name of member>\

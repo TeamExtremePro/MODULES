@@ -1,8 +1,8 @@
 """COMMAND : .floodwarn"""
 
-from userbotelethon import events
+from userbotserbotelethon import events
 import asyncio
-from userbotollections import deque
+from userbotserbotollections import deque
 
 
 @borg.on(events.NewMessage(pattern=r".floodwarn", outgoing=True))

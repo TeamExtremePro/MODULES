@@ -2,9 +2,9 @@
 
 import cfscrape  # https://github.com/Anorov/cloudflare-scrape
 import requests
-from userbotatetime import datetime
-from userbots4 import BeautifulSoup
-from userbotserbot.utils import admin_cmd, humanbytes
+from userbotserbotatetime import datetime
+from userbotserbots4 import BeautifulSoup
+from userbotserbotserbot.utils import admin_cmd, humanbytes
 
 
 @borg.on(admin_cmd(  # pylint:disable=E0602

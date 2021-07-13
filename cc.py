@@ -4,9 +4,9 @@
 # @danish_00
 # Card Generator
 ##############################
-from userbotaker import Faker as dc
-from userbotserbot.utils import admin_cmd as hehe
-from userbot import bot as cobra
+from userbotserbotaker import Faker as dc
+from userbotserbotserbot.utils import admin_cmd as hehe
+from userbotserbot import bot as cobra
 @cobra.on(hehe("cc"))
 async def _cobra(dark):
     cyber = dc()

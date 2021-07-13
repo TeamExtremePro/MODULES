@@ -1,13 +1,13 @@
 # For The-TG-Bot-3.0
 # By Priyam Kalra
-# Parts of the code below is taken from userbotther sources, the links to the sources is commented above the taken code
+# Parts of the code below is taken from userbotserbotther sources, the links to the sources is commented above the taken code
 
-from userbotIL import Image, ImageFont, ImageDraw
+from userbotserbotIL import Image, ImageFont, ImageDraw
 import textwrap
 import os
-from userbot import CMD_HELP
-from userbotserbot.utils import admin_cmd, sudo_cmd
-from userbotar import Var
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.utils import admin_cmd, sudo_cmd
+from userbotserbotar import Var
 # how a lazy guy ports.
 client = borg
 @borg.on(admin_cmd("memify ?(.*)"))
@@ -30,7 +30,7 @@ async def handler(event):
     await client.send_file(event.chat_id, file=meme, force_document=False)
     os.remove(meme)
 
-# Taken from userbotttps://github.com/UsergeTeam/Userge-Plugins/blob/master/plugins/memify.py#L64
+# Taken from userbotserbotttps://github.com/UsergeTeam/Userge-Plugins/blob/master/plugins/memify.py#L64
 # Maybe edited to suit the needs of this module
 
 

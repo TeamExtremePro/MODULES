@@ -8,15 +8,15 @@ import os
 import time
 import zipfile
 
-from userbotelethon import events
-from userbotelethon.tl.types import DocumentAttributeAudio, DocumentAttributeVideo
-from userbotserbot.utils import admin_cmd, humanbytes, progress, time_formatter
+from userbotserbotelethon import events
+from userbotserbotelethon.tl.types import DocumentAttributeAudio, DocumentAttributeVideo
+from userbotserbotserbot.utils import admin_cmd, humanbytes, progress, time_formatter
 import time
-from userbotatetime import datetime
-from userbotySmartDL import SmartDL
-from userbotachoir.metadata import extractMetadata
-from userbotachoir.parser import createParser
-from userbotipfile import ZipFile
+from userbotserbotatetime import datetime
+from userbotserbotySmartDL import SmartDL
+from userbotserbotachoir.metadata import extractMetadata
+from userbotserbotachoir.parser import createParser
+from userbotserbotipfile import ZipFile
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"
 extracted = Config.TMP_DOWNLOAD_DIRECTORY + "extracted/"

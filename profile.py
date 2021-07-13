@@ -5,20 +5,20 @@
 #
 
 import os
-from userbotelethon import events
-from userbotelethon.tl import functions
-from userbotserbot.utils import admin_cmd
-from userbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
-from userbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
+from userbotserbotelethon import events
+from userbotserbotelethon.tl import functions
+from userbotserbotserbot.utils import admin_cmd
+from userbotserbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
+from userbotserbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
                                           UsernameOccupiedError)
-from userbotelethon.tl.functions.account import (UpdateProfileRequest,
+from userbotserbotelethon.tl.functions.account import (UpdateProfileRequest,
                                            UpdateUsernameRequest)
-from userbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
-from userbotelethon.tl.functions.photos import (DeletePhotosRequest,
+from userbotserbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
+from userbotserbotelethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
-from userbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from userbot import bot, CMD_HELP
+from userbotserbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
+from userbotserbot import bot, CMD_HELP
 
 # ====================== CONSTANT ===============================
 INVALID_MEDIA = "```The extension of the media entity is invalid.```"

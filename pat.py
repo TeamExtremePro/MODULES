@@ -11,10 +11,10 @@ By:- git: jaskaranSM tg: @Zero_cool7870
 
 
 
-from userbotserbot.utils import admin_cmd
-from userbotandom import choice
-from userbotrllib import parse
-from userbots import remove
+from userbotserbotserbot.utils import admin_cmd
+from userbotserbotandom import choice
+from userbotserbotrllib import parse
+from userbotserbots import remove
 import requests
 import asyncio
 

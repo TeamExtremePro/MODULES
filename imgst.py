@@ -1,9 +1,9 @@
 import datetime
-from userbotelethon import events
-from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbot.utils import admin_cmd
-from userbot import bot 
+from userbotserbotelethon import events
+from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbot.utils import admin_cmd
+from userbotserbot import bot 
 
 @borg.on(admin_cmd(pattern="ss2 ?(.*)"))
 async def _(event):

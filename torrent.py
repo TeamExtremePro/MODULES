@@ -2,7 +2,7 @@
 A Torrent Client Plugin Based On Aria2 for Userbot
 
 cmds: Magnet link : .magnet magnetLink
-	  Torrent file from userbotocal: .tor file_path
+	  Torrent file from userbotserbotocal: .tor file_path
 	  Show Downloads: .show
 	  Remove All Downloads: .ariaRM
 	  
@@ -10,10 +10,10 @@ By:- @Zero_cool7870
 
 """
 import aria2p
-from userbotelethon import events
+from userbotserbotelethon import events
 import asyncio
 import os
-from userbotserbot.utils import admin_cmd
+from userbotserbotserbot.utils import admin_cmd
 
 
 cmd = "aria2c --enable-rpc --rpc-listen-all=false --rpc-listen-port 6800  --max-connection-per-server=10 --rpc-max-request-size=1024M --seed-time=0.01 --min-split-size=10M --follow-torrent=mem --split=10 --daemon=true --allow-overwrite=true"

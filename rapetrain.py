@@ -6,7 +6,7 @@ Available Commands:
 
 kk..."""
 
-from userbotelethon import events
+from userbotserbotelethon import events
 
 import asyncio
 

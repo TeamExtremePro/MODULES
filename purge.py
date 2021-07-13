@@ -5,20 +5,20 @@
 #
 """ Userbot module for purging unneeded messages(usually spam or ot). """
 
-from userbotsyncio import sleep
+from userbotserbotsyncio import sleep
 
-from userbotelethon.errors import rpcbaseerrors
+from userbotserbotelethon.errors import rpcbaseerrors
 
-from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP
-from userbotserbot.utils import register, errors_handler
-from userbotserbot.utils import admin_cmd
+from userbotserbot import BOTLOG, BOTLOG_CHATID, CMD_HELP
+from userbotserbotserbot.utils import register, errors_handler
+from userbotserbotserbot.utils import admin_cmd
 
 
 #@register(outgoing=True, pattern="^.purge$")
 @borg.on(admin_cmd(pattern=r"purge"))
 @errors_handler
 async def fastpurger(purg):
-    """ For .purge command, purge all messages starting from userbothe reply. """
+    """ For .purge command, purge all messages starting from userbotserbothe reply. """
     chat = await purg.get_input_chat()
     msgs = []
     count = 0
@@ -136,7 +136,7 @@ async def selfdestruct(destroy):
 CMD_HELP.update({
     'purge':
     '.purge\
-        \nUsage: Purges all messages starting from userbothe reply.'
+        \nUsage: Purges all messages starting from userbotserbothe reply.'
 })
 
 CMD_HELP.update({

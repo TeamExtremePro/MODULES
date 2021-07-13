@@ -2,11 +2,11 @@ import logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
 import datetime
-from userbotelethon import events
-from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbot import CMD_HELP
-from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 import asyncio
 
 @bot.on(admin_cmd(pattern=("history ?(.*)")))

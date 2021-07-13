@@ -7,29 +7,29 @@
 #--------------------------------------------------------------------------------------------------------------------------------
 
 import asyncio, time, io, math, os, logging, asyncio, shutil, re, subprocess, json
-from userbotachoir.metadata import extractMetadata
-from userbotachoir.parser import createParser
-from userbotase64 import b64decode
-from userbot import CMD_HELP
-from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbotelethon.events import NewMessage
-from userbotelethon.tl.custom import Dialog
-from userbotelethon.tl.types import Channel, Chat, User
-from userbotelethon.tl import functions, types
-from userbotelethon.tl.functions.messages import GetHistoryRequest, CheckChatInviteRequest, GetFullChatRequest
-from userbotelethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError, InviteHashEmptyError, InviteHashExpiredError, InviteHashInvalidError)
-from userbotelethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest
-from userbotelethon.errors import FloodWaitError
-from userbotime import sleep
-from userbottml import unescape
-from userbotrllib.parse import quote_plus
-from userbotrllib.error import HTTPError
-from userbotelethon import events
-from userbotequests import get
-from userbottml import unescape
-from userbote import findall
-from userbotsyncio import sleep
-from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotachoir.metadata import extractMetadata
+from userbotserbotachoir.parser import createParser
+from userbotserbotase64 import b64decode
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotelethon.events import NewMessage
+from userbotserbotelethon.tl.custom import Dialog
+from userbotserbotelethon.tl.types import Channel, Chat, User
+from userbotserbotelethon.tl import functions, types
+from userbotserbotelethon.tl.functions.messages import GetHistoryRequest, CheckChatInviteRequest, GetFullChatRequest
+from userbotserbotelethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError, InviteHashEmptyError, InviteHashExpiredError, InviteHashInvalidError)
+from userbotserbotelethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest
+from userbotserbotelethon.errors import FloodWaitError
+from userbotserbotime import sleep
+from userbotserbottml import unescape
+from userbotserbotrllib.parse import quote_plus
+from userbotserbotrllib.error import HTTPError
+from userbotserbotelethon import events
+from userbotserbotequests import get
+from userbotserbottml import unescape
+from userbotserbote import findall
+from userbotserbotsyncio import sleep
+from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 import random
 
 async def get_chatinfo(event):
@@ -43,7 +43,7 @@ async def get_chatinfo(event):
     if not chat:
         if event.reply_to_msg_id:
             replied_msg = await event.get_reply_message()
-            if replied_msg.fwd_from userbotnd replied_msg.fwd_from.channel_id is not None:
+            if replied_msg.fwd_from userbotserbotnd replied_msg.fwd_from.channel_id is not None:
                 chat = replied_msg.fwd_from.channel_id
         else:
             chat = event.chat_id
@@ -56,7 +56,7 @@ async def get_chatinfo(event):
             await event.reply("`Invalid channel/group`")
             return None
         except ChannelPrivateError:
-            await event.reply("`This is a private channel/group or I am banned from userbothere`")
+            await event.reply("`This is a private channel/group or I am banned from userbotserbothere`")
             return None
         except ChannelPublicGroupNaError:
             await event.reply("`Channel or supergroup doesn't exist`")
@@ -92,7 +92,7 @@ async def get_users(event):
     async for user in event.client.iter_participants(legendx22.full_chat.id):
                 try:
                     if error.startswith("Too"):
-                        return await hell.edit(f"**Terminal Finished With Error**\n(`May Got Limit Error from userbotelethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people")
+                        return await hell.edit(f"**Terminal Finished With Error**\n(`May Got Limit Error from userbotserbotelethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people")
                     await event.client(functions.channels.InviteToChannelRequest(channel=chat,users=[user.id]))
                     s = s + 1                                                    
                     await hell.edit(f"**Terminal Running...**\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people\n\n**× LastError:** `{error}`")                
@@ -143,7 +143,7 @@ CMD_HELP.update(
   •  **Syntax : **`.add username(s)/userid(s)`
   •  **Function : **__Add the given user/users to the group where u used the command__
   •  **Syntax : **`.inviteall groups username`
-  •  **Function : **__Scrapes users from userbothe given chat to your group__
+  •  **Function : **__Scrapes users from userbotserbothe given chat to your group__
 """
     }
 )

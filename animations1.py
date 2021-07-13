@@ -1,10 +1,10 @@
 import asyncio
-from userbotollections import deque
-from userbotelethon.tl.functions.users import GetFullUserRequest
-from userbotelethon import events
-from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import ALIVE_NAME, CMD_HELP
-from userbotEGENDX import NAME
+from userbotserbotollections import deque
+from userbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotelethon import events
+from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbot import ALIVE_NAME, CMD_HELP
+from userbotserbotEGENDX import NAME
 DEFAULTUSER = NAME
 
 

@@ -1,11 +1,11 @@
 """Optical Character Recognition by OCR.Space
 Syntax: .ocr <LangCode>
 Available Languages: .ocrlanguages"""
-from userbotelethon import events
+from userbotserbotelethon import events
 import json
 import os
 import requests
-from userbotserbot.utils import admin_cmd
+from userbotserbotserbot.utils import admin_cmd
 
 
 def ocr_space_file(filename, overlay=False, api_key=Config.OCR_SPACE_API_KEY, language='eng'):

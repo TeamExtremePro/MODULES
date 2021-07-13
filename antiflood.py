@@ -1,11 +1,11 @@
 
 
 import asyncio
-from userbotelethon.tl.functions.channels import EditBannedRequest
-from userbotelethon.tl.types import ChatBannedRights
+from userbotserbotelethon.tl.functions.channels import EditBannedRequest
+from userbotserbotelethon.tl.types import ChatBannedRights
 import sql_helper.antiflood_sql as sql
-from userbot import CMD_HELP
-from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 CHAT_FLOOD = sql.__load_flood_settings()
 # warn mode for anti flood

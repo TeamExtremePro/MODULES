@@ -1,8 +1,8 @@
 # credits: SNAPDRAGON (@s_n_a_p_s)
-from userbotelethon import events
+from userbotserbotelethon import events
 import subprocess
 import os
-from userbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
+from userbotserbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
 import io
 import asyncio
 import time

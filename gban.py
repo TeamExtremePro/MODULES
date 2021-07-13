@@ -1,16 +1,16 @@
 
 
 
-from userbotelethon.tl.functions.contacts import BlockRequest, UnblockRequest
-from userbot import CMD_HELP
-from userbotserbot.utils import admin_cmd
+from userbotserbotelethon.tl.functions.contacts import BlockRequest, UnblockRequest
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.utils import admin_cmd
 import html
-from userbotelethon import events
-from userbotelethon.tl.functions.photos import GetUserPhotosRequest
-from userbotelethon.tl.functions.users import GetFullUserRequest
-from userbotelethon.tl.types import MessageEntityMentionName
-from userbotelethon.utils import get_input_location
-from userbotelethon.events import ChatAction
+from userbotserbotelethon import events
+from userbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotelethon.utils import get_input_location
+from userbotserbotelethon.events import ChatAction
 
 async def get_full_user(event):  
     args = event.pattern_match.group(1).split(':', 1)
@@ -87,7 +87,7 @@ async def gspider(userbot):
                 f"**Didn't , Your Father Teach You ? That You Cant Gban your creator😑😑🖕**"
             )
         try:
-            from userbotserbot.modules.sql_helper.gmute_sql import gmute
+            from userbotserbotserbot.modules.sql_helper.gmute_sql import gmute
         except:
             pass
         try:
@@ -151,7 +151,7 @@ async def gspider(userbot):
         if user.id == 1100231654:
             return await friday.edit("**You Cant gban him... as a result you can not ungban him... He is My Creator!**")
         try:
-            from userbotserbot.modules.sql_helper.gmute_sql import ungmute
+            from userbotserbotserbot.modules.sql_helper.gmute_sql import ungmute
         except:
             pass
         try:
@@ -188,7 +188,7 @@ async def gspider(userbot):
 async def handler(rkG): 
    if rkG.user_joined or rkG.user_added:      
        try:       	
-         from userbotserbot.modules.sql_helper.gmute_sql import is_gmuted
+         from userbotserbotserbot.modules.sql_helper.gmute_sql import is_gmuted
          guser = await rkG.get_user()      
          gmuted = is_gmuted(guser.id)             
        except:      

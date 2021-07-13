@@ -1,10 +1,10 @@
 
 import datetime
-from userbotelethon import events
-from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import CMD_HELP
+from userbotserbotelethon import events
+from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbot import CMD_HELP
 
 
 

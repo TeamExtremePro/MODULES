@@ -1,10 +1,10 @@
 """Speech to Text
 Syntax: .stt <Language Code> as reply to a speech message"""
-from userbotelethon import events
+from userbotserbotelethon import events
 import requests
 import os
-from userbotatetime import datetime
-from userbotserbot.utils import admin_cmd
+from userbotserbotatetime import datetime
+from userbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="stt (.*)"))

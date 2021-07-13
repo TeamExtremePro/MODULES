@@ -6,19 +6,19 @@
 import os
 import re
 import urllib
-from userbotath import ceil
-from userbote import findall
-from userbotoutube_search import YoutubeSearch
-from userbotearch_engine_parser import GoogleSearch
+from userbotserbotath import ceil
+from userbotserbote import findall
+from userbotserbotoutube_search import YoutubeSearch
+from userbotserbotearch_engine_parser import GoogleSearch
 
 
-from userbotrllib.parse import quote
+from userbotserbotrllib.parse import quote
 import requests
-from userbotelethon import Button, custom, events, functions
-from userbotoutubesearchpython import VideosSearch
+from userbotserbotelethon import Button, custom, events, functions
+from userbotserbotoutubesearchpython import VideosSearch
 
 
-from userbotornhub_api import PornhubApi
+from userbotserbotornhub_api import PornhubApi
 
 
 

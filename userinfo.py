@@ -6,21 +6,21 @@
 """ Userbot module for getting info
     about any user on Telegram(including you!). """
 
-from userbotelethon.events import NewMessage
-from userbotyping import Union
+from userbotserbotelethon.events import NewMessage
+from userbotserbotyping import Union
 
-from userbot import CMD_HELP
-from userbotserbot.events import register
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.events import register
 
-from userbote import findall, match
-from userbotyping import List
+from userbotserbote import findall, match
+from userbotserbotyping import List
 
-from userbotelethon.events import NewMessage
-from userbotelethon.tl.custom import Message
-from userbotelethon.tl.functions.channels import GetFullChannelRequest
-from userbotelethon.tl.functions.messages import GetFullChatRequest
-from userbotelethon.tl.functions.users import GetFullUserRequest
-from userbotelethon.tl.types import (
+from userbotserbotelethon.events import NewMessage
+from userbotserbotelethon.tl.custom import Message
+from userbotserbotelethon.tl.functions.channels import GetFullChannelRequest
+from userbotserbotelethon.tl.functions.messages import GetFullChatRequest
+from userbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotelethon.tl.types import (
     MessageEntityMentionName,
     ChannelParticipantsAdmins,
     ChannelParticipantsBots,
@@ -83,7 +83,7 @@ async def get_user_sender_id(user, event):
 
 
 async def get_user_from_event(event: NewMessage.Event, **kwargs):
-    """ Get the user from userbotrgument or replied message. """
+    """ Get the user from userbotserbotrgument or replied message. """
     reply_msg: Message = await event.get_reply_message()
     user = kwargs.get('user', None)
 
@@ -331,7 +331,7 @@ async def who(event: NewMessage.Event):
 
 
 async def fetch_info(replied_user, **kwargs):
-    """ Get details from userbothe User object. """
+    """ Get details from userbotserbothe User object. """
     user = replied_user.user
 
     id_only = kwargs.get('id', False)

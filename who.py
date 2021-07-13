@@ -1,13 +1,13 @@
 
 import html
 
-from userbotelethon import events
-from userbotelethon import utils
-from userbotelethon.tl import types
-from userbotelethon.errors import (BadRequestError, ChatAdminRequiredError,
+from userbotserbotelethon import events
+from userbotserbotelethon import utils
+from userbotserbotelethon.tl import types
+from userbotserbotelethon.errors import (BadRequestError, ChatAdminRequiredError,
                              ImageProcessFailedError, PhotoCropSizeSmallError,
                              UserAdminInvalidError)
-from userbot import CMD_HELP
+from userbotserbot import CMD_HELP
 
 
 def get_who_string(who):

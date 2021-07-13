@@ -1,11 +1,11 @@
 """Check your internet speed powered by speedtest.net
 Syntax: .speedtest
 Available Options: image, file, text"""
-from userbotelethon import events
-from userbotatetime import datetime
+from userbotserbotelethon import events
+from userbotserbotatetime import datetime
 import io
 import speedtest
-from userbotserbot.utils import admin_cmd
+from userbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("speedtest ?(.*)"))

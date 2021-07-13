@@ -1,9 +1,9 @@
 # (c) @UniBorg
 
-from userbotelethon import events
+from userbotserbotelethon import events
 import asyncio
-from userbotollections import deque
-from userbotniborg.util import admin_cmd
+from userbotserbotollections import deque
+from userbotserbotniborg.util import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"lul"))
 async def _(event):

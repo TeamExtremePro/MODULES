@@ -1,9 +1,9 @@
-from userbotelethon import events
+from userbotserbotelethon import events
 import asyncio
 import os
 import sys
 import random
-from userbotserbot.utils import admin_cmd
+from userbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"gf$", outgoing=True))
 async def _(event):

@@ -9,14 +9,14 @@ import subprocess
 import time
 import math
 
-from userbotySmartDL import SmartDL
+from userbotserbotySmartDL import SmartDL
 import asyncio
-from userbotachoir.metadata import extractMetadata
-from userbotachoir.parser import createParser
-from userbotelethon.tl.types import DocumentAttributeVideo
+from userbotserbotachoir.metadata import extractMetadata
+from userbotserbotachoir.parser import createParser
+from userbotserbotelethon.tl.types import DocumentAttributeVideo
 
-from userbot import LOGS, CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from userbotserbot.events import register
+from userbotserbot import LOGS, CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from userbotserbotserbot.events import register
 
 
 async def progress(current, total, event, start, type_of_ps, file_name=None):
@@ -155,7 +155,7 @@ async def download(target_file):
 
 @register(pattern=r".uploadir (.*)", outgoing=True)
 async def uploadir(udir_event):
-    """ For .uploadir command, allows you to upload everything from userbot folder in the server"""
+    """ For .uploadir command, allows you to upload everything from userbotserbot folder in the server"""
     input_str = udir_event.pattern_match.group(1)
     if os.path.exists(input_str):
         await udir_event.edit("Downloading Using Userbot Server....")
@@ -231,7 +231,7 @@ async def uploadir(udir_event):
 
 @register(pattern=r".upload (.*)", outgoing=True)
 async def upload(u_event):
-    """ For .upload command, allows you to upload a file from userbothe userbot's server """
+    """ For .upload command, allows you to upload a file from userbotserbothe userbot's server """
     await u_event.edit("Processing ...")
     input_str = u_event.pattern_match.group(1)
     if input_str in ("userbot.session", "config.env"):

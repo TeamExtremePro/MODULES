@@ -1,12 +1,12 @@
 import datetime
 import asyncio
-from userbotelethon import events
-from userbotelethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
-from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotelethon.tl.functions.messages import ImportChatInviteRequest
-from userbotserbot.utils import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
+from userbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotelethon.tl.functions.messages import ImportChatInviteRequest
+from userbotserbotserbot.utils import admin_cmd
 import time
-from userbot import ALIVE_NAME
+from userbotserbot import ALIVE_NAME
 
 naam = str(ALIVE_NAME)
 

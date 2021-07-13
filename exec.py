@@ -3,18 +3,18 @@ Syntax: .exec Code"""
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-from userbotelethon import events
+from userbotserbotelethon import events
 import subprocess
-from userbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
+from userbotserbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
 import io
 import asyncio
 import time
-from userbotniborg.util import admin_cmd
+from userbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="exec ?(.*)"))
 async def _(event):
-    if event.fwd_from userbotr event.via_bot_id:
+    if event.fwd_from userbotserbotr event.via_bot_id:
         return
     DELAY_BETWEEN_EDITS = 0.3
     PROCESS_RUN_TIME = 100

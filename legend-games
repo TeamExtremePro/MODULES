@@ -8,11 +8,11 @@ build by @Hack12R..
 Second game is a xogame
 Command:- .xogame ....
 
-from userbotelethon import events
+from userbotserbotelethon import events
 import asyncio
-from userbot import CMD_HELP
-from userbotserbot.utils import admin_cmd, sudo_cmd, edit_or_reply
-from userbotar import Var
+from userbotserbot import CMD_HELP
+from userbotserbotserbot.utils import admin_cmd, sudo_cmd, edit_or_reply
+from userbotserbotar import Var
 
 
 @borg.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -46,8 +46,8 @@ async def _(event):
             await event.edit(animation_chars[i % 14])
 
 
-from userbotserbot.utils import admin_cmd, sudo_cmd, edit_or_reply
-from userbotar import Var
+from userbotserbotserbot.utils import admin_cmd, sudo_cmd, edit_or_reply
+from userbotserbotar import Var
 
 @borg.on(admin_cmd(pattern="xogame$"))
 async def gamez(event):

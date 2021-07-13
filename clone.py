@@ -7,24 +7,24 @@ Syntax: .clone @username"""
 
 import html
 import os
-from userbotelethon.tl.functions.photos import GetUserPhotosRequest
-from userbotelethon.tl.functions.users import GetFullUserRequest
-from userbotelethon.tl.types import MessageEntityMentionName
-from userbotelethon.utils import get_input_location
-from userbotserbot.utils import admin_cmd
-from userbotelethon.tl import functions
-from userbotelethon import events
-from userbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
-from userbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
+from userbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotelethon.utils import get_input_location
+from userbotserbotserbot.utils import admin_cmd
+from userbotserbotelethon.tl import functions
+from userbotserbotelethon import events
+from userbotserbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
+from userbotserbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
                                           UsernameOccupiedError)
-from userbotelethon.tl.functions.account import (UpdateProfileRequest,
+from userbotserbotelethon.tl.functions.account import (UpdateProfileRequest,
                                            UpdateUsernameRequest)
-from userbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
-from userbotelethon.tl.functions.photos import (DeletePhotosRequest,
+from userbotserbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
+from userbotserbotelethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
-from userbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from userbot import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
+from userbotserbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
+from userbotserbot import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

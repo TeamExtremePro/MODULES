@@ -1,18 +1,18 @@
 # Plugin made by @hellboi_atul for DARK COBRA..
 # You can use this..but don't edit/remove these comment lines..
-# This module fetches the link from userbotouTube for the given query..
+# This module fetches the link from userbotserbotouTube for the given query..
 # merged .uta
 # So wahi...Enjoy
 
 
 import re
 import random
-from userbot import bot, CMD_HELP
+from userbotserbot import bot, CMD_HELP
 import asyncio
 import os
-from userbotathlib import Path
-from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbot.utils import admin_cmd, edit_or_reply
+from userbotserbotathlib import Path
+from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbot.utils import admin_cmd, edit_or_reply
 
 
 IF_EMOJI = re.compile(
@@ -31,7 +31,7 @@ IF_EMOJI = re.compile(
     "]+")
 
 def deEmojify(inputString: str) -> str:
-    """Remove emojis and other non-safe characters from userbottring"""
+    """Remove emojis and other non-safe characters from userbotserbottring"""
     return re.sub(IF_EMOJI, '', inputString)
 
 

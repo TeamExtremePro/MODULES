@@ -4,11 +4,11 @@ usage = .meme someCharacter //default delay will be 3
 By : - @Zero_cool7870
 
 """
-from userbotelethon import events
+from userbotserbotelethon import events
 import asyncio
 import os
 import sys
-from userbotniborg.util import admin_cmd
+from userbotserbotniborg.util import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"meme"))
 async def meme(event):

@@ -2,11 +2,11 @@
 # Made by legendx22
 # Retrieves the name history and the username history of the replied user.
 import datetime
-from userbotelethon import events
-from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbot.utils import admin_cmd
-from userbot import bot, CMD_HELP
+from userbotserbotelethon import events
+from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbot.utils import admin_cmd
+from userbotserbot import bot, CMD_HELP
 
 @borg.on(admin_cmd(pattern="sg ?(.*)"))
 async def _(event):

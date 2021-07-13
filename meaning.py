@@ -2,8 +2,8 @@
 Syntax: .meaning <word>"""
 
 import requests
-from userbotelethon import events
-from userbotniborg.util import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="meaning (.*)"))

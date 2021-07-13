@@ -1,17 +1,17 @@
 # maded by shivam
 # ported by LEGENDX22
-from userbot import bot, CMD_HELP, CMD_LIST
-from userbotelethon import events
-from userbotserbot.utils import remove_plugin, load_module, register
-from userbotelethon import functions, types
-from userbotelethon.tl.types import InputMessagesFilterDocument
-from userbotathlib import Path
-from userbot import LOAD_PLUG
-from userbotatetime import datetime
+from userbotserbot import bot, CMD_HELP, CMD_LIST
+from userbotserbotelethon import events
+from userbotserbotserbot.utils import remove_plugin, load_module, register
+from userbotserbotelethon import functions, types
+from userbotserbotelethon.tl.types import InputMessagesFilterDocument
+from userbotserbotathlib import Path
+from userbotserbot import LOAD_PLUG
+from userbotserbotatetime import datetime
 DELETE_TIMEOUT = 5
 import sys, asyncio, traceback, os, importlib
 import userbot.utils
-from userbot import CMD_HELP
+from userbotserbot import CMD_HELP
 
 
 

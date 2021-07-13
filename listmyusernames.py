@@ -1,10 +1,10 @@
 # For @UniBorg
 # (c) Shrimadhav U K
 
-from userbotelethon import events, functions, types
-from userbotniborg.util import admin_cmd
-from userbot import CMD_HELP
-from userbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
+from userbotserbotelethon import events, functions, types
+from userbotserbotniborg.util import admin_cmd
+from userbotserbot import CMD_HELP
+from userbotserbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
 
 @borg.on(admin_cmd("listmyusernames"))
 

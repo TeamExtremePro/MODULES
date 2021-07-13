@@ -4,7 +4,7 @@ Available Commands:
 
 .switch"""
 
-from userbotelethon import events
+from userbotserbotelethon import events
 
 import asyncio
 

@@ -3,31 +3,31 @@
 #make for LEGEND BOT
 # KANG KRNA H TO CREDITS DEDENA 
 '''
-from userbotatetime import datetime
-from userbotandom import randint
-from userbotsyncio import sleep
-from userbots import execl
+from userbotserbotatetime import datetime
+from userbotserbotandom import randint
+from userbotserbotsyncio import sleep
+from userbotserbots import execl
 import sys
 import os
-from userbot import bot as javes
-from userbotserbot.utils import admin_cmd
+from userbotserbot import bot as javes
+from userbotserbotserbot.utils import admin_cmd
 import io
 import heroku3
 import asyncio
-from userbotsyncio import create_subprocess_shell as asyncSubprocess
-from userbotsyncio.subprocess import PIPE as asyncPIPE
+from userbotserbotsyncio import create_subprocess_shell as asyncSubprocess
+from userbotserbotsyncio.subprocess import PIPE as asyncPIPE
 
 import sys
 import json
-from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
-from userbotpeedtest import Speedtest
-from userbotelethon import functions
-from userbots import remove, execle, path, makedirs, getenv, environ
-from userbothutil import rmtree
+from userbotserbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
+from userbotserbotpeedtest import Speedtest
+from userbotserbotelethon import functions
+from userbotserbots import remove, execle, path, makedirs, getenv, environ
+from userbotserbothutil import rmtree
 import asyncio
 import json
-from userbotsyncio import sleep
-from userbotelethon.errors import rpcbaseerrors
+from userbotserbotsyncio import sleep
+from userbotserbotelethon.errors import rpcbaseerrors
 
 import os
 import subprocess
@@ -38,19 +38,19 @@ import asyncio
 
 import sys
 try:
-   from userbotit import Repo
-   from userbotit.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
+   from userbotserbotit import Repo
+   from userbotserbotit.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 except:
 	pass
-from userbot import CMD_HELP, bot
-from userbot import CMD_HELP, LOGS
-from userbotsyncio import create_subprocess_shell as asyncrunapp
-from userbotsyncio.subprocess import PIPE as asyncPIPE
-from userbotlatform import python_version, uname
-from userbothutil import which
-from userbots import remove
-from userbotelethon import version
-from userbot import CMD_HELP
+from userbotserbot import CMD_HELP, bot
+from userbotserbot import CMD_HELP, LOGS
+from userbotserbotsyncio import create_subprocess_shell as asyncrunapp
+from userbotserbotsyncio.subprocess import PIPE as asyncPIPE
+from userbotserbotlatform import python_version, uname
+from userbotserbothutil import which
+from userbotserbots import remove
+from userbotserbotelethon import version
+from userbotserbot import CMD_HELP
 
 import heroku3
 import asyncio
@@ -58,7 +58,7 @@ import os
 import requests
 import math
 
-from userbot import CMD_HELP
+from userbotserbot import CMD_HELP
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_APIKEY", None)
 HEROKU_APPNAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -139,7 +139,7 @@ async def update_requirements():
 
     
 
-from userbotelethon.events import *
+from userbotserbotelethon.events import *
 @javes.on(admin_cmd(pattern=f"update(?: |$)(.*)"))
 async def upstream(ups):
     "For .update command, check if the bot is up to date, update if specified"
@@ -281,7 +281,7 @@ async def upstream(ups):
         return
 
 '''
-from userbotserbot.utils import admin_cmd
+from userbotserbotserbot.utils import admin_cmd
 @borg.on(admin_cmd(pattern="update|update now"))
 async def hehe (event):
   await event.edit("want to update your bot ?\nnow not use update now use \n`.restart` only")

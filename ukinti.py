@@ -3,13 +3,13 @@ Available Commands:
 .unbanall
 .kick option
 Available Options: d, y, m, w, o, q, r """
-from userbotelethon import events
-from userbotatetime import datetime, timedelta
-from userbotelethon.tl.types import UserStatusEmpty, UserStatusLastMonth, UserStatusLastWeek, UserStatusOffline, UserStatusOnline, UserStatusRecently, ChannelParticipantsKicked, ChatBannedRights
-from userbotelethon.tl import functions, types
-from userbotime import sleep
+from userbotserbotelethon import events
+from userbotserbotatetime import datetime, timedelta
+from userbotserbotelethon.tl.types import UserStatusEmpty, UserStatusLastMonth, UserStatusLastWeek, UserStatusOffline, UserStatusOnline, UserStatusRecently, ChannelParticipantsKicked, ChatBannedRights
+from userbotserbotelethon.tl import functions, types
+from userbotserbotime import sleep
 import asyncio
-from userbotniborg.util import admin_cmd
+from userbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="unbanall ?(.*)"))

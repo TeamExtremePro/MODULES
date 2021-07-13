@@ -3,11 +3,11 @@ Syntax: `.img <Name>` or `.img (replied message)`
 \n Upgraded and Google Image Error Fixed
 """
 
-from userbotserbot.google_imgs import googleimagesdownload
+from userbotserbotserbot.google_imgs import googleimagesdownload
 import os
 import shutil
-from userbote import findall
-from userbotserbot.utils import admin_cmd
+from userbotserbote import findall
+from userbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="img ?(.*)"))

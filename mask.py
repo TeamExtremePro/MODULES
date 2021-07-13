@@ -1,8 +1,8 @@
 import datetime
-from userbotelethon import events
-from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotniborg.util import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotniborg.util import admin_cmd
 
 @borg.on(admin_cmd("mask ?(.*)"))
 async def _(event):

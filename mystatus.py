@@ -2,15 +2,15 @@
 
 Commands - .offline .online
 Offline = Add an offline tag in your name and change profile pic to black.
-Online = Remove Offline Tag from userbotour name and change profile pic to vars PROFILE_IMAGE.
+Online = Remove Offline Tag from userbotserbotour name and change profile pic to vars PROFILE_IMAGE.
 Note - If you have a last name remove it unless it automatically removed.
 """
 
 
 import os , urllib
-from userbotelethon import events
-from userbotelethon.tl import functions
-from userbotniborg.util import admin_cmd
+from userbotserbotelethon import events
+from userbotserbotelethon.tl import functions
+from userbotserbotniborg.util import admin_cmd
 
 OFFLINE_TAG = "[OFFLINE]"
 ONLINE_TAG = "[ONLINE]"

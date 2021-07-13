@@ -4,13 +4,13 @@
     Command .rshayri
     By @LEGENDX22 """
 
-from userbotelethon import events
+from userbotserbotelethon import events
 import asyncio
 import os
 import sys
 import random
-from userbot import ALIVE_NAME, CMD_HELP
-from userbotserbot.utils import admin_cmd, edit_or_reply
+from userbotserbot import ALIVE_NAME, CMD_HELP
+from userbotserbotserbot.utils import admin_cmd, edit_or_reply
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
@@ -190,7 +190,7 @@ async def _(event):
     if h==8:
         await event.edit(f"Your hand looks heavy can i hold it for you?\n\n\n✍️ [{DEFAULTUSER}](tg://user?id={legendx22})")
     if h==9:
-        await event.edit(f"You may fall from userbothe sky, you may fall from userbot tree, but the best way to fall… is in love with me.\n\n\n✍️ [{DEFAULTUSER}](tg://user?id={legendx22})")
+        await event.edit(f"You may fall from userbotserbothe sky, you may fall from userbotserbot tree, but the best way to fall… is in love with me.\n\n\n✍️ [{DEFAULTUSER}](tg://user?id={legendx22})")
     if h==10:
         await event.edit(f"Are you the sun? Because you’re so beautiful it’s blinding me\n\n\n✍️ [{DEFAULTUSER}](tg://user?id={legendx22})")
     if h==11:

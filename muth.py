@@ -2,7 +2,7 @@
 Available Commands
 .muth"""
 
-from userbotelethon import events
+from userbotserbotelethon import events
 
 import asyncio
 
