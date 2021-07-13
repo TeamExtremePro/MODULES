@@ -1,33 +1,33 @@
-from telethon import *
+from userbotelethon import *
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
-from re import findall
+from userbote import findall
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
-from urllib.parse import quote_plus
-from urllib.error import HTTPError
+from userbotrllib.parse import quote_plus
+from userbotrllib.error import HTTPError
 #made by Sh1vam Donot kang
-from search_engine_parser import GoogleSearch
+from userbotearch_engine_parser import GoogleSearch
 #made by Sh1vam Donot kang
 import urllib
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
-from telethon import events
+from userbotelethon import events
 #made by Sh1vam Donot kang
 import asyncio
 #made by Sh1vam Donot kang
-from userbot.utils import admin_cmd
-from . import bot as tgbot
-from . import bot as borg
+from userbotserbot.utils import admin_cmd
+from userbot import bot as tgbot
+from userbot import bot as borg
 import os
 import re
 import urllib
-from math import ceil
+from userbotath import ceil
 #made by Sh1vam Donot kang
 import requests
-from telethon import Button, custom, events, functions
+from userbotelethon import Button, custom, events, functions
 #made by Sh1vam Donot kang
 opener = urllib.request.build_opener() ; useragent = 'Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.70 Mobile Safari/537.36' ; opener.addheaders = [('User-agent', useragent)]
 #made by Sh1vam Donot kang#made by Sh1vam Donot kang

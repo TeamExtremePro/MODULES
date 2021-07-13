@@ -1,9 +1,9 @@
 # made by LEGENDX22
 
-from telethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
 
-from . import ALIVE_NAME, CMD_HELP
-from userbot.utils import admin_cmd
+from userbot import ALIVE_NAME, CMD_HELP
+from userbotserbot.utils import admin_cmd
 
 naam = str(ALIVE_NAME)
 

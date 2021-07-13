@@ -2,9 +2,9 @@
 # For LEGENDBOT : https://github.com/LEGENDXOP/Andencento UB
 
 
-from telethon import events
+from userbotelethon import events
 import asyncio
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd("inflag"))
 async def _(event):

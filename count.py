@@ -1,10 +1,10 @@
 
 import time
-from telethon.events import NewMessage
-from telethon.tl.custom import Dialog
-from telethon.tl.types import Channel, Chat, User
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import CMD_HELP
+from userbotelethon.events import NewMessage
+from userbotelethon.tl.custom import Dialog
+from userbotelethon.tl.types import Channel, Chat, User
+from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern="stats$"))

@@ -1,4 +1,4 @@
-from telethon import events
+from userbotelethon import events
 import asyncio
 import os
 import sys

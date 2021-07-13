@@ -11,8 +11,8 @@ import magic
 import os
 import requests
 import time
-from datetime import datetime
-from uniborg.util import admin_cmd, progress
+from userbotatetime import datetime
+from userbotniborg.util import admin_cmd, progress
 
 
 @borg.on(admin_cmd(pattern="verystream ?(.*)", allow_sudo=True))
@@ -21,7 +21,7 @@ async def _(event):
         return
     mone = await event.reply("Processing ...")
     if Config.VERY_STREAM_LOGIN is None or Config.VERY_STREAM_KEY is None:
-        await mone.edit("This module requires API key from https://verystream.com. Aborting!")
+        await mone.edit("This module requires API key from userbotttps://verystream.com. Aborting!")
         return False
     input_str = event.pattern_match.group(1)
     if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):

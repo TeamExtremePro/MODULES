@@ -5,8 +5,8 @@ Syntax: .weather <Location>
 import aiohttp
 import io
 import time
-from datetime import tzinfo, datetime
-from userbot.utils import admin_cmd
+from userbotatetime import tzinfo, datetime
+from userbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="weathers (.*)"))

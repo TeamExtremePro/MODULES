@@ -1,12 +1,12 @@
 
 # credits LEGENDX22
 
-from telethon import events
+from userbotelethon import events
 import asyncio
-#from userbot.utils import admin_cmd
-from userbot.events import register 
-from . import bot, CMD_HELP
-from telethon.errors.rpcerrorlist import YouBlockedUserError
+#from userbotserbot.utils import admin_cmd
+from userbotserbot.events import register 
+from userbot import bot, CMD_HELP
+from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 try:
  import subprocess

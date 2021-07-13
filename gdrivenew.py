@@ -18,22 +18,22 @@ import json
 import math
 import os
 import time
-from datetime import datetime
-from telethon import events
-from userbot.utils import admin_cmd, progress, humanbytes
-from mimetypes import guess_type
-from apiclient.discovery import build
-from apiclient.http import MediaFileUpload
-from apiclient.errors import ResumableUploadError
-from oauth2client.client import OAuth2WebServerFlow
-from oauth2client.file import Storage
-from oauth2client import file, client, tools
+from userbotatetime import datetime
+from userbotelethon import events
+from userbotserbot.utils import admin_cmd, progress, humanbytes
+from userbotimetypes import guess_type
+from userbotpiclient.discovery import build
+from userbotpiclient.http import MediaFileUpload
+from userbotpiclient.errors import ResumableUploadError
+from userbotauth2client.client import OAuth2WebServerFlow
+from userbotauth2client.file import Storage
+from userbotauth2client import file, client, tools
 import httplib2
 
 
 # Path to token json file, it should be in same directory as script
 G_DRIVE_TOKEN_FILE = Config.TMP_DOWNLOAD_DIRECTORY + "/auth_token.txt"
-# Copy your credentials from the APIs Console
+# Copy your credentials from userbothe APIs Console
 CLIENT_ID = Config.G_DRIVE_CLIENT_ID
 CLIENT_SECRET = Config.G_DRIVE_CLIENT_SECRET
 # Check https://developers.google.com/drive/scopes for all available scopes
@@ -52,7 +52,7 @@ async def _(event):
         return
     mone = await event.reply("Processing The File ...")
     if CLIENT_ID is None or CLIENT_SECRET is None:
-        await mone.edit("This module requires credentials from https://da.gd/so63O. Aborting!")
+        await mone.edit("This module requires credentials from userbotttps://da.gd/so63O. Aborting!")
         return
     if Config.PLUGIN_CHANNEL is None:
         await event.edit("Please set the required environment variable `PLUGIN_CHANNEL` for this plugin to work")
@@ -146,7 +146,7 @@ async def _(event):
         return
     mone = await event.reply("Processing ...")
     if CLIENT_ID is None or CLIENT_SECRET is None:
-        await mone.edit("This module requires credentials from https://da.gd/so63O. Aborting!")
+        await mone.edit("This module requires credentials from userbotttps://da.gd/so63O. Aborting!")
         return
     if Config.PLUGIN_CHANNEL is None:
         await event.edit("Please set the required environment variable `PLUGIN_CHANNEL` for this plugin to work")
@@ -179,7 +179,7 @@ async def _(event):
         return
     mone = await event.reply("Processing ...")
     if CLIENT_ID is None or CLIENT_SECRET is None:
-        await mone.edit("This module requires credentials from https://da.gd/so63O. Aborting!")
+        await mone.edit("This module requires credentials from userbotttps://da.gd/so63O. Aborting!")
         return
     if Config.PLUGIN_CHANNEL is None:
         await event.edit("Please set the required environment variable `PLUGIN_CHANNEL` for this plugin to work")
@@ -211,7 +211,7 @@ async def _(event):
         return
     mone = await event.reply("Processing ...")
     if CLIENT_ID is None or CLIENT_SECRET is None:
-        await mone.edit("This module requires credentials from https://da.gd/so63O. Aborting!")
+        await mone.edit("This module requires credentials from userbotttps://da.gd/so63O. Aborting!")
         return
     if Config.PLUGIN_CHANNEL is None:
         await event.edit("Please set the required environment variable `PLUGIN_CHANNEL` for this plugin to work")
@@ -370,7 +370,7 @@ async def DoTeskWithDir(http, input_directory, event, parent_id):
 async def gdrive_delete(service, file_id):
     try:
         service.files().delete(fileId=file_id).execute()
-        return f"successfully deleted {file_id} from my gDrive."
+        return f"successfully deleted {file_id} from userboty gDrive."
     except Exception as e:
         return str(e)
 

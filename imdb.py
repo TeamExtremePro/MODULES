@@ -14,12 +14,12 @@ import os
 import re
 import subprocess
 import time
-from datetime import datetime
-from uniborg.util import admin_cmd
+from userbotatetime import datetime
+from userbotniborg.util import admin_cmd
 
 langi = "en"
 
-#kanged from Blank-x ;---;
+#kanged from userbotlank-x ;---;
 @borg.on(admin_cmd("imdb (.*)", outgoing=True)) 
 async def imdb(e):
  try:

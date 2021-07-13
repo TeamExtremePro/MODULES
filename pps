@@ -9,22 +9,22 @@ import sys
 import os
 import datetime
 import time
-from telethon import events
-from telethon.tl import functions, types
+from userbotelethon import events
+from userbotelethon.tl import functions, types
 import asyncio
-from telethon import utils
-from uniborg.util import admin_cmd
+from userbotelethon import utils
+from userbotniborg.util import admin_cmd
 import html
-from html import *
-from telethon.tl.functions.photos import GetUserPhotosRequest
-from telethon.tl.functions.users import GetFullUserRequest
-from telethon.tl.types import MessageEntityMentionName
-from telethon.utils import get_input_location
-from telethon.tl.functions.account import *
-from telethon.tl.functions.channels import *
-from telethon.tl.functions.photos import *
-from telethon.tl.types import *
-from telethon import *
+from userbottml import *
+from userbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotelethon.tl.functions.users import GetFullUserRequest
+from userbotelethon.tl.types import MessageEntityMentionName
+from userbotelethon.utils import get_input_location
+from userbotelethon.tl.functions.account import *
+from userbotelethon.tl.functions.channels import *
+from userbotelethon.tl.functions.photos import *
+from userbotelethon.tl.types import *
+from userbotelethon import *
 import logging
 
 logger = logging.getLogger(__name__)

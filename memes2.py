@@ -3,13 +3,13 @@ import asyncio
 import random
 import re
 import time
-from random import choice, randint
-from collections import deque
-from telethon import events
+from userbotandom import choice, randint
+from userbotollections import deque
+from userbotelethon import events
 import requests
-from telethon.tl.functions.users import GetFullUserRequest
-from telethon.tl.types import MessageEntityMentionName
-from userbot.utils import admin_cmd
+from userbotelethon.tl.functions.users import GetFullUserRequest
+from userbotelethon.tl.types import MessageEntityMentionName
+from userbotserbot.utils import admin_cmd
 
 
 # ================= CONSTANT =================

@@ -1,11 +1,11 @@
 #originally created by legendx22
 
 #team LEGEND
-from asyncio import sleep
-from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
-from telethon.tl.functions.channels import EditBannedRequest
-from userbot.utils import admin_cmd
-from . import bot, CMD_HELP
+from userbotsyncio import sleep
+from userbotelethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
+from userbotelethon.tl.functions.channels import EditBannedRequest
+from userbotserbot.utils import admin_cmd
+from userbot import bot, CMD_HELP
 
 
 @bot.on(admin_cmd(pattern=r"allban", outgoing=True))

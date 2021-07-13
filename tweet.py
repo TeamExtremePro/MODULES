@@ -7,11 +7,11 @@
 # no offence. Made for fun purpose only
 
 import requests , re
-from PIL import Image
-from validators.url import url
-from . import CMD_HELP
-from userbot.helpers.functions import trumptweet, changemymind, kannagen, moditweet, miatweet, papputweet, sunnytweet, sinstweet, taklatweet, deEmojify, tweets
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotIL import Image
+from userbotalidators.url import url
+from userbot import CMD_HELP
+from userbotserbot.helpers.functions import trumptweet, changemymind, kannagen, moditweet, miatweet, papputweet, sunnytweet, sinstweet, taklatweet, deEmojify, tweets
+from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 @bot.on(admin_cmd(pattern=r"tweet(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="tweet(?: |$)(.*)", allow_sudo=True))

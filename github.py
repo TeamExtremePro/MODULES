@@ -1,8 +1,8 @@
 """Get information about an user on GitHub
 Syntax: .github USERNAME"""
-from telethon import events
+from userbotelethon import events
 import requests
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("github (.*)"))

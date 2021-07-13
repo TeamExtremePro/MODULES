@@ -1,8 +1,8 @@
 """Schedule Plugin for @UniBorg
 Syntax: .schd <time_in_seconds> ;=; <message to send>"""
-from telethon import events
+from userbotelethon import events
 import asyncio
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("schd ?(.*)"))

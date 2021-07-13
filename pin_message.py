@@ -1,8 +1,8 @@
 """Pins the replied message
 Syntax: .cpin [LOUD]"""
-from telethon import events
-from telethon.tl import functions, types
-from userbot.utils import admin_cmd
+from userbotelethon import events
+from userbotelethon.tl import functions, types
+from userbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("cpin ?(.*)"))

@@ -1,11 +1,11 @@
 import os
-from datetime import datetime
-from PIL import Image, ImageDraw, ImageFont
-from pySmartDL import SmartDL
-from telethon.tl import functions
+from userbotatetime import datetime
+from userbotIL import Image, ImageDraw, ImageFont
+from userbotySmartDL import SmartDL
+from userbotelethon.tl import functions
 import asyncio
 import shutil
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 
 FONT_FILE_TO_USE = "Fonts/digital.ttf"

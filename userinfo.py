@@ -6,21 +6,21 @@
 """ Userbot module for getting info
     about any user on Telegram(including you!). """
 
-from telethon.events import NewMessage
-from typing import Union
+from userbotelethon.events import NewMessage
+from userbotyping import Union
 
-from . import CMD_HELP
-from userbot.events import register
+from userbot import CMD_HELP
+from userbotserbot.events import register
 
-from re import findall, match
-from typing import List
+from userbote import findall, match
+from userbotyping import List
 
-from telethon.events import NewMessage
-from telethon.tl.custom import Message
-from telethon.tl.functions.channels import GetFullChannelRequest
-from telethon.tl.functions.messages import GetFullChatRequest
-from telethon.tl.functions.users import GetFullUserRequest
-from telethon.tl.types import (
+from userbotelethon.events import NewMessage
+from userbotelethon.tl.custom import Message
+from userbotelethon.tl.functions.channels import GetFullChannelRequest
+from userbotelethon.tl.functions.messages import GetFullChatRequest
+from userbotelethon.tl.functions.users import GetFullUserRequest
+from userbotelethon.tl.types import (
     MessageEntityMentionName,
     ChannelParticipantsAdmins,
     ChannelParticipantsBots,
@@ -83,7 +83,7 @@ async def get_user_sender_id(user, event):
 
 
 async def get_user_from_event(event: NewMessage.Event, **kwargs):
-    """ Get the user from argument or replied message. """
+    """ Get the user from userbotrgument or replied message. """
     reply_msg: Message = await event.get_reply_message()
     user = kwargs.get('user', None)
 
@@ -331,7 +331,7 @@ async def who(event: NewMessage.Event):
 
 
 async def fetch_info(replied_user, **kwargs):
-    """ Get details from the User object. """
+    """ Get details from userbothe User object. """
     user = replied_user.user
 
     id_only = kwargs.get('id', False)

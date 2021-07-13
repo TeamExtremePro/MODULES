@@ -4,25 +4,25 @@ unzip usage: reply with zipped file .unzipper
 Coded by @furki
 """
 
-from datetime import datetime
+from userbotatetime import datetime
 import zipfile
-from telethon.tl.types import DocumentAttributeAudio, DocumentAttributeVideo
-from hachoir.metadata import extractMetadata
-from hachoir.parser import createParser
-from zipfile import ZipFile
+from userbotelethon.tl.types import DocumentAttributeAudio, DocumentAttributeVideo
+from userbotachoir.metadata import extractMetadata
+from userbotachoir.parser import createParser
+from userbotipfile import ZipFile
 import asyncio
 import os
 import shutil
 import subprocess
 import time
-from pySmartDL import SmartDL
-from userbot.uniborgConfig import Config
-from telethon import events
-from userbot.utils import admin_cmd, humanbytes, progress, time_formatter
+from userbotySmartDL import SmartDL
+from userbotserbot.uniborgConfig import Config
+from userbotelethon import events
+from userbotserbot.utils import admin_cmd, humanbytes, progress, time_formatter
 import subprocess
 import patoolib
 import tarfile
-from . import CMD_HELP
+from userbot import CMD_HELP
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"
 extracted = Config.TMP_DOWNLOAD_DIRECTORY + "extracted/"

@@ -2,11 +2,11 @@ import logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
 import datetime
-from telethon import events
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from . import CMD_HELP
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotelethon import events
+from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbot import CMD_HELP
+from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 import asyncio
 
 @bot.on(admin_cmd(pattern=("history ?(.*)")))

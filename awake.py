@@ -11,19 +11,19 @@
 import os
 import time
 import asyncio
-from telethon import events
-from telethon.tl.types import ChannelParticipantsAdmins
-from . import ALIVE_NAME, StartTime, CMD_HELP
-from . import legend
-from LEGENDX import BOT, PHOTO, VERSION
-from userbot.utils import admin_cmd
-from math import ceil
+from userbotelethon import events
+from userbotelethon.tl.types import ChannelParticipantsAdmins
+from userbot import ALIVE_NAME, StartTime, CMD_HELP
+from userbot import legend
+from userbotEGENDX import BOT, PHOTO, VERSION
+from userbotserbot.utils import admin_cmd
+from userbotath import ceil
 import json
 import random
 import re
-from telethon import events, errors, custom
+from userbotelethon import events, errors, custom
 import io
-from platform import python_version, uname
+from userbotlatform import python_version, uname
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"

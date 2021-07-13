@@ -2,18 +2,18 @@ import asyncio
 import calendar
 import json
 import os
-from datetime import datetime
-from urllib.parse import quote
+from userbotatetime import datetime
+from userbotrllib.parse import quote
 import barcode
 import qrcode
 import requests
-from barcode.writer import ImageWriter
-from bs4 import BeautifulSoup
-from PIL import Image, ImageColor
-from telethon import events
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import CMD_HELP
+from userbotarcode.writer import ImageWriter
+from userbots4 import BeautifulSoup
+from userbotIL import Image, ImageColor
+from userbotelethon import events
+from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern="scan ?(.*)"))
@@ -63,7 +63,7 @@ async def _(event):
 async def parseqr(qr_e):
     if not os.path.isdir(Config.TEMP_DIR):
         os.makedirs(Config.TEMP_DIR)
-    # For .decode command, get QR Code/BarCode content from the replied photo.
+    # For .decode command, get QR Code/BarCode content from userbothe replied photo.
     downloaded_file_name = await qr_e.client.download_media(
         await qr_e.get_reply_message(), Config.TMP_DIR
     )
@@ -187,12 +187,12 @@ async def make_qr(makeqr):
     await makeqr.delete()
 
 
-from telethon import events
+from userbotelethon import events
 import asyncio
-from datetime import datetime
+from userbotatetime import datetime
 import requests
 import json
-from uniborg.util import admin_cmd
+from userbotniborg.util import admin_cmd
 
 
 @bot.on(admin_cmd(pattern="cal (.*)"))
@@ -232,7 +232,7 @@ async def _(event):
     if len(input_sgra) == 3:
         try:
             number = float(input_sgra[0])
-            currency_from = input_sgra[1].upper()
+            currency_from userbot input_sgra[1].upper()
             currency_to = input_sgra[2].upper()
             request_url = "https://api.exchangeratesapi.io/latest?base={}".format(
                 currency_from
@@ -255,7 +255,7 @@ async def _(event):
     else:
         await edit_or_reply(
             event,
-            "**Syntax:**\n.currency amount from to\n**Example:**\n`.currency 10 usd inr`",
+            "**Syntax:**\n.currency amount from userboto\n**Example:**\n`.currency 10 usd inr`",
         )
 
 
@@ -379,16 +379,16 @@ CMD_HELP.update(
         \n\n**Syntax : **`.scan` reply to media or file\
         \n**Function : **__it scans the media or file and checks either any virus is in the file or media__\
         \n\n**Syntax : **`.makeqr` <content>\
-        \n**Function : **__Make a QR Code from the given content.__\
+        \n**Function : **__Make a QR Code from userbothe given content.__\
         \nExample: .makeqr www.google.com\
         \n\n**Syntax : **`.barcode `<content>\
-        \n**Function : **__Make a BarCode from the given content.__\
+        \n**Function : **__Make a BarCode from userbothe given content.__\
         \nExample: `.barcode` www.google.com\
         \n\n**Syntax : **`.decode` <reply to barcode/qrcode> \
         \n**Function : **__to get decoded content of those codes.__\
         \n\n**Syntax : **`cal year ; month`\
         \n**Function : **__Shows you the calendar of given month and year__\
-        \n\n**Syntax : **`.currency` amount (from currency) (to currency)\
+        \n\n**Syntax : **`.currency` amount (from userboturrency) (to currency)\
         \n**Function : **__Currency converter for userbot __**Example :** `.currency 10 usd inr`\
         \n\n**Syntax : **`.currencies`\
         \n**Function : **__Shows you the some list of currencies__\

@@ -8,15 +8,15 @@ import os
 import time
 import zipfile
 
-from telethon import events
-from telethon.tl.types import DocumentAttributeAudio, DocumentAttributeVideo
-from userbot.utils import admin_cmd, humanbytes, progress, time_formatter
+from userbotelethon import events
+from userbotelethon.tl.types import DocumentAttributeAudio, DocumentAttributeVideo
+from userbotserbot.utils import admin_cmd, humanbytes, progress, time_formatter
 import time
-from datetime import datetime
-from pySmartDL import SmartDL
-from hachoir.metadata import extractMetadata
-from hachoir.parser import createParser
-from zipfile import ZipFile
+from userbotatetime import datetime
+from userbotySmartDL import SmartDL
+from userbotachoir.metadata import extractMetadata
+from userbotachoir.parser import createParser
+from userbotipfile import ZipFile
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"
 extracted = Config.TMP_DOWNLOAD_DIRECTORY + "extracted/"

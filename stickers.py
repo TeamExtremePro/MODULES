@@ -8,15 +8,15 @@
 import io
 import math
 import urllib.request
-from os import remove
-from PIL import Image
+from userbots import remove
+from userbotIL import Image
 import random
-from telethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
-from . import bot, CMD_HELP
-from userbot.utils import register
-from telethon.tl.functions.messages import GetStickerSetRequest
-from telethon.tl.types import InputStickerSetID
-from telethon.tl.types import DocumentAttributeSticker
+from userbotelethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
+from userbot import bot, CMD_HELP
+from userbotserbot.utils import register
+from userbotelethon.tl.functions.messages import GetStickerSetRequest
+from userbotelethon.tl.types import InputStickerSetID
+from userbotelethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
     "Udhar Dekh Bc.... Mujhe tera sticker churane de😁😁",
@@ -269,7 +269,7 @@ async def resize_photo(photo):
 @register(outgoing=True, pattern="^.stkrinfo$")
 async def get_pack_info(event):
     if not event.is_reply:
-        await event.edit("`I can't fetch info from nothing, can I ?!`")
+        await event.edit("`I can't fetch info from userbotothing, can I ?!`")
         return
 
     rep_msg = await event.get_reply_message()

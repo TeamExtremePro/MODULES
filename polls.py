@@ -1,8 +1,8 @@
 """Get Poll Info on non supported clients
 Syntax: .get_poll"""
-from telethon import events
+from userbotelethon import events
 import asyncio
-from uniborg.util import admin_cmd
+from userbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="get_poll"))

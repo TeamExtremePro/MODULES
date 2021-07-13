@@ -1,10 +1,10 @@
 import asyncio
-from collections import deque
-from telethon.tl.functions.users import GetFullUserRequest
-from telethon import events
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import ALIVE_NAME, CMD_HELP
-from LEGENDX import NAME
+from userbotollections import deque
+from userbotelethon.tl.functions.users import GetFullUserRequest
+from userbotelethon import events
+from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot import ALIVE_NAME, CMD_HELP
+from userbotEGENDX import NAME
 DEFAULTUSER = NAME
 
 

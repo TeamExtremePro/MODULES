@@ -2,18 +2,18 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-from telethon import events
+from userbotelethon import events
 import subprocess
-from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
+from userbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
 import io
 import asyncio
 import time
 import os
 import sys
-from telethon import events, functions, __version__
-from userbot.utils import admin_cmd
-from asyncio.subprocess import PIPE as asyncPIPE
-from asyncio import create_subprocess_exec as asyncrunapp
+from userbotelethon import events, functions, __version__
+from userbotserbot.utils import admin_cmd
+from userbotsyncio.subprocess import PIPE as asyncPIPE
+from userbotsyncio import create_subprocess_exec as asyncrunapp
 
 
 if not os.path.isdir("./SAVED"):

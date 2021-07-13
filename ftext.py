@@ -1,8 +1,8 @@
-from telethon import events
+from userbotelethon import events
 import asyncio
 import os
 import sys
-from uniborg.util import admin_cmd
+from userbotniborg.util import admin_cmd
 
 
 

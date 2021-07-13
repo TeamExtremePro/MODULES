@@ -1,17 +1,17 @@
 
 
-from . import bot as borg
+from userbot import bot as borg
 
 
 
 import os
 import re
 import urllib
-from math import ceil
+from userbotath import ceil
 
 import requests
-from telethon import Button, custom, events, functions
-from youtubesearchpython import SearchVideos
+from userbotelethon import Button, custom, events, functions
+from userbotoutubesearchpython import SearchVideos
 
 
 

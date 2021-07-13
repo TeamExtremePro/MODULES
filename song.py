@@ -65,21 +65,21 @@ import re
 
 import json
 
-from math import ceil
+from userbotath import ceil
 
-from userbot.uniborgConfig import Config
-
-
-
-from telethon import Button, custom, events, functions
+from userbotserbot.uniborgConfig import Config
 
 
 
-from . import ALIVE_NAME, CMD_HELP, CMD_LIST, bot
+from userbotelethon import Button, custom, events, functions
 
 
 
-from var import Var
+from userbot import ALIVE_NAME, CMD_HELP, CMD_LIST, bot
+
+
+
+from userbotar import Var
 
 
 
@@ -93,15 +93,15 @@ import asyncio
 
 
 
-from datetime import datetime
+from userbotatetime import datetime
 
-from pathlib import Path
-
-
+from userbotathlib import Path
 
 
 
-from userbot.utils import load_module, remove_plugin,admin_cmd as lightning_cmd
+
+
+from userbotserbot.utils import load_module, remove_plugin,admin_cmd as lightning_cmd
 
 
 
@@ -129,8 +129,8 @@ LIGHTNINGBOT = Var.TG_BOT_TOKEN_BF_HER
 
  
 
-from LEGENDX import ID
-from telethon import events
+from userbotEGENDX import ID
+from userbotelethon import events
 
 BOT_MSG = os.environ.get("BOT_MSG", None)
 
@@ -195,7 +195,7 @@ else:
 
 
 
-from . import CMD_HELP
+from userbot import CMD_HELP
 
 @tgbot.on(events.InlineQuery)
 

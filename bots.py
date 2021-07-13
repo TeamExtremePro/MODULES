@@ -3,13 +3,13 @@
 import asyncio
 import random, re
 import datetime
-from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from telegraph import Telegraph
-from telethon import events
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-from . import CMD_HELP
-from userbot.utils import admin_cmd
-from var import Var
+from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotelegraph import Telegraph
+from userbotelethon import events
+from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbot import CMD_HELP
+from userbotserbot.utils import admin_cmd
+from userbotar import Var
 telegraph = Telegraph()
 mee = telegraph.create_account(short_name="yohohehe")
 

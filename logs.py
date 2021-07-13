@@ -13,7 +13,7 @@
 import os
 
 
-from telethon import Button, custom, events, functions
+from userbotelethon import Button, custom, events, functions
   
 
 
@@ -23,7 +23,7 @@ from telethon import Button, custom, events, functions
 import math
 import heroku3
 
-from . import HEROKU_APP_NAME, HEROKU_API_KEY
+from userbot import HEROKU_APP_NAME, HEROKU_API_KEY
 
 heroku = heroku3.from_key(HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"

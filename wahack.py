@@ -7,11 +7,11 @@ by © Thunder God Raiden
 
 
 
-from telethon import events
+from userbotelethon import events
 import asyncio
 
 
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern=f"wahack", outgoing=True))
 async def _(event):

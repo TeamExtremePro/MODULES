@@ -4,10 +4,10 @@ import asyncio
 import io
 import os
 import time
-from datetime import datetime
-from hachoir.metadata import extractMetadata
-from hachoir.parser import createParser
-from userbot.utils import admin_cmd, progress
+from userbotatetime import datetime
+from userbotachoir.metadata import extractMetadata
+from userbotachoir.parser import createParser
+from userbotserbot.utils import admin_cmd, progress
 
 
 FF_MPEG_DOWN_LOAD_MEDIA_PATH = "uniborg.media.ffmpeg"

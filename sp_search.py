@@ -8,7 +8,7 @@ By: @Zero_cool7870
 import os
 import asyncio
 import json
-from uniborg.util import admin_cmd
+from userbotniborg.util import admin_cmd
 
 
 

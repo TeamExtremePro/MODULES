@@ -2,12 +2,12 @@
 Available Commands:
 .hack"""
 
-from telethon import events
+from userbotelethon import events
 
 import asyncio
-from uniborg.util import admin_cmd
-from telethon.tl.functions.users import GetFullUserRequest
-from userbot.utils import load_module
+from userbotniborg.util import admin_cmd
+from userbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbot.utils import load_module
 import os
 # hack3 installation
 try:

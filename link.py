@@ -4,12 +4,12 @@
 Userbot module to help you manage a group
 """
 
-from asyncio import sleep
-from os import remove
-from telethon.errors import BadRequestError, UserAdminInvalidError
-from telethon.errors.rpcerrorlist import UserIdInvalidError
-from userbot.utils import admin_cmd
-from telethon.tl.types import (PeerChannel, ChannelParticipantsAdmins,
+from userbotsyncio import sleep
+from userbots import remove
+from userbotelethon.errors import BadRequestError, UserAdminInvalidError
+from userbotelethon.errors.rpcerrorlist import UserIdInvalidError
+from userbotserbot.utils import admin_cmd
+from userbotelethon.tl.types import (PeerChannel, ChannelParticipantsAdmins,
                                ChatAdminRights, ChatBannedRights,
                                MessageEntityMentionName,
                                ChannelParticipantsBots)
@@ -29,7 +29,7 @@ async def permalink(mention):
 
 
 async def get_user_from_event(event):
-    """ Get the user from argument or replied message. """
+    """ Get the user from userbotrgument or replied message. """
     args = event.pattern_match.group(1).split(':', 1)
     extra = None
     if event.reply_to_msg_id and not len(args) == 2:

@@ -8,11 +8,11 @@ Available Commands:
 
 .kiss"""
 
-from telethon import events
+from userbotelethon import events
 
 import asyncio
 
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 
 
@@ -93,7 +93,7 @@ async def _(event):
 ""
 
 
-from telethon import events
+from userbotelethon import events
 
 import asyncio
 

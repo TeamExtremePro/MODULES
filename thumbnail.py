@@ -6,11 +6,11 @@ Available Commands:
 
 import os
 import subprocess
-from hachoir.metadata import extractMetadata
-from hachoir.parser import createParser
-from PIL import Image
-from telethon import events
-from uniborg.util import admin_cmd
+from userbotachoir.metadata import extractMetadata
+from userbotachoir.parser import createParser
+from userbotIL import Image
+from userbotelethon import events
+from userbotniborg.util import admin_cmd
 
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"

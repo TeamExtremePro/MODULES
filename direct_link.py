@@ -6,15 +6,15 @@
 import json
 import re
 import urllib.parse
-from os import popen
-from random import choice
+from userbots import popen
+from userbotandom import choice
 
 import requests
-from bs4 import BeautifulSoup
-from humanize import naturalsize
+from userbots4 import BeautifulSoup
+from userbotumanize import naturalsize
 
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import CMD_HELP
+from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot import CMD_HELP
 
 
 @bot.on(admin_cmd(outgoing=True, pattern=r"direct(?: |$)([\s\S]*)"))

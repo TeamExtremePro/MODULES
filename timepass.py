@@ -2,7 +2,7 @@
 Available Commands:
 .tp"""
 
-from telethon import events
+from userbotelethon import events
 import asyncio
 
 @borg.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))

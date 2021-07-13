@@ -3,18 +3,18 @@ Syntax: .exec Code"""
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-from telethon import events
+from userbotelethon import events
 import subprocess
-from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
+from userbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
 import io
 import asyncio
 import time
-from uniborg.util import admin_cmd
+from userbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="exec ?(.*)"))
 async def _(event):
-    if event.fwd_from or event.via_bot_id:
+    if event.fwd_from userbotr event.via_bot_id:
         return
     DELAY_BETWEEN_EDITS = 0.3
     PROCESS_RUN_TIME = 100

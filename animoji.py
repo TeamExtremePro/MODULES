@@ -1,8 +1,8 @@
 import asyncio
-from collections import deque
+from userbotollections import deque
 
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import CMD_HELP
+from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern="think$", outgoing=True))

@@ -1,10 +1,10 @@
 
 import datetime
-from telethon import events
-from telethon.errors.rpcerrorlist import YouBlockedUserError
-from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from . import CMD_HELP
+from userbotelethon import events
+from userbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot import CMD_HELP
 
 
 

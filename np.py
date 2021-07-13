@@ -4,11 +4,11 @@ Available Commands:
 Credits to @mariodevs
 """
 
-from telethon import events
+from userbotelethon import events
 
 import asyncio
 
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd("nope"))
 async def _(event):

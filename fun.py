@@ -1,6 +1,6 @@
-from telethon import events
+from userbotelethon import events
 import random, re
-from uniborg.util import admin_cmd
+from userbotniborg.util import admin_cmd
 
 METOOSTR = [
     "`Me too thanks`",
@@ -13,7 +13,7 @@ METOOSTR = [
 ]
 RUNSREACTS = [
     "`Runs to Thanos`",
-    "`Runs far, far away from earth`",
+    "`Runs far, far away from userbotarth`",
     "`Running faster than usian bolt coz I'mma Bot`",
     "`Runs to Marie`",
     "`This Group is too cancerous to deal with.`",
@@ -57,12 +57,12 @@ INSULT_STRINGS = [
     "`Owww ... Such a stupid idiot.`",
     "`Don't drink and type.`",
     "`Command not found. Just like your brain.`",
-    "`Bot rule 544 section 9 prevents me from replying to stupid humans like you.`",
+    "`Bot rule 544 section 9 prevents me from userboteplying to stupid humans like you.`",
     "`Sorry, we do not sell brains.`",
     "`Believe me you are not normal.`",
     "`I bet your brain feels as good as new, seeing that you never use it.`",
     "`If I wanted to kill myself I'd climb your ego and jump to your IQ.`",
-    "`You didn't evolve from apes, they evolved from you.`",
+    "`You didn't evolve from userbotpes, they evolved from userbotou.`",
     "`What language are you speaking? Cause it sounds like bullshit.`",
     "`You are proof that evolution CAN go in reverse.`",
     "`I would ask you how old you are but I know you can't count that high.`",

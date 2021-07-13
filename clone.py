@@ -7,24 +7,24 @@ Syntax: .clone @username"""
 
 import html
 import os
-from telethon.tl.functions.photos import GetUserPhotosRequest
-from telethon.tl.functions.users import GetFullUserRequest
-from telethon.tl.types import MessageEntityMentionName
-from telethon.utils import get_input_location
-from userbot.utils import admin_cmd
-from telethon.tl import functions
-from telethon import events
-from telethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
-from telethon.errors.rpcerrorlist import (PhotoExtInvalidError,
+from userbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotelethon.tl.functions.users import GetFullUserRequest
+from userbotelethon.tl.types import MessageEntityMentionName
+from userbotelethon.utils import get_input_location
+from userbotserbot.utils import admin_cmd
+from userbotelethon.tl import functions
+from userbotelethon import events
+from userbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
+from userbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
                                           UsernameOccupiedError)
-from telethon.tl.functions.account import (UpdateProfileRequest,
+from userbotelethon.tl.functions.account import (UpdateProfileRequest,
                                            UpdateUsernameRequest)
-from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest
-from telethon.tl.functions.photos import (DeletePhotosRequest,
+from userbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
+from userbotelethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
-from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from . import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
+from userbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
+from userbot import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

@@ -1,24 +1,24 @@
 """Log Pm messages into a private group
 
 """
-from asyncio import sleep
-from . import CMD_HELP, BOTLOG, BOTLOG_CHATID, bot
-from telethon.tl.types import MessageEntityMentionName
-from telethon.utils import get_input_location
-from userbot.utils import admin_cmd
-from os import remove
-from telethon import events
+from userbotsyncio import sleep
+from userbot import CMD_HELP, BOTLOG, BOTLOG_CHATID, bot
+from userbotelethon.tl.types import MessageEntityMentionName
+from userbotelethon.utils import get_input_location
+from userbotserbot.utils import admin_cmd
+from userbots import remove
+from userbotelethon import events
 import asyncio
-from datetime import datetime
+from userbotatetime import datetime
 import time
-from userbot.utils import register, errors_handler, admin_cmd
+from userbotserbot.utils import register, errors_handler, admin_cmd
 import asyncio
 import logging
 import os
 import sys
-from telethon.tl import functions, types
-from telethon.tl.types import Channel, Chat, User
-from userbot.uniborgConfig import Config
+from userbotelethon.tl import functions, types
+from userbotelethon.tl.types import Channel, Chat, User
+from userbotserbot.uniborgConfig import Config
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.WARN)
@@ -78,7 +78,7 @@ async def set_no_log_p_m(event):
         if event.is_private:
             if chat.id in NO_PM_LOG_USERS:
                 NO_PM_LOG_USERS.remove(chat.id)
-                await event.edit("Will Log Messages from this chat")
+                await event.edit("Will Log Messages from userbothis chat")
                 await asyncio.sleep(3)
                 await event.delete()
                 
@@ -91,6 +91,6 @@ async def set_no_log_p_m(event):
         if event.is_private:
             if chat.id not in NO_PM_LOG_USERS:
                 NO_PM_LOG_USERS.append(chat.id)
-                await event.edit("Won't Log Messages from this chat")
+                await event.edit("Won't Log Messages from userbothis chat")
                 await asyncio.sleep(3)
                 await event.delete()

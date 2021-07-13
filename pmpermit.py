@@ -32,23 +32,23 @@ import asyncio
 
 
 
-from telethon import events, functions
+from userbotelethon import events, functions
 
-from telethon.tl.functions.users import GetFullUserRequest
+from userbotelethon.tl.functions.users import GetFullUserRequest
 
 
 
 import sql_helper.pmpermit_sql as lightning_sql
 
-from . import ALIVE_NAME, bot
+from userbot import ALIVE_NAME, bot
 
-from userbot.uniborgConfig import Config
+from userbotserbot.uniborgConfig import Config
 
-from var import Var
+from userbotar import Var
 
 LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
 
-from userbot.utils import admin_cmd as lightning_cmd
+from userbotserbot.utils import admin_cmd as lightning_cmd
 
 
 

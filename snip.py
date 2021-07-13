@@ -6,10 +6,10 @@ Available Commands:
 .snips
 .snipl
 .snipd"""
-from telethon import events, utils
-from telethon.tl import types
-from sql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
-from userbot.utils import admin_cmd
+from userbotelethon import events, utils
+from userbotelethon.tl import types
+from userbotql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
+from userbotserbot.utils import admin_cmd
 
 
 TYPE_TEXT = 0

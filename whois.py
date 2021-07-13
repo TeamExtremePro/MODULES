@@ -7,14 +7,14 @@ Syntax: .whois @username/userid"""
 import html
 import os
 
-from requests import get
-from telethon.tl.functions.photos import GetUserPhotosRequest
-from telethon.tl.functions.users import GetFullUserRequest
-from telethon.tl.types import MessageEntityMentionName
-from telethon.utils import get_input_location
+from userbotequests import get
+from userbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotelethon.tl.functions.users import GetFullUserRequest
+from userbotelethon.tl.types import MessageEntityMentionName
+from userbotelethon.utils import get_input_location
 
-from .. import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
-from ..utils import admin_cmd, edit_or_reply
+from userbot. import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
+from userbot.utils import admin_cmd, edit_or_reply
 
 
 
@@ -32,14 +32,14 @@ from ..utils import admin_cmd, edit_or_reply
 import html
 import os
 
-from requests import get
-from telethon.tl.functions.photos import GetUserPhotosRequest
-from telethon.tl.functions.users import GetFullUserRequest
-from telethon.tl.types import MessageEntityMentionName
-from telethon.utils import get_input_location
+from userbotequests import get
+from userbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotelethon.tl.functions.users import GetFullUserRequest
+from userbotelethon.tl.types import MessageEntityMentionName
+from userbotelethon.utils import get_input_location
 
-from .. import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
-from ..utils import admin_cmd, edit_or_reply
+from userbot. import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
+from userbot.utils import admin_cmd, edit_or_reply
 
 
 @borg.on(admin_cmd(pattern="userinfo(?: |$)(.*)"))
@@ -136,7 +136,7 @@ async def get_full_user(event):
 @borg.on(admin_cmd(pattern="whois(?: |$)(.*)"))
 async def who(event):
     cat = await edit_or_reply(
-        event, "`Sit tight while I steal some data from This guuyyy...`"
+        event, "`Sit tight while I steal some data from userbothis guuyyy...`"
     )
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
@@ -167,7 +167,7 @@ async def who(event):
 
 
 async def get_user(event):
-    """ Get the user from argument or replied message. """
+    """ Get the user from userbotrgument or replied message. """
     if event.reply_to_msg_id and not event.pattern_match.group(1):
         previous_message = await event.get_reply_message()
         replied_user = await event.client(GetFullUserRequest(previous_message.sender_id))
@@ -194,7 +194,7 @@ async def get_user(event):
 
 
 async def fetch_info(replied_user, event):
-    """ Get details from the User object. """
+    """ Get details from userbothe User object. """
     replied_user_profile_photos = await event.client(
         GetUserPhotosRequest(
             user_id=replied_user.user.id, offset=42, max_id=0, limit=80
@@ -231,7 +231,7 @@ async def fetch_info(replied_user, event):
     )
     username = "@{}".format(username) if username else ("This User has no Username")
     user_bio = "This User has no About" if not user_bio else user_bio
-    caption = "<b>USER INFO from LEGEND BOT's database :</b>\n\n"
+    caption = "<b>USER INFO from userbotEGEND BOT's database :</b>\n\n"
     caption += f"👤First Name: {first_name} {last_name}\n"
     caption += f"🤵Username: {username}\n"
     caption += f"🔖ID: <code>{user_id}</code>\n"
@@ -263,7 +263,7 @@ async def permalink(mention):
 
 
 async def get_user_from_event(event):
-    """ Get the user from argument or replied message. """
+    """ Get the user from userbotrgument or replied message. """
     args = event.pattern_match.group(1).split(":", 1)
     extra = None
     if event.reply_to_msg_id and not len(args) == 2:

@@ -4,12 +4,12 @@ import random
 import textwrap
 import re
 
-from PIL import Image, ImageDraw, ImageFont
-from telethon.tl.types import InputMessagesFilterDocument
+from userbotIL import Image, ImageDraw, ImageFont
+from userbotelethon.tl.types import InputMessagesFilterDocument
 
-from . import CMD_HELP, bot
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot.helpers.functions import deEmojify
+from userbot import CMD_HELP, bot
+from userbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbot.helpers.functions import deEmojify
 
 # RegEx by https://t.me/c/1220993104/50065
 
@@ -107,7 +107,7 @@ async def get_font_file(client, channel_id, search_kw=""):
         limit=None,
         search=search_kw,
     )
-    # get a random font from the list of fonts
+    # get a random font from userbothe list of fonts
     # https://docs.python.org/3/library/random.html#random.choice
     font_file_message = random.choice(font_file_message_s)
     # download and return the file path

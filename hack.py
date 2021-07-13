@@ -4,14 +4,14 @@
 Userbot module ye kisi ka bhi chutia bana ne me kaam aata h
 """
 
-from telethon import events
+from userbotelethon import events
 import asyncio
 import os
 import sys
 import random
-from . import CMD_HELP
-from userbot.utils import admin_cmd
-from . import bot as borg
+from userbot import CMD_HELP
+from userbotserbot.utils import admin_cmd
+from userbot import bot as borg
 
 @borg.on(admin_cmd(pattern="hack ?(.*)"))
 async def _(event):
@@ -50,7 +50,7 @@ async def _(event):
 
     animation_interval = 0.6
     animation_ttl = range(0,14)
-    await event.edit("Connecting nd getting combined token from my.telegram.org ")
+    await event.edit("Connecting nd getting combined token from userboty.telegram.org ")
     await asyncio.sleep(1)
     animation_chars = [
             "`root@anon:~#` ",
@@ -87,21 +87,21 @@ async def _(event):
     await asyncio.sleep(1)
     await event.edit("`hacking.....8%completed\n TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\nCollecting Data Packageseeing target account chat\n lding chat tg-bot bruteforce finished\n creating pdf of chat`")
     await asyncio.sleep(1)
-    await event.edit("`hacking....15%completed\n Terminal:chat history from telegram exporting to private database.\n terminal 874379gvrfghhuu5tlotruhi5rbh installing`")
+    await event.edit("`hacking....15%completed\n Terminal:chat history from userbotelegram exporting to private database.\n terminal 874379gvrfghhuu5tlotruhi5rbh installing`")
     await asyncio.sleep(1)
-    await event.edit("`hacking....24%completed\n TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\nCollecting Data Packageseeing target account chat\n lding chat tg-bot bruteforce finished\nerminal:chat history from telegram exporting to private database.\n terminal 874379gvrfghhuu5tlotruhi5rbh installed\n creting data into pdf`")
+    await event.edit("`hacking....24%completed\n TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\nCollecting Data Packageseeing target account chat\n lding chat tg-bot bruteforce finished\nerminal:chat history from userbotelegram exporting to private database.\n terminal 874379gvrfghhuu5tlotruhi5rbh installed\n creting data into pdf`")
     await asyncio.sleep(1)
-    await event.edit("`hacking....32%completed\n looking for use history \n downloading-telegram -id prtggtgf . gfr (12.99 mb)\n collecting data starting imprute attack to user account\n chat history from telegram exporting to private database.\n terminal 874379gvrfghhuu5tlotruhi5rbh installed\n creted data into pdf\nDownload sucessful Bruteforce-Telegram-0.1.tar.gz (1.3)`")
+    await event.edit("`hacking....32%completed\n looking for use history \n downloading-telegram -id prtggtgf . gfr (12.99 mb)\n collecting data starting imprute attack to user account\n chat history from userbotelegram exporting to private database.\n terminal 874379gvrfghhuu5tlotruhi5rbh installed\n creted data into pdf\nDownload sucessful Bruteforce-Telegram-0.1.tar.gz (1.3)`")
     await asyncio.sleep(1)
     await event.edit("hacking....38%completed\n\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\nCollecting Data Package\n  Downloading Telegram-Data-Sniffer-7.1.1-py2.py3-none-any.whl (82 kB): finished with status 'done'\nCreated wheel for telegram: filename=Telegram-Data-Sniffer-0.0.1-py3-none-any.whl size=1306 sha256=cb224caad7fe01a6649188c62303cd4697c1869fa12d280570bb6ac6a88e6b7e`")
     await asyncio.sleep(1)
-    await event.edit("`hacking....52%completed\nexterting data from telegram private server\ndone with status 36748hdeg \n checking for more data in device`")
+    await event.edit("`hacking....52%completed\nexterting data from userbotelegram private server\ndone with status 36748hdeg \n checking for more data in device`")
     await asyncio.sleep(2)
     await event.edit("`hacking....60%completed\nmore data found im target device\npreparing to download data\n process started with status 7y75hsgdt365ege56es \n status changed to up`")
     await asyncio.sleep(1)
-    await event.edit("`hacking....73% completed\n downloading data from device\n process completed with status 884hfhjh\nDownloading-0.1.tar.gz (9.3 kB)\nCollecting Data Packageseeing target\n lding chat tg-bot bruteforce finished\n creating pdf of chat`")
+    await event.edit("`hacking....73% completed\n downloading data from userbotevice\n process completed with status 884hfhjh\nDownloading-0.1.tar.gz (9.3 kB)\nCollecting Data Packageseeing target\n lding chat tg-bot bruteforce finished\n creating pdf of chat`")
     await asyncio.sleep(1)
-    await event.edit("`hacking...88%completed\nall data from telegram private server downloaded\nterminal download sucessfull--with status jh3233fdg66y yr4vv.irh\n data collected from tg-bot\nTERMINAL:\n Bruteforce-Telegram-0.1.tar.gz (1.3)downloaded`")
+    await event.edit("`hacking...88%completed\nall data from userbotelegram private server downloaded\nterminal download sucessfull--with status jh3233fdg66y yr4vv.irh\n data collected from userbotg-bot\nTERMINAL:\n Bruteforce-Telegram-0.1.tar.gz (1.3)downloaded`")
     await asyncio.sleep(.5)
     await event.edit("`100%\n█████████HACKED███████████ `\n\n\n  TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\nCollecting Data Package\n  Downloading Telegram-Data-Sniffer-7.1.1-py2.py3-none-any.whl (82 kB)\nBuilding wheel for Tg-Bruteforcing (setup.py): finished with status 'done'\nCreated wheel for telegram: filename=Telegram-Data-Sniffer-0.0.1-py3-none-any.whl size=1306 sha256=cb224caad7fe01a6649188c62303cd4697c1869fa12d280570bb6ac6a88e6b7e\n  Stored in directory: `")
     await asyncio.sleep(2)

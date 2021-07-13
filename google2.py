@@ -1,9 +1,9 @@
-from re import findall
+from userbote import findall
 
-from search_engine_parser import GoogleSearch
+from userbotearch_engine_parser import GoogleSearch
 
-from . import CMD_HELP
-from userbot.utils import admin_cmd
+from userbot import CMD_HELP
+from userbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern=r"gs (.*)"))

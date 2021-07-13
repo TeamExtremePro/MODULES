@@ -1,8 +1,8 @@
 import asyncio
-from asyncio import wait
-from telethon import events, utils
+from userbotsyncio import wait
+from userbotelethon import events, utils
 
-from userbot.events import register
+from userbotserbot.events import register
 
 @register(outgoing=True, pattern="^.sspam")
 async def spammer(e):

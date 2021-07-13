@@ -8,17 +8,17 @@ import logging
 
 
 
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 
 
-from telethon.tl.functions.photos import GetUserPhotosRequest
+from userbotelethon.tl.functions.photos import GetUserPhotosRequest
 
-from telethon.tl.functions.users import GetFullUserRequest
+from userbotelethon.tl.functions.users import GetFullUserRequest
 
-from telethon.tl.types import MessageEntityMentionName
+from userbotelethon.tl.types import MessageEntityMentionName
 
-from telethon.utils import get_input_location
+from userbotelethon.utils import get_input_location
 
 
 

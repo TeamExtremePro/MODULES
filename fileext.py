@@ -1,10 +1,10 @@
 """Get info about a File Extension
 Syntax: .filext EXTENSION"""
-from telethon import events
+from userbotelethon import events
 import requests
-from bs4 import BeautifulSoup
-from . import CMD_HELP
-from uniborg.util import admin_cmd
+from userbots4 import BeautifulSoup
+from userbot import CMD_HELP
+from userbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="filext (.*)"))

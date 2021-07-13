@@ -5,20 +5,20 @@
 #
 
 import os
-from telethon import events
-from telethon.tl import functions
-from userbot.utils import admin_cmd
-from telethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
-from telethon.errors.rpcerrorlist import (PhotoExtInvalidError,
+from userbotelethon import events
+from userbotelethon.tl import functions
+from userbotserbot.utils import admin_cmd
+from userbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
+from userbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
                                           UsernameOccupiedError)
-from telethon.tl.functions.account import (UpdateProfileRequest,
+from userbotelethon.tl.functions.account import (UpdateProfileRequest,
                                            UpdateUsernameRequest)
-from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest
-from telethon.tl.functions.photos import (DeletePhotosRequest,
+from userbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
+from userbotelethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
-from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from . import bot, CMD_HELP
+from userbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
+from userbot import bot, CMD_HELP
 
 # ====================== CONSTANT ===============================
 INVALID_MEDIA = "```The extension of the media entity is invalid.```"

@@ -1,6 +1,6 @@
-"""Syntax: .whatscrapp as reply to a message copied from @WhatsCRApp"""
-from telethon import events
-from uniborg.util import admin_cmd
+"""Syntax: .whatscrapp as reply to a message copied from userbotWhatsCRApp"""
+from userbotelethon import events
+from userbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="whatscrapp"))

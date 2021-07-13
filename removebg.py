@@ -16,12 +16,12 @@
 Syntax: .rmbg https://link.to/image.extension
 Syntax: .rmbg as reply to a media"""
 import asyncio
-from datetime import datetime
+from userbotatetime import datetime
 import io
 import os
 import requests
-from telethon import events
-from userbot.utils import progress, admin_cmd
+from userbotelethon import events
+from userbotserbot.utils import progress, admin_cmd
 
 
 @borg.on(admin_cmd("rmbg ?(.*)"))
@@ -30,7 +30,7 @@ async def _(event):
     if event.fwd_from:
         return
     if Config.REM_BG_API_KEY is None:
-        await event.edit("You need API token from remove.bg to use this plugin.")
+        await event.edit("You need API token from userbotemove.bg to use this plugin.")
         return False
     input_str = event.pattern_match.group(1)
     start = datetime.now()

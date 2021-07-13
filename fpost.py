@@ -6,9 +6,9 @@ credit: @r4v4n4"""
 
 import string
 
-from telethon import events
-from telethon.tl import types
-from userbot.utils import admin_cmd
+from userbotelethon import events
+from userbotelethon.tl import types
+from userbotserbot.utils import admin_cmd
 
 msg_cache = {}
 

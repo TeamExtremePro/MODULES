@@ -7,8 +7,8 @@
 
 import time
 
-from telethon.errors import rpcbaseerrors
-from userbot.utils import admin_cmd
+from userbotelethon.errors import rpcbaseerrors
+from userbotserbot.utils import admin_cmd
 import importlib.util
 
 

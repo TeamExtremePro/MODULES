@@ -1,15 +1,15 @@
 import asyncio, subprocess
 import time, re, io
-from . import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
-from telethon import events, functions, types
-from telethon.events import StopPropagation
-from telethon.tl.functions.messages import ExportChatInviteRequest
-from telethon.tl.functions.contacts import BlockRequest
-from telethon.tl.functions.channels import LeaveChannelRequest, CreateChannelRequest, DeleteMessagesRequest
-from collections import deque
-from telethon.tl.functions.users import GetFullUserRequest
-from userbot.events import register
-from userbot.utils import admin_cmd
+from userbot import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
+from userbotelethon import events, functions, types
+from userbotelethon.events import StopPropagation
+from userbotelethon.tl.functions.messages import ExportChatInviteRequest
+from userbotelethon.tl.functions.contacts import BlockRequest
+from userbotelethon.tl.functions.channels import LeaveChannelRequest, CreateChannelRequest, DeleteMessagesRequest
+from userbotollections import deque
+from userbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbot.events import register
+from userbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(";__;$"))

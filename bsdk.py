@@ -3,12 +3,12 @@
 Available Commands:
 .bsdk"""
 
-from telethon import events
+from userbotelethon import events
 
 import asyncio
 
-from . import CMD_HELP
-from userbot.utils import admin_cmd
+from userbot import CMD_HELP
+from userbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd("bsdk"))
 async def _(event):

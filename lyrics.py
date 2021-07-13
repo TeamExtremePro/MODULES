@@ -2,10 +2,10 @@
 command: .lyrics singer name - song name 
 by @quiec
 """
-from telethon import events
-from uniborg.util import admin_cmd
+from userbotelethon import events
+from userbotniborg.util import admin_cmd
 import asyncio
-from PyLyrics import *
+from userbotyLyrics import *
 
 @borg.on(admin_cmd(pattern="lyrics (.*)"))
 async def _(event):
@@ -22,7 +22,7 @@ async def _(event):
         else:
             await event.edit("🔍︎Searching lyrics By LEGENDBOT")
             lyrics = PyLyrics.getLyrics(song[0].strip(), song[1].strip()).split("\n")
-            lyric_message = f"Singing {song[0].strip()} from {song[1].strip()} 🎙"
+            lyric_message = f"Singing {song[0].strip()} from userbotsong[1].strip()} 🎙"
             lyric_message += "\n\n" + "\n".join(lyrics)
             try:
                 await event.edit(lyric_message)

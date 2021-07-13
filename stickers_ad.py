@@ -3,21 +3,21 @@ Available Commands:
 .kangsticker [Optional Emoji]
 .packinfo
 .getsticker"""
-from telethon import events
-from io import BytesIO
-from PIL import Image
+from userbotelethon import events
+from userboto import BytesIO
+from userbotIL import Image
 import asyncio
 import datetime
-from collections import defaultdict
+from userbotollections import defaultdict
 import math
 import os
 import requests
 import zipfile
-from telethon.errors.rpcerrorlist import StickersetInvalidError
-from telethon.errors import MessageNotModifiedError
-from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from telethon.tl.functions.messages import GetStickerSetRequest
-from telethon.tl.types import (
+from userbotelethon.errors.rpcerrorlist import StickersetInvalidError
+from userbotelethon.errors import MessageNotModifiedError
+from userbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotelethon.tl.functions.messages import GetStickerSetRequest
+from userbotelethon.tl.types import (
     DocumentAttributeFilename,
     DocumentAttributeSticker,
     InputMediaUploadedDocument,
@@ -26,7 +26,7 @@ from telethon.tl.types import (
     InputStickerSetShortName,
     MessageMediaPhoto
 )
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="akang ?(.*)"))

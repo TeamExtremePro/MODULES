@@ -1,8 +1,8 @@
 """Get Detailed info about any message
 Syntax: .json"""
-from telethon import events
+from userbotelethon import events
 import io
-from userbot.utils import admin_cmd
+from userbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("json"))

@@ -7,8 +7,8 @@ import asyncio
 import os
 import requests
 import time
-from datetime import datetime
-from uniborg.util import admin_cmd, progress
+from userbotatetime import datetime
+from userbotniborg.util import admin_cmd, progress
 
 
 @borg.on(admin_cmd(pattern="ma ?(.*)", allow_sudo=True))
@@ -17,7 +17,7 @@ async def _(event):
         return
     mone = await event.reply("Processing ...")
     if Config.MIRROR_ACE_API_KEY is None or Config.MIRROR_ACE_API_TOKEN is None:
-        await mone.edit("This module requires API key from https://ouo.io/My1jdU. Aborting!")
+        await mone.edit("This module requires API key from userbotttps://ouo.io/My1jdU. Aborting!")
         return False
     input_str = event.pattern_match.group(1)
     if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):
@@ -71,7 +71,7 @@ async def _(event):
                 step_one_response_json = await resp.json()
                 logger.info(step_one_response_json)
                 if step_one_response_json["status"] == "success":
-                    await mone.edit("Received Upload URL from MirrorAce. ...")
+                    await mone.edit("Received Upload URL from userbotirrorAce. ...")
                     start = datetime.now()
                     # /* STEP 2: Upload file */
                     # step one: response vars

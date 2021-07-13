@@ -7,10 +7,10 @@ Available Commands:
 import asyncio
 import os
 import requests
-from bs4 import BeautifulSoup
-from datetime import datetime
-from google_images_download import google_images_download
-from userbot.utils import admin_cmd
+from userbots4 import BeautifulSoup
+from userbotatetime import datetime
+from userbotoogle_images_download import google_images_download
+from userbotserbot.utils import admin_cmd
 
 
 def progress(current, total):
