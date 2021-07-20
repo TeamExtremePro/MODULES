@@ -1,8 +1,8 @@
 # Added more fonts by @legendx22
-# Ported from userbotserbotserbotserbotaitama i guess
+# Ported from userbotserbotserbotserbotserbotaitama i guess
 
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply
 
 normiefont = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 weebyfont = ['卂','乃','匚','刀','乇','下','厶','卄','工','丁','长','乚','从','𠘨','口','尸','㔿','尺','丂','丅','凵','リ','山','乂','丫','乙']

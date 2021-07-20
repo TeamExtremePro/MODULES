@@ -1,6 +1,6 @@
 #Made By@LEGENDX22 Keep Credits If You Are Goanna Kang This Lol
 
-#And Thanks To The Creator Of Autopic This Script Was Made from userbotserbotserbotserbotnippets From That Script
+#And Thanks To The Creator Of Autopic This Script Was Made from userbotserbotserbotserbotserbotnippets From That Script
 
 #               ⚠️DISCLAIMER⚠️
 
@@ -15,9 +15,9 @@ import random
 import re
 import urllib
 import requests
-from userbotserbotserbotserbotelethon.tl import functions
-from userbotserbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotelethon.tl import functions
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot import CMD_HELP
 
 COLLECTION_STRING1 = [
     "awesome-batman-wallpapers",

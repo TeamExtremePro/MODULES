@@ -13,9 +13,9 @@ import aiohttp
 import asyncio
 import json
 import re
-from userbotserbotserbotserbots4 import BeautifulSoup
-from userbotserbotserbotserbotelethon.utils import get_inner_text
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbots4 import BeautifulSoup
+from userbotserbotserbotserbotserbotelethon.utils import get_inner_text
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 logger.info(Config.OPEN_LOAD_LOGIN)

@@ -1,10 +1,10 @@
 """command: .kk"""
 """By @Grandpaa_please """
 
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 import random
 import logging
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):

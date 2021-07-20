@@ -3,21 +3,21 @@ Available Commands:
 .kangsticker [Optional Emoji]
 .packinfo
 .getsticker"""
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserboto import BytesIO
-from userbotserbotserbotserbotIL import Image
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserboto import BytesIO
+from userbotserbotserbotserbotserbotIL import Image
 import asyncio
 import datetime
-from userbotserbotserbotserbotollections import defaultdict
+from userbotserbotserbotserbotserbotollections import defaultdict
 import math
 import os
 import requests
 import zipfile
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import StickersetInvalidError
-from userbotserbotserbotserbotelethon.errors import MessageNotModifiedError
-from userbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbotserbotserbotelethon.tl.functions.messages import GetStickerSetRequest
-from userbotserbotserbotserbotelethon.tl.types import (
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import StickersetInvalidError
+from userbotserbotserbotserbotserbotelethon.errors import MessageNotModifiedError
+from userbotserbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbotserbotserbotelethon.tl.functions.messages import GetStickerSetRequest
+from userbotserbotserbotserbotserbotelethon.tl.types import (
     DocumentAttributeFilename,
     DocumentAttributeSticker,
     InputMediaUploadedDocument,
@@ -26,7 +26,7 @@ from userbotserbotserbotserbotelethon.tl.types import (
     InputStickerSetShortName,
     MessageMediaPhoto
 )
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="akang ?(.*)"))

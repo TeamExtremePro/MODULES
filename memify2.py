@@ -3,10 +3,10 @@ forked by: @legendx22
 created by: @A_Dark_Princ3
 """
 
-from userbotserbotserbotserbotIL import Image, ImageFont, ImageDraw
+from userbotserbotserbotserbotserbotIL import Image, ImageFont, ImageDraw
 
 import textwrap, os
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 

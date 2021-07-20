@@ -1,7 +1,7 @@
 import coffeehouse
-from userbotserbotserbotserbotoffeehouse.lydia import LydiaAI
+from userbotserbotserbotserbotserbotoffeehouse.lydia import LydiaAI
 import asyncio
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 
 # Non-SQL Mode
 ACC_LYDIA = {}

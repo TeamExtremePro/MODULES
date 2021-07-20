@@ -4,7 +4,7 @@ Available Commands:
 .emoji apple
 .emoji :/
 .emoji -_-"""
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 import asyncio
 
 

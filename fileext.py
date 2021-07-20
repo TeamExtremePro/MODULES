@@ -1,10 +1,10 @@
 """Get info about a File Extension
 Syntax: .filext EXTENSION"""
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 import requests
-from userbotserbotserbotserbots4 import BeautifulSoup
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotserbots4 import BeautifulSoup
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="filext (.*)"))

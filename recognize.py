@@ -1,11 +1,11 @@
 #credits: @Mr_Hops
 
 import datetime
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern="recognize ?(.*)"))
 async def _(event):

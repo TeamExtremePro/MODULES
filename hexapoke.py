@@ -1,12 +1,12 @@
 
 # credits LEGENDX22
 
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 import asyncio
-#from userbotserbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotserbotserbot.events import register 
-from userbotserbotserbotserbot import bot, CMD_HELP
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+#from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotserbot.events import register 
+from userbotserbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 try:
  import subprocess
@@ -103,13 +103,13 @@ async def DeezLoader(Deezlod):
 CMD_HELP.update({
         "music":
         ".spd`<Artist - Song Title>\
-            \nUsage:For searching songs from userbotserbotserbotserbotpotify.\
+            \nUsage:For searching songs from userbotserbotserbotserbotserbotpotify.\
             \n\n`.netease` <Artist - Song Title>\
             \nUsage:Download music with @WooMaiBot\
             \n\n`.dzd` <Spotify/Deezer Link>\
-            \nUsage:Download music from userbotserbotserbotserbotpotify or Deezer.\
+            \nUsage:Download music from userbotserbotserbotserbotserbotpotify or Deezer.\
             \n\n`.deezload` <spotify/deezer link> <Format>\
-            \nUsage: Download music from userbotserbotserbotserboteezer.\
+            \nUsage: Download music from userbotserbotserbotserbotserboteezer.\
             \n\n Well deezer is not available in India so create an deezer account using vpn. Set DEEZER_ARL_TOKEN in vars to make this work.\
             \n\n *Format= `FLAC`, `MP3_320`, `MP3_256`, `MP3_128`.\
             \n\n\n Guide:Video guide of arl token: [here](https://www.youtube.com/watch?v=O6PRT47_yds&feature=youtu.be) or Read [This](https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken)."

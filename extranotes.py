@@ -1,8 +1,8 @@
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 import asyncio
 import os
 import sys
-from userbotserbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"gaali"))
 async def test(event):

@@ -1,6 +1,6 @@
-"""Syntax: .whatscrapp as reply to a message copied from userbotserbotserbotserbotWhatsCRApp"""
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotniborg.util import admin_cmd
+"""Syntax: .whatscrapp as reply to a message copied from userbotserbotserbotserbotserbotWhatsCRApp"""
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="whatscrapp"))

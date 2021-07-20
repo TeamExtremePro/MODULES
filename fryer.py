@@ -23,14 +23,14 @@
 """ Userbot module for frying stuff. ported by @NeoMatrix90 """
 
 import io
-from userbotserbotserbotserbotandom import randint, uniform
+from userbotserbotserbotserbotserbotandom import randint, uniform
 
-from userbotserbotserbotserbotIL import Image, ImageEnhance, ImageOps
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotserbotserbotelethon.tl.types import DocumentAttributeFilename
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbotserbotIL import Image, ImageEnhance, ImageOps
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotserbotelethon.tl.types import DocumentAttributeFilename
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(admin_cmd(pattern="frybot$"))

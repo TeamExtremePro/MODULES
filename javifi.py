@@ -1,12 +1,12 @@
 import datetime
 import asyncio
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
-from userbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbotserbotserbotelethon.tl.functions.messages import ImportChatInviteRequest
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
+from userbotserbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbotserbotserbotelethon.tl.functions.messages import ImportChatInviteRequest
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 import time
-from userbotserbotserbotserbot import ALIVE_NAME
+from userbotserbotserbotserbotserbot import ALIVE_NAME
 
 naam = str(ALIVE_NAME)
 

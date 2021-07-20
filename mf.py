@@ -4,11 +4,11 @@ import os
 """Available Commands:
 .mf"""
 
-from userbotserbotserbotserbotelethon import events, functions, __version__
+from userbotserbotserbotserbotserbotelethon import events, functions, __version__
 
 import asyncio
 
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd("(.*)"))
 

@@ -1,9 +1,9 @@
-from userbotserbotserbotserbotelethon.tl.functions.messages import EditChatDefaultBannedRightsRequest
-from userbotserbotserbotserbotelethon.tl.types import ChatBannedRights
-from userbotserbotserbotserbot import ALIVE_NAME
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotserbot.events import register, errors_handler
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotelethon.tl.functions.messages import EditChatDefaultBannedRightsRequest
+from userbotserbotserbotserbotserbotelethon.tl.types import ChatBannedRights
+from userbotserbotserbotserbotserbot import ALIVE_NAME
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotserbot.events import register, errors_handler
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 #@register(outgoing=True, pattern=r"^.lock ?(.*)")

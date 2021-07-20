@@ -1,4 +1,4 @@
-from userbotserbotserbotserbot import CMD_LIST
+from userbotserbotserbotserbotserbot import CMD_LIST
 
 @command(pattern="^.ehelp ?(.*)")
 async def cmd_list(event):

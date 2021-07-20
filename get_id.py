@@ -1,8 +1,8 @@
 """Get ID of any Telegram media, or any user
 Syntax: .id"""
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.utils import pack_bot_file_id
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.utils import pack_bot_file_id
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("id"))

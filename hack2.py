@@ -2,12 +2,12 @@
 Available Commands:
 .hack"""
 
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 
 import asyncio
-from userbotserbotserbotserbotniborg.util import admin_cmd
-from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotserbotserbot.utils import load_module
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotserbotserbot.utils import load_module
 import os
 # hack3 installation
 try:

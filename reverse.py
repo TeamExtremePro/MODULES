@@ -7,15 +7,15 @@
 import io
 import os
 import urllib
-from userbotserbotserbotserbotrllib.request import urlopen
+from userbotserbotserbotserbotserbotrllib.request import urlopen
 import requests
-from userbotserbotserbotserbots4 import BeautifulSoup
+from userbotserbotserbotserbotserbots4 import BeautifulSoup
 import re
-from userbotserbotserbotserbotelethon.tl.types import MessageMediaPhoto
-from userbotserbotserbotserbotIL import Image
+from userbotserbotserbotserbotserbotelethon.tl.types import MessageMediaPhoto
+from userbotserbotserbotserbotserbotIL import Image
 
-from userbotserbotserbotserbot import bot, CMD_HELP
-from userbotserbotserbotserbotserbot.utils import register, errors_handler
+from userbotserbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotserbotserbot.utils import register, errors_handler
 
 opener = urllib.request.build_opener()
 useragent = 'Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36'

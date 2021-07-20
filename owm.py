@@ -7,11 +7,11 @@
 
 import json
 import requests
-from userbotserbotserbotserbotatetime import datetime
-from userbotserbotserbotserbotytz import country_timezones as c_tz, timezone as tz, country_names as c_n
+from userbotserbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotserbotytz import country_timezones as c_tz, timezone as tz, country_names as c_n
 
-from userbotserbotserbotserbot import OPEN_WEATHER_MAP_APPID as OWM_API, CMD_HELP
-from userbotserbotserbotserbotserbot.events import register, errors_handler
+from userbotserbotserbotserbotserbot import OPEN_WEATHER_MAP_APPID as OWM_API, CMD_HELP
+from userbotserbotserbotserbotserbotserbot.events import register, errors_handler
 
 # ===== CONSTANT =====
 DEFCITY = 'Ahmedabad'

@@ -1,8 +1,8 @@
 # For Uniborg
 # (c) @INF1N17Y
 
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("mention (.*)"))

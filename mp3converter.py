@@ -4,8 +4,8 @@
 import asyncio
 import os
 import time
-from userbotserbotserbotserbotatetime import datetime
-from userbotserbotserbotserbotserbot.utils import admin_cmd, progress
+from userbotserbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd, progress
 
 
 @borg.on(admin_cmd(pattern="convert (.*)"))  # pylint:disable=E0602

@@ -1,6 +1,6 @@
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.utils import pack_bot_file_id
-from userbotserbotserbotserbotql_helper.welcome_sql import get_current_welcome_settings, \
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.utils import pack_bot_file_id
+from userbotserbotserbotserbotserbotql_helper.welcome_sql import get_current_welcome_settings, \
     add_welcome_setting, rm_welcome_setting, update_previous_welcome
 
 

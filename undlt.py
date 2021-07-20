@@ -1,5 +1,5 @@
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd
 import asyncio
 
 

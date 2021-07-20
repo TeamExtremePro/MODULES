@@ -1,15 +1,15 @@
-"""Restart or Terminate the bot from userbotserbotserbotserbotny chat
+"""Restart or Terminate the bot from userbotserbotserbotserbotserbotny chat
 Available Commands:
 .restartsys
 .shutdown"""
 # This Source Code Form is subject to the terms of the GNU
 # General Public License, v.3.0. If a copy of the GPL was not distributed with this
 # file, You can obtain one at https://www.gnu.org/licenses/gpl-3.0.en.html
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 import asyncio
 import os
 import sys
-from userbotserbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="restart"))

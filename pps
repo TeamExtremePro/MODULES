@@ -9,22 +9,22 @@ import sys
 import os
 import datetime
 import time
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.tl import functions, types
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.tl import functions, types
 import asyncio
-from userbotserbotserbotserbotelethon import utils
-from userbotserbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotserbotelethon import utils
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd
 import html
-from userbotserbotserbotserbottml import *
-from userbotserbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
-from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
-from userbotserbotserbotserbotelethon.utils import get_input_location
-from userbotserbotserbotserbotelethon.tl.functions.account import *
-from userbotserbotserbotserbotelethon.tl.functions.channels import *
-from userbotserbotserbotserbotelethon.tl.functions.photos import *
-from userbotserbotserbotserbotelethon.tl.types import *
-from userbotserbotserbotserbotelethon import *
+from userbotserbotserbotserbotserbottml import *
+from userbotserbotserbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotserbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbotserbotserbotelethon.utils import get_input_location
+from userbotserbotserbotserbotserbotelethon.tl.functions.account import *
+from userbotserbotserbotserbotserbotelethon.tl.functions.channels import *
+from userbotserbotserbotserbotserbotelethon.tl.functions.photos import *
+from userbotserbotserbotserbotserbotelethon.tl.types import *
+from userbotserbotserbotserbotserbotelethon import *
 import logging
 
 logger = logging.getLogger(__name__)

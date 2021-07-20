@@ -1,10 +1,10 @@
 #codes by LEGENDX22 best codes by LEGEND X
 #kang keep credits
 
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbotserbotserbotserbot import ALIVE_NAME
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot import ALIVE_NAME
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 naam = str(ALIVE_NAME)
 

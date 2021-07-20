@@ -6,21 +6,21 @@
 """ Userbot module for getting info
     about any user on Telegram(including you!). """
 
-from userbotserbotserbotserbotelethon.events import NewMessage
-from userbotserbotserbotserbotyping import Union
+from userbotserbotserbotserbotserbotelethon.events import NewMessage
+from userbotserbotserbotserbotserbotyping import Union
 
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotserbot.events import register
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotserbot.events import register
 
-from userbotserbotserbotserbote import findall, match
-from userbotserbotserbotserbotyping import List
+from userbotserbotserbotserbotserbote import findall, match
+from userbotserbotserbotserbotserbotyping import List
 
-from userbotserbotserbotserbotelethon.events import NewMessage
-from userbotserbotserbotserbotelethon.tl.custom import Message
-from userbotserbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest
-from userbotserbotserbotserbotelethon.tl.functions.messages import GetFullChatRequest
-from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotserbotelethon.tl.types import (
+from userbotserbotserbotserbotserbotelethon.events import NewMessage
+from userbotserbotserbotserbotserbotelethon.tl.custom import Message
+from userbotserbotserbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest
+from userbotserbotserbotserbotserbotelethon.tl.functions.messages import GetFullChatRequest
+from userbotserbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotserbotelethon.tl.types import (
     MessageEntityMentionName,
     ChannelParticipantsAdmins,
     ChannelParticipantsBots,
@@ -83,7 +83,7 @@ async def get_user_sender_id(user, event):
 
 
 async def get_user_from_event(event: NewMessage.Event, **kwargs):
-    """ Get the user from userbotserbotserbotserbotrgument or replied message. """
+    """ Get the user from userbotserbotserbotserbotserbotrgument or replied message. """
     reply_msg: Message = await event.get_reply_message()
     user = kwargs.get('user', None)
 
@@ -331,7 +331,7 @@ async def who(event: NewMessage.Event):
 
 
 async def fetch_info(replied_user, **kwargs):
-    """ Get details from userbotserbotserbotserbothe User object. """
+    """ Get details from userbotserbotserbotserbotserbothe User object. """
     user = replied_user.user
 
     id_only = kwargs.get('id', False)

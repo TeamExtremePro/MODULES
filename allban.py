@@ -1,11 +1,11 @@
 #originally created by legendx22
 
 #team LEGEND
-from userbotserbotserbotserbotsyncio import sleep
-from userbotserbotserbotserbotelethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
-from userbotserbotserbotserbotelethon.tl.functions.channels import EditBannedRequest
-from userbotserbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotserbotsyncio import sleep
+from userbotserbotserbotserbotserbotelethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
+from userbotserbotserbotserbotserbotelethon.tl.functions.channels import EditBannedRequest
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot import bot, CMD_HELP
 
 
 @bot.on(admin_cmd(pattern=r"allban", outgoing=True))

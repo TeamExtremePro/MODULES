@@ -8,11 +8,11 @@
 import json
 import re
 
-from userbotserbotserbotserbots4 import BeautifulSoup
-from userbotserbotserbotserbotequests import get
+from userbotserbotserbotserbotserbots4 import BeautifulSoup
+from userbotserbotserbotserbotserbotequests import get
 
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 GITHUB = "https://github.com"
 DEVICES_DATA = (
@@ -55,7 +55,7 @@ async def kakashi(magisk):
 async def device_info(request):
     if request.fwd_from:
         return
-    """ get android device basic info from userbotserbotserbotserbotts codename """
+    """ get android device basic info from userbotserbotserbotserbotserbotts codename """
     textx = await request.get_reply_message()
     codename = request.pattern_match.group(1)
     if codename:

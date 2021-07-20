@@ -5,11 +5,11 @@
 #
 """ Userbot module containing hash and encode/decode commands. """
 
-from userbotserbotserbotserbotubprocess import PIPE
-from userbotserbotserbotserbotubprocess import run as runapp
+from userbotserbotserbotserbotserbotubprocess import PIPE
+from userbotserbotserbotserbotserbotubprocess import run as runapp
 import pybase64
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotserbot.events import register, errors_handler
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotserbot.events import register, errors_handler
 
 
 @register(outgoing=True, pattern="^.hash (.*)")

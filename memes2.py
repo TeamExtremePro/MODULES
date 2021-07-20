@@ -3,13 +3,13 @@ import asyncio
 import random
 import re
 import time
-from userbotserbotserbotserbotandom import choice, randint
-from userbotserbotserbotserbotollections import deque
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotandom import choice, randint
+from userbotserbotserbotserbotserbotollections import deque
+from userbotserbotserbotserbotserbotelethon import events
 import requests
-from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 # ================= CONSTANT =================

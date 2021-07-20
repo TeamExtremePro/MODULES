@@ -1,13 +1,13 @@
-"""Fetch App Details from userbotserbotserbotserbotlaystore. @LEGEND_USERBOT_SUPPORT 🚶
+"""Fetch App Details from userbotserbotserbotserbotserbotlaystore. @LEGEND_USERBOT_SUPPORT 🚶
 .app <app_name> to fetch app details.
 .appr <app_name>  to fetch app details with Xpl0iter request link.
-.mods <app_name> to get the premier app from userbotserbotserbotserbotelegram if available.."""
+.mods <app_name> to get the premier app from userbotserbotserbotserbotserbotelegram if available.."""
 
 import bs4
 import requests
 
-from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbotserbotserbotserbot import ALIVE_NAME, CMD_HELP
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbotserbot import ALIVE_NAME, CMD_HELP
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

@@ -7,24 +7,24 @@ Syntax: .clone @username"""
 
 import html
 import os
-from userbotserbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
-from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
-from userbotserbotserbotserbotelethon.utils import get_input_location
-from userbotserbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotserbotelethon.tl import functions
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
+from userbotserbotserbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotserbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbotserbotserbotelethon.utils import get_input_location
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotelethon.tl import functions
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
                                           UsernameOccupiedError)
-from userbotserbotserbotserbotelethon.tl.functions.account import (UpdateProfileRequest,
+from userbotserbotserbotserbotserbotelethon.tl.functions.account import (UpdateProfileRequest,
                                            UpdateUsernameRequest)
-from userbotserbotserbotserbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
-from userbotserbotserbotserbotelethon.tl.functions.photos import (DeletePhotosRequest,
+from userbotserbotserbotserbotserbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
+from userbotserbotserbotserbotserbotelethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
-from userbotserbotserbotserbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from userbotserbotserbotserbot import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
+from userbotserbotserbotserbotserbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
+from userbotserbotserbotserbotserbot import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

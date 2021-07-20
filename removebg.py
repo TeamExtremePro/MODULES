@@ -16,12 +16,12 @@
 Syntax: .rmbg https://link.to/image.extension
 Syntax: .rmbg as reply to a media"""
 import asyncio
-from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotserbotatetime import datetime
 import io
 import os
 import requests
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotserbot.utils import progress, admin_cmd
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotserbot.utils import progress, admin_cmd
 
 
 @borg.on(admin_cmd("rmbg ?(.*)"))
@@ -30,7 +30,7 @@ async def _(event):
     if event.fwd_from:
         return
     if Config.REM_BG_API_KEY is None:
-        await event.edit("You need API token from userbotserbotserbotserbotemove.bg to use this plugin.")
+        await event.edit("You need API token from userbotserbotserbotserbotserbotemove.bg to use this plugin.")
         return False
     input_str = event.pattern_match.group(1)
     start = datetime.now()

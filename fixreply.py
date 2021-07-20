@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 import asyncio
-from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot import CMD_HELP
 
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 
 
 _last_messages = {}

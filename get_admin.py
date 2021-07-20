@@ -1,8 +1,8 @@
 """Get Administrators of any Chat*
 Syntax: .get_admin"""
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("get_ad?(m)in ?(.*)"))

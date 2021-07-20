@@ -4,9 +4,9 @@ Available Commands:
 .tr LangaugeCode | text to translate"""
 
 import emoji
-from userbotserbotserbotserbotoogletrans import Translator
-from userbotserbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotoogletrans import Translator
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotelethon import events
 
 
 

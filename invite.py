@@ -7,29 +7,29 @@
 #--------------------------------------------------------------------------------------------------------------------------------
 
 import asyncio, time, io, math, os, logging, asyncio, shutil, re, subprocess, json
-from userbotserbotserbotserbotachoir.metadata import extractMetadata
-from userbotserbotserbotserbotachoir.parser import createParser
-from userbotserbotserbotserbotase64 import b64decode
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbotserbotserbotserbotelethon.events import NewMessage
-from userbotserbotserbotserbotelethon.tl.custom import Dialog
-from userbotserbotserbotserbotelethon.tl.types import Channel, Chat, User
-from userbotserbotserbotserbotelethon.tl import functions, types
-from userbotserbotserbotserbotelethon.tl.functions.messages import GetHistoryRequest, CheckChatInviteRequest, GetFullChatRequest
-from userbotserbotserbotserbotelethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError, InviteHashEmptyError, InviteHashExpiredError, InviteHashInvalidError)
-from userbotserbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest
-from userbotserbotserbotserbotelethon.errors import FloodWaitError
-from userbotserbotserbotserbotime import sleep
-from userbotserbotserbotserbottml import unescape
-from userbotserbotserbotserbotrllib.parse import quote_plus
-from userbotserbotserbotserbotrllib.error import HTTPError
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotequests import get
-from userbotserbotserbotserbottml import unescape
-from userbotserbotserbotserbote import findall
-from userbotserbotserbotserbotsyncio import sleep
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotserbotachoir.metadata import extractMetadata
+from userbotserbotserbotserbotserbotachoir.parser import createParser
+from userbotserbotserbotserbotserbotase64 import b64decode
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbotserbotelethon.events import NewMessage
+from userbotserbotserbotserbotserbotelethon.tl.custom import Dialog
+from userbotserbotserbotserbotserbotelethon.tl.types import Channel, Chat, User
+from userbotserbotserbotserbotserbotelethon.tl import functions, types
+from userbotserbotserbotserbotserbotelethon.tl.functions.messages import GetHistoryRequest, CheckChatInviteRequest, GetFullChatRequest
+from userbotserbotserbotserbotserbotelethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError, InviteHashEmptyError, InviteHashExpiredError, InviteHashInvalidError)
+from userbotserbotserbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest
+from userbotserbotserbotserbotserbotelethon.errors import FloodWaitError
+from userbotserbotserbotserbotserbotime import sleep
+from userbotserbotserbotserbotserbottml import unescape
+from userbotserbotserbotserbotserbotrllib.parse import quote_plus
+from userbotserbotserbotserbotserbotrllib.error import HTTPError
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotequests import get
+from userbotserbotserbotserbotserbottml import unescape
+from userbotserbotserbotserbotserbote import findall
+from userbotserbotserbotserbotserbotsyncio import sleep
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 import random
 
 async def get_chatinfo(event):
@@ -43,7 +43,7 @@ async def get_chatinfo(event):
     if not chat:
         if event.reply_to_msg_id:
             replied_msg = await event.get_reply_message()
-            if replied_msg.fwd_from userbotserbotserbotserbotnd replied_msg.fwd_from.channel_id is not None:
+            if replied_msg.fwd_from userbotserbotserbotserbotserbotnd replied_msg.fwd_from.channel_id is not None:
                 chat = replied_msg.fwd_from.channel_id
         else:
             chat = event.chat_id
@@ -56,7 +56,7 @@ async def get_chatinfo(event):
             await event.reply("`Invalid channel/group`")
             return None
         except ChannelPrivateError:
-            await event.reply("`This is a private channel/group or I am banned from userbotserbotserbotserbothere`")
+            await event.reply("`This is a private channel/group or I am banned from userbotserbotserbotserbotserbothere`")
             return None
         except ChannelPublicGroupNaError:
             await event.reply("`Channel or supergroup doesn't exist`")
@@ -92,7 +92,7 @@ async def get_users(event):
     async for user in event.client.iter_participants(legendx22.full_chat.id):
                 try:
                     if error.startswith("Too"):
-                        return await hell.edit(f"**Terminal Finished With Error**\n(`May Got Limit Error from userbotserbotserbotserbotelethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people")
+                        return await hell.edit(f"**Terminal Finished With Error**\n(`May Got Limit Error from userbotserbotserbotserbotserbotelethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people")
                     await event.client(functions.channels.InviteToChannelRequest(channel=chat,users=[user.id]))
                     s = s + 1                                                    
                     await hell.edit(f"**Terminal Running...**\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people\n\n**× LastError:** `{error}`")                
@@ -143,7 +143,7 @@ CMD_HELP.update(
   •  **Syntax : **`.add username(s)/userid(s)`
   •  **Function : **__Add the given user/users to the group where u used the command__
   •  **Syntax : **`.inviteall groups username`
-  •  **Function : **__Scrapes users from userbotserbotserbotserbothe given chat to your group__
+  •  **Function : **__Scrapes users from userbotserbotserbotserbotserbothe given chat to your group__
 """
     }
 )

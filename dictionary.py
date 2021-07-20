@@ -4,10 +4,10 @@
 """Urban Dictionary
 Syntax: .ud Query"""
 import asyncurban
-from userbotserbotserbotserbotyDictionary import PyDictionary
+from userbotserbotserbotserbotserbotyDictionary import PyDictionary
 
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(admin_cmd(pattern="ud (.*)"))
@@ -52,7 +52,7 @@ CMD_HELP.update(
     {
         "dictionary": "**Plugin :** `dictionary`\
     \n\n**Syntax :** `.ud query`\
-    \n**Usage : **fetches meaning from userbotserbotserbotserbotrban dictionary\
+    \n**Usage : **fetches meaning from userbotserbotserbotserbotserbotrban dictionary\
     \n\n**Syntax : **`.meaning query`\
     \n**Usage : **Fetches meaning of the given word\
     "

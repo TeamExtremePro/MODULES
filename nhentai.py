@@ -1,11 +1,11 @@
 # Enjoy
 
 import datetime
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbotserbotserbot import bot, CMD_HELP
-from userbotserbotserbotserbotserbot.events import register
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotserbotserbot.events import register
 
 @register(outgoing=True, pattern="^.nhentai(?: |$)(.*)")
 async def _(event):

@@ -1,8 +1,8 @@
 import asyncio
-from userbotserbotserbotserbotollections import deque
+from userbotserbotserbotserbotserbotollections import deque
 
-from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbotserbotserbotserbot import ALIVE_NAME, CMD_HELP
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbotserbot import ALIVE_NAME, CMD_HELP
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
@@ -46,11 +46,11 @@ async def _(event):
             f"**Build started by user** {DEFAULTUSER}",
             f"**Deploy** `535a74f0` **by user** **{DEFAULTUSER}**",
             "**Restarting Heroku Server...**",
-            "**State changed from userbotserbotserbotserbotp to starting**",    
+            "**State changed from userbotserbotserbotserbotserbotp to starting**",    
             "**Stopping all processes with SIGTERM**",
             "**Process exited with** `status 143`",
             "**Starting process with command** `python3 -m stdborg`",
-            "**State changed from userbotserbotserbotserbottarting to up**",
+            "**State changed from userbotserbotserbotserbotserbottarting to up**",
             "__INFO:Hêllẞø†:Logged in as 557667062__",
             "__INFO:Hêllẞø†:Successfully loaded all plugins__",
             "**Build Succeeded**",

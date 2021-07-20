@@ -1,33 +1,33 @@
-from userbotserbotserbotserbotelethon import *
+from userbotserbotserbotserbotserbotelethon import *
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
-from userbotserbotserbotserbote import findall
+from userbotserbotserbotserbotserbote import findall
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
-from userbotserbotserbotserbotrllib.parse import quote_plus
-from userbotserbotserbotserbotrllib.error import HTTPError
+from userbotserbotserbotserbotserbotrllib.parse import quote_plus
+from userbotserbotserbotserbotserbotrllib.error import HTTPError
 #made by Sh1vam Donot kang
-from userbotserbotserbotserbotearch_engine_parser import GoogleSearch
+from userbotserbotserbotserbotserbotearch_engine_parser import GoogleSearch
 #made by Sh1vam Donot kang
 import urllib
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 #made by Sh1vam Donot kang
 import asyncio
 #made by Sh1vam Donot kang
-from userbotserbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotserbot import bot as tgbot
-from userbotserbotserbotserbot import bot as borg
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot import bot as tgbot
+from userbotserbotserbotserbotserbot import bot as borg
 import os
 import re
 import urllib
-from userbotserbotserbotserbotath import ceil
+from userbotserbotserbotserbotserbotath import ceil
 #made by Sh1vam Donot kang
 import requests
-from userbotserbotserbotserbotelethon import Button, custom, events, functions
+from userbotserbotserbotserbotserbotelethon import Button, custom, events, functions
 #made by Sh1vam Donot kang
 opener = urllib.request.build_opener() ; useragent = 'Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.70 Mobile Safari/537.36' ; opener.addheaders = [('User-agent', useragent)]
 #made by Sh1vam Donot kang#made by Sh1vam Donot kang

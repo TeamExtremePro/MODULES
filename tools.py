@@ -2,18 +2,18 @@ import asyncio
 import calendar
 import json
 import os
-from userbotserbotserbotserbotatetime import datetime
-from userbotserbotserbotserbotrllib.parse import quote
+from userbotserbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotserbotrllib.parse import quote
 import barcode
 import qrcode
 import requests
-from userbotserbotserbotserbotarcode.writer import ImageWriter
-from userbotserbotserbotserbots4 import BeautifulSoup
-from userbotserbotserbotserbotIL import Image, ImageColor
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotarcode.writer import ImageWriter
+from userbotserbotserbotserbotserbots4 import BeautifulSoup
+from userbotserbotserbotserbotserbotIL import Image, ImageColor
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbotserbot import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern="scan ?(.*)"))
@@ -63,7 +63,7 @@ async def _(event):
 async def parseqr(qr_e):
     if not os.path.isdir(Config.TEMP_DIR):
         os.makedirs(Config.TEMP_DIR)
-    # For .decode command, get QR Code/BarCode content from userbotserbotserbotserbothe replied photo.
+    # For .decode command, get QR Code/BarCode content from userbotserbotserbotserbotserbothe replied photo.
     downloaded_file_name = await qr_e.client.download_media(
         await qr_e.get_reply_message(), Config.TMP_DIR
     )
@@ -187,12 +187,12 @@ async def make_qr(makeqr):
     await makeqr.delete()
 
 
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 import asyncio
-from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotserbotatetime import datetime
 import requests
 import json
-from userbotserbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd
 
 
 @bot.on(admin_cmd(pattern="cal (.*)"))
@@ -232,7 +232,7 @@ async def _(event):
     if len(input_sgra) == 3:
         try:
             number = float(input_sgra[0])
-            currency_from userbotserbotserbotserbot input_sgra[1].upper()
+            currency_from userbotserbotserbotserbotserbot input_sgra[1].upper()
             currency_to = input_sgra[2].upper()
             request_url = "https://api.exchangeratesapi.io/latest?base={}".format(
                 currency_from
@@ -255,7 +255,7 @@ async def _(event):
     else:
         await edit_or_reply(
             event,
-            "**Syntax:**\n.currency amount from userbotserbotserbotserboto\n**Example:**\n`.currency 10 usd inr`",
+            "**Syntax:**\n.currency amount from userbotserbotserbotserbotserboto\n**Example:**\n`.currency 10 usd inr`",
         )
 
 
@@ -379,16 +379,16 @@ CMD_HELP.update(
         \n\n**Syntax : **`.scan` reply to media or file\
         \n**Function : **__it scans the media or file and checks either any virus is in the file or media__\
         \n\n**Syntax : **`.makeqr` <content>\
-        \n**Function : **__Make a QR Code from userbotserbotserbotserbothe given content.__\
+        \n**Function : **__Make a QR Code from userbotserbotserbotserbotserbothe given content.__\
         \nExample: .makeqr www.google.com\
         \n\n**Syntax : **`.barcode `<content>\
-        \n**Function : **__Make a BarCode from userbotserbotserbotserbothe given content.__\
+        \n**Function : **__Make a BarCode from userbotserbotserbotserbotserbothe given content.__\
         \nExample: `.barcode` www.google.com\
         \n\n**Syntax : **`.decode` <reply to barcode/qrcode> \
         \n**Function : **__to get decoded content of those codes.__\
         \n\n**Syntax : **`cal year ; month`\
         \n**Function : **__Shows you the calendar of given month and year__\
-        \n\n**Syntax : **`.currency` amount (from userbotserbotserbotserboturrency) (to currency)\
+        \n\n**Syntax : **`.currency` amount (from userbotserbotserbotserbotserboturrency) (to currency)\
         \n**Function : **__Currency converter for userbot __**Example :** `.currency 10 usd inr`\
         \n\n**Syntax : **`.currencies`\
         \n**Function : **__Shows you the some list of currencies__\

@@ -4,8 +4,8 @@
 import asyncio
 import os
 import time
-from userbotserbotserbotserbotatetime import datetime
-from userbotserbotserbotserbotniborg.util import admin_cmd, progress
+from userbotserbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotserbotniborg.util import admin_cmd, progress
 
 
 @borg.on(admin_cmd(pattern="nfc (.*)"))  # pylint:disable=E0602

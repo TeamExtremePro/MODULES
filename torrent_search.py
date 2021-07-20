@@ -5,13 +5,13 @@ Note: Number of results are currently limited to 15
 By:-@Zero_cool7870
 
 """
-from userbotserbotserbotserbots4 import BeautifulSoup as bs 
+from userbotserbotserbotserbotserbots4 import BeautifulSoup as bs 
 import requests
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 import asyncio
 import json
-from userbotserbotserbotserbots4 import BeautifulSoup 
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbots4 import BeautifulSoup 
+from userbotserbotserbotserbotserbotelethon import events
 
 
 def dogbin(magnets):

@@ -8,9 +8,9 @@ import os
 import random
 import textwrap
 
-from userbotserbotserbotserbotIL import Image, ImageDraw, ImageFont
-from userbotserbotserbotserbotelethon.tl.types import InputMessagesFilterDocument
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotIL import Image, ImageDraw, ImageFont
+from userbotserbotserbotserbotserbotelethon.tl.types import InputMessagesFilterDocument
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="text (.*)"))
@@ -70,7 +70,7 @@ async def get_font_file(client, channel_id):
         # if used too many times
         limit=None
     )
-    # get a random font from userbotserbotserbotserbothe list of fonts
+    # get a random font from userbotserbotserbotserbotserbothe list of fonts
     # https://docs.python.org/3/library/random.html#random.choice
     font_file_message = random.choice(font_file_message_s)
     # download and return the file path

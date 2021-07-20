@@ -1,11 +1,11 @@
 import asyncio
 import time
 
-from userbotserbotserbotserbotelethon.errors import FloodWaitError
-from userbotserbotserbotserbotelethon.tl import functions
-from userbotserbotserbotserbotserbot.utils import edit_or_reply, admin_cmd
+from userbotserbotserbotserbotserbotelethon.errors import FloodWaitError
+from userbotserbotserbotserbotserbotelethon.tl import functions
+from userbotserbotserbotserbotserbotserbot.utils import edit_or_reply, admin_cmd
 
-from userbotserbotserbotserbot import ALIVE_NAME, CMD_HELP, BIO_MSG
+from userbotserbotserbotserbotserbot import ALIVE_NAME, CMD_HELP, BIO_MSG
 
 
 DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt"

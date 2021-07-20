@@ -1,23 +1,23 @@
-from userbotserbotserbotserbotsyncio import sleep
-from userbotserbotserbotserbots import remove
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotsyncio import sleep
+from userbotserbotserbotserbotserbots import remove
+from userbotserbotserbotserbotserbotelethon import events
 import asyncio
-from userbotserbotserbotserbotelethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError, InviteHashEmptyError, InviteHashExpiredError, InviteHashInvalidError)
-from userbotserbotserbotserbotmoji import emojize
-from userbotserbotserbotserbotelethon.tl.types import MessageActionChannelMigrateFrom, ChannelParticipantsAdmins, ChannelParticipantCreator
-from userbotserbotserbotserbotelethon.tl.functions.messages import GetHistoryRequest, CheckChatInviteRequest, GetFullChatRequest
-from userbotserbotserbotserbotelethon.events import ChatAction
-from userbotserbotserbotserbotatetime import datetime
-from userbotserbotserbotserbotath import sqrt
-from userbotserbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest,LeaveChannelRequest
-from userbotserbotserbotserbotelethon.utils import get_input_location
-from userbotserbotserbotserbotelethon.errors.rpcerrorlist import (UserIdInvalidError,
+from userbotserbotserbotserbotserbotelethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError, InviteHashEmptyError, InviteHashExpiredError, InviteHashInvalidError)
+from userbotserbotserbotserbotserbotmoji import emojize
+from userbotserbotserbotserbotserbotelethon.tl.types import MessageActionChannelMigrateFrom, ChannelParticipantsAdmins, ChannelParticipantCreator
+from userbotserbotserbotserbotserbotelethon.tl.functions.messages import GetHistoryRequest, CheckChatInviteRequest, GetFullChatRequest
+from userbotserbotserbotserbotserbotelethon.events import ChatAction
+from userbotserbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotserbotath import sqrt
+from userbotserbotserbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest,LeaveChannelRequest
+from userbotserbotserbotserbotserbotelethon.utils import get_input_location
+from userbotserbotserbotserbotserbotelethon.errors.rpcerrorlist import (UserIdInvalidError,
                                           MessageTooLongError)
-from userbotserbotserbotserbotelethon.errors import (BadRequestError, ChatAdminRequiredError,
+from userbotserbotserbotserbotserbotelethon.errors import (BadRequestError, ChatAdminRequiredError,
                              ImageProcessFailedError, PhotoCropSizeSmallError,
                              UserAdminInvalidError)
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotserbot.utils import  errors_handler, admin_cmd
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotserbot.utils import  errors_handler, admin_cmd
 
 @borg.on(admin_cmd(pattern="leave$"))
 async def leave(e):
@@ -52,7 +52,7 @@ async def get_chatinfo(event):
     if not chat:
         if event.reply_to_msg_id:
             replied_msg = await event.get_reply_message()
-            if replied_msg.fwd_from userbotserbotserbotserbotnd replied_msg.fwd_from.channel_id is not None:
+            if replied_msg.fwd_from userbotserbotserbotserbotserbotnd replied_msg.fwd_from.channel_id is not None:
                 chat = replied_msg.fwd_from.channel_id
         else:
             chat = event.chat_id
@@ -65,7 +65,7 @@ async def get_chatinfo(event):
             await event.reply("`Invalid channel/group`")
             return None
         except ChannelPrivateError:
-            await event.reply("`This is a private channel/group or I am banned from userbotserbotserbotserbothere`")
+            await event.reply("`This is a private channel/group or I am banned from userbotserbotserbotserbotserbothere`")
             return None
         except ChannelPublicGroupNaError:
             await event.reply("`Channel or supergroup doesn't exist`")

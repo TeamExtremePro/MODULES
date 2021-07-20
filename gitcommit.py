@@ -5,15 +5,15 @@ usage:- .commit reply_to_any_plugin //can be any type of file too. but for plugi
 """
 
 
-from userbotserbotserbotserbotithub import Github
+from userbotserbotserbotserbotserbotithub import Github
 import aiohttp
 import asyncio
 import os
 import time
-from userbotserbotserbotserbotatetime import datetime
-from userbotserbotserbotserbotelethon import events
-from userbotserbotserbotserbotelethon.tl.types import DocumentAttributeVideo
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon.tl.types import DocumentAttributeVideo
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 GIT_TEMP_DIR = "./userbot/temp/"
 #@command(pattern="^.commit", outgoing=True)
@@ -22,7 +22,7 @@ async def download(event):
     if event.fwd_from:
         return	
     if Var.GITHUB_ACCESS_TOKEN is None:
-        await event.edit("`Please ADD Proper Access Token from userbotserbotserbotserbotithub.com`") 
+        await event.edit("`Please ADD Proper Access Token from userbotserbotserbotserbotserbotithub.com`") 
         return   
     if Var.GIT_REPO_NAME is None:
         await event.edit("`Please ADD Proper Github Repo Name of HellBot`")

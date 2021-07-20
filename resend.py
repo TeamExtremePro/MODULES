@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-from userbotserbotserbotserbotelethon import events, utils
-from userbotserbotserbotserbotelethon.tl import types
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotelethon import events, utils
+from userbotserbotserbotserbotserbotelethon.tl import types
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern="resend"))
 async def _(event):

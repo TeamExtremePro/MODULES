@@ -13,7 +13,7 @@
 import os
 
 
-from userbotserbotserbotserbotelethon import Button, custom, events, functions
+from userbotserbotserbotserbotserbotelethon import Button, custom, events, functions
   
 
 
@@ -23,7 +23,7 @@ from userbotserbotserbotserbotelethon import Button, custom, events, functions
 import math
 import heroku3
 
-from userbotserbotserbotserbot import HEROKU_APP_NAME, HEROKU_API_KEY
+from userbotserbotserbotserbotserbot import HEROKU_APP_NAME, HEROKU_API_KEY
 
 heroku = heroku3.from_key(HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"

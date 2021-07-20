@@ -8,15 +8,15 @@
 import io
 import math
 import urllib.request
-from userbotserbotserbotserbots import remove
-from userbotserbotserbotserbotIL import Image
+from userbotserbotserbotserbotserbots import remove
+from userbotserbotserbotserbotserbotIL import Image
 import random
-from userbotserbotserbotserbotelethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
-from userbotserbotserbotserbot import bot, CMD_HELP
-from userbotserbotserbotserbotserbot.utils import register
-from userbotserbotserbotserbotelethon.tl.functions.messages import GetStickerSetRequest
-from userbotserbotserbotserbotelethon.tl.types import InputStickerSetID
-from userbotserbotserbotserbotelethon.tl.types import DocumentAttributeSticker
+from userbotserbotserbotserbotserbotelethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
+from userbotserbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotserbotserbot.utils import register
+from userbotserbotserbotserbotserbotelethon.tl.functions.messages import GetStickerSetRequest
+from userbotserbotserbotserbotserbotelethon.tl.types import InputStickerSetID
+from userbotserbotserbotserbotserbotelethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
     "Udhar Dekh Bc.... Mujhe tera sticker churane de😁😁",
@@ -269,7 +269,7 @@ async def resize_photo(photo):
 @register(outgoing=True, pattern="^.stkrinfo$")
 async def get_pack_info(event):
     if not event.is_reply:
-        await event.edit("`I can't fetch info from userbotserbotserbotserbotothing, can I ?!`")
+        await event.edit("`I can't fetch info from userbotserbotserbotserbotserbotothing, can I ?!`")
         return
 
     rep_msg = await event.get_reply_message()

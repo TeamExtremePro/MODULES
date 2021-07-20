@@ -7,16 +7,16 @@
 
 """ Userbot module for other small commands. """
 
-from userbotserbotserbotserbotandom import randint
-from userbotserbotserbotserbotime import sleep
+from userbotserbotserbotserbotserbotandom import randint
+from userbotserbotserbotserbotserbotime import sleep
 
 
-from userbotserbotserbotserbotserbot.events import register
+from userbotserbotserbotserbotserbotserbot.events import register
 
 
 @register(outgoing=True, pattern="^.random")
 async def randomise(items):
-    """ For .random command, get a random item from userbotserbotserbotserbothe list of items. """
+    """ For .random command, get a random item from userbotserbotserbotserbotserbothe list of items. """
     if not items.text[0].isalpha() and items.text[0] not in ("/", "#", "@", "!"):
         itemo = (items.text[8:]).split()
         index = randint(1, len(itemo) - 1)

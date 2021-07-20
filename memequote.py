@@ -8,11 +8,11 @@
 
 import asyncio
 import random
-from userbotserbotserbotserbotandom import choice, getrandbits, randint
-from userbotserbotserbotserbote import sub
-from userbotserbotserbotserbotandom import randint
-from userbotserbotserbotserbotelethon import events, functions
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotandom import choice, getrandbits, randint
+from userbotserbotserbotserbotserbote import sub
+from userbotserbotserbotserbotserbotandom import randint
+from userbotserbotserbotserbotserbotelethon import events, functions
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 # ================= CONSTANT =================
@@ -77,7 +77,7 @@ GDNOON = [
     "`I wish I were with you this time of the day. We hardly have a beautiful afternoon like this nowadays. Wishing you a peaceful afternoon!`",
     "`As you prepare yourself to wave goodbye to another wonderful day, I want you to know that, I am thinking of you all the time. Good afternoon!`",
     "`This afternoon is here to calm your dog-tired mind after a hectic day. Enjoy the blessings it offers you and be thankful always. Good afternoon!`",
-    "`The gentle afternoon wind feels like a sweet hug from userbotserbotserbotserbotou. You are in my every thought in this wonderful afternoon. Hope you are enjoying the time!`",
+    "`The gentle afternoon wind feels like a sweet hug from userbotserbotserbotserbotserbotou. You are in my every thought in this wonderful afternoon. Hope you are enjoying the time!`",
     "`Wishing an amazingly good afternoon to the most beautiful soul I have ever met. I hope you are having a good time relaxing and enjoying the beauty of this time!`",
     "`Afternoon has come to indicate you, Half of your day’s work is over, Just another half a day to go, Be brisk and keep enjoying your works, Have a happy noon!`",
     "`Mornings are for starting a new work, Afternoons are for remembering, Evenings are for refreshing, Nights are for relaxing, So remember people, who are remembering you, Have a happy noon!`",
@@ -99,13 +99,13 @@ GDNOON = [
     "`You are every bit of special to me just like a relaxing afternoon is special after a toiling noon. Thinking of my special one in this special time of the day!`",
     "`May your Good afternoon be light, blessed, enlightened, productive and happy.`",
     "`Thinking of you is my most favorite hobby every afternoon. Your love is all I desire in life. Wishing my beloved an amazing afternoon!`",
-    "`I have tasted things that are so sweet, heard words that are soothing to the soul, but comparing the joy that they both bring, I’ll rather choose to see a smile from userbotserbotserbotserbotour cheeks. You are sweet. I love you.`",
+    "`I have tasted things that are so sweet, heard words that are soothing to the soul, but comparing the joy that they both bring, I’ll rather choose to see a smile from userbotserbotserbotserbotserbotour cheeks. You are sweet. I love you.`",
     "`How I wish the sun could obey me for a second, to stop its scorching ride on my angel. So sorry it will be hot there. Don’t worry, the evening will soon come. I love you.`",
     "`I want you when I wake up in the morning, I want you when I go to sleep at night and I want you when I relax under the sun in the afternoon!`",
     "`With you every day is my lucky day. So lucky being your love and don’t know what else to say. Morning night and noon, you make my day.`",
     "`Your love is sweeter than what I read in romantic novels and fulfilling more than I see in epic films. I couldn’t have been me, without you. Good afternoon honey, I love you!`",
     "`No matter what time of the day it is, No matter what I am doing, No matter what is right and what is wrong, I still remember you like this time, Good Afternoon!`",
-    "`Things are changing. I see everything turning around for my favor. And the last time I checked, it’s courtesy of your love. 1000 kisses from userbotserbotserbotserbote to you. I love you dearly and wishing you a very happy noon.`",
+    "`Things are changing. I see everything turning around for my favor. And the last time I checked, it’s courtesy of your love. 1000 kisses from userbotserbotserbotserbotserbote to you. I love you dearly and wishing you a very happy noon.`",
     "`You are sometimes my greatest weakness, you are sometimes my biggest strength. I do not have a lot of words to say but let you make sure, you make my day, Good Afternoon!`",
     "`Every afternoon is to remember the one whom my heart beats for. The one I live and sure can die for. Hope you doing good there my love. Missing your face.`",
     "`My love, I hope you are doing well at work and that you remember that I will be waiting for you at home with my arms open to pamper you and give you all my love. I wish you a good afternoon!`",
@@ -140,11 +140,11 @@ CHASE_STR = [
     "May the odds be ever in your favour.",
     "Famous last words.",
     "And they disappeared forever, never to be seen again.",
-    "\"Oh, look at me! I'm so cool, I can run from userbotserbotserbotserbot bot!\" - this person",
+    "\"Oh, look at me! I'm so cool, I can run from userbotserbotserbotserbotserbot bot!\" - this person",
     "Yeah yeah, just tap /kickme already.",
     "Here, take this ring and head to Mordor while you're at it.",
     "Legend has it, they're still running...",
-    "Unlike Harry Potter, your parents can't protect you from userbotserbotserbotserbote.",
+    "Unlike Harry Potter, your parents can't protect you from userbotserbotserbotserbotserbote.",
     "Fear leads to anger. Anger leads to hate. Hate leads to suffering. If you keep running in fear, you might "
     "be the next Vader.",
     "Multiple calculations later, I have decided my interest in your shenanigans is exactly 0.",
@@ -160,7 +160,7 @@ CHASE_STR = [
     "My milkshake brings all the boys to yard... So run faster!",
     "You can't HANDLE the truth!",
     "A long time ago, in a galaxy far far away... Someone would've cared about that. Not anymore though.",
-    "Hey, look at them! They're running from userbotserbotserbotserbothe inevitable banhammer... Cute.",
+    "Hey, look at them! They're running from userbotserbotserbotserbotserbothe inevitable banhammer... Cute.",
     "Han shot first. So will I.",
     "What are you running after, a white rabbit?",
     "As The Doctor would say... RUN!",
@@ -237,7 +237,7 @@ GDNIGHT = [
     "`Wishing you a calm night, friend! I hope it is good!`",
     "`Wishing you a night where you can recharge for tomorrow!`",
     "`Slumber tonight, good friend, and feel well rested, tomorrow!`",
-    "`Wishing my good friend relief from userbotserbotserbotserbot hard day’s work! Good Night!`",
+    "`Wishing my good friend relief from userbotserbotserbotserbotserbot hard day’s work! Good Night!`",
     "`Good night, friend! May you have silence for sleep!`",
     "`Sleep tonight, friend and be well! Know that you have done your very best today, and that you will do your very best, tomorrow!`",
     "`Friend, you do not hesitate to get things done! Take tonight to relax and do more, tomorrow!`",
@@ -285,7 +285,7 @@ GDMORNING = [
     "`Friendship is what makes life worth living. I want to thank you for being such a special friend of mine. Good morning to you!`",
     "`A friend like you is pretty hard to come by in life. I must consider myself lucky enough to have you. Good morning. Wish you an amazing day ahead!`",
     "`The more you count yourself as blessed, the more blessed you will be. Thank God for this beautiful morning and let friendship and love prevail this morning.`",
-    "`Wake up and sip a cup of loving friendship. Eat your heart out from userbotserbotserbotserbot plate of hope. To top it up, a fork full of kindness and love. Enough for a happy good morning!`",
+    "`Wake up and sip a cup of loving friendship. Eat your heart out from userbotserbotserbotserbotserbot plate of hope. To top it up, a fork full of kindness and love. Enough for a happy good morning!`",
     "`It is easy to imagine the world coming to an end. But it is difficult to imagine spending a day without my friends. Good morning.`",
 ]    
 

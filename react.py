@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # (c) @INF1N17Y
 
-from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbotelethon import events
 import random
 import asyncio
 

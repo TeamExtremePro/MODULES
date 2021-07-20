@@ -7,11 +7,11 @@ import io
 import os
 import os.path
 import time
-from userbotserbotserbotserbots.path import exists, isdir
+from userbotserbotserbotserbotserbots.path import exists, isdir
 
-from userbotserbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbotserbot.events import register
-from userbotserbotserbotserbotserbot.utils import humanbytes
+from userbotserbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbotserbot.events import register
+from userbotserbotserbotserbotserbotserbot.utils import humanbytes
 
 MAX_MESSAGE_SIZE_LIMIT = 4095
 
@@ -114,7 +114,7 @@ CMD_HELP.update(
     {
         "list": "**Plugin : **`list`\
     \n\n**Syntax : **`.ls`\
-    \n**Function : **this plugin give you your full files from userbotserbotserbotserbotserbot"
+    \n**Function : **this plugin give you your full files from userbotserbotserbotserbotserbotserbot"
     }
 )
 

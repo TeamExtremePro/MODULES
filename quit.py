@@ -2,8 +2,8 @@
 """
 .kickme
 """
-from userbotserbotserbotserbotelethon.tl.functions.channels import LeaveChannelRequest
-from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbotelethon.tl.functions.channels import LeaveChannelRequest
+from userbotserbotserbotserbotserbotserbot.utils import admin_cmd
 import time
 
 @borg.on(admin_cmd("kickme", outgoing=True))
