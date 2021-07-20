@@ -1,12 +1,12 @@
 """iffuci.tk pastebin site
 Code written by @loxxi {iffuci}
 Syntax: .iffuci"""
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import asyncio
-from userbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotatetime import datetime
 import os
 import requests
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 def progress(current, total):

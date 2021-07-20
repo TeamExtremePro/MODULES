@@ -2,11 +2,11 @@
 #CREDITS TELEBOT
 # KEEP CREDITS PLEASE 🥺
 import asyncio
-from userbotserbotserbotEGENDX import NAME
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotEGENDX import NAME
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 # By (@proboy22), and (@LEGENDX22)
-from userbotserbotserbot import bot
+from userbotserbotserbotserbot import bot
 PRO = NAME
 @bot.on(admin_cmd("superfban ?(.*)"))
 async def _(event):

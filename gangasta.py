@@ -1,6 +1,6 @@
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import random, re
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 import asyncio 
 
 

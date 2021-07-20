@@ -1,12 +1,12 @@
 import asyncio
 import os
 import time
-from userbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotatetime import datetime
 
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd, progress
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd, progress
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "thumb_image.jpg"
 

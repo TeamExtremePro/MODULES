@@ -6,9 +6,9 @@ Available Commands:
 import asyncio
 import os
 import subprocess
-from userbotserbotserbotatetime import datetime
-from userbotserbotserbottts import gTTS
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbottts import gTTS
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("tts (.*)"))

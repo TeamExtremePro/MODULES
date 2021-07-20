@@ -5,9 +5,9 @@
 import json
 import urllib.request
 
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
-from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot import CMD_HELP
 
 
 @borg.on(admin_cmd(pattern="ip (.*)"))

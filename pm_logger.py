@@ -1,24 +1,24 @@
 """Log Pm messages into a private group
 
 """
-from userbotserbotserbotsyncio import sleep
-from userbotserbotserbot import CMD_HELP, BOTLOG, BOTLOG_CHATID, bot
-from userbotserbotserbotelethon.tl.types import MessageEntityMentionName
-from userbotserbotserbotelethon.utils import get_input_location
-from userbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbots import remove
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotsyncio import sleep
+from userbotserbotserbotserbot import CMD_HELP, BOTLOG, BOTLOG_CHATID, bot
+from userbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbotserbotelethon.utils import get_input_location
+from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbots import remove
+from userbotserbotserbotserbotelethon import events
 import asyncio
-from userbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotatetime import datetime
 import time
-from userbotserbotserbotserbot.utils import register, errors_handler, admin_cmd
+from userbotserbotserbotserbotserbot.utils import register, errors_handler, admin_cmd
 import asyncio
 import logging
 import os
 import sys
-from userbotserbotserbotelethon.tl import functions, types
-from userbotserbotserbotelethon.tl.types import Channel, Chat, User
-from userbotserbotserbotserbot.uniborgConfig import Config
+from userbotserbotserbotserbotelethon.tl import functions, types
+from userbotserbotserbotserbotelethon.tl.types import Channel, Chat, User
+from userbotserbotserbotserbotserbot.uniborgConfig import Config
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.WARN)
@@ -78,7 +78,7 @@ async def set_no_log_p_m(event):
         if event.is_private:
             if chat.id in NO_PM_LOG_USERS:
                 NO_PM_LOG_USERS.remove(chat.id)
-                await event.edit("Will Log Messages from userbotserbotserbothis chat")
+                await event.edit("Will Log Messages from userbotserbotserbotserbothis chat")
                 await asyncio.sleep(3)
                 await event.delete()
                 
@@ -91,6 +91,6 @@ async def set_no_log_p_m(event):
         if event.is_private:
             if chat.id not in NO_PM_LOG_USERS:
                 NO_PM_LOG_USERS.append(chat.id)
-                await event.edit("Won't Log Messages from userbotserbotserbothis chat")
+                await event.edit("Won't Log Messages from userbotserbotserbotserbothis chat")
                 await asyncio.sleep(3)
                 await event.delete()

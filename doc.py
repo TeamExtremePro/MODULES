@@ -3,16 +3,16 @@
 import asyncio
 import os
 import time
-from userbotserbotserbotatetime import datetime
-from userbotserbotserboto import BytesIO
-from userbotserbotserbotathlib import Path
-from userbotserbotserbot import bot as borg
-from userbotserbotserbotelethon import functions, types
-from userbotserbotserbotelethon.errors import PhotoInvalidDimensionsError
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotserbotelethon.tl.functions.messages import SendMediaRequest
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserboto import BytesIO
+from userbotserbotserbotserbotathlib import Path
+from userbotserbotserbotserbot import bot as borg
+from userbotserbotserbotserbotelethon import functions, types
+from userbotserbotserbotserbotelethon.errors import PhotoInvalidDimensionsError
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotelethon.tl.functions.messages import SendMediaRequest
 
-from userbotserbotserbotserbot.utils import admin_cmd, progress
+from userbotserbotserbotserbotserbot.utils import admin_cmd, progress
 
 
 if not os.path.isdir("./temp"):

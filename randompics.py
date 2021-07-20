@@ -2,11 +2,11 @@
 #USING THIS PLUGIN CAN RESULT IN ACCOUNT BAN + CAS BAN + SPAM BAN + ACCOUNT SUSPENSION . WE DONT CARE ABOUT BAN, SO WE ARR USING THIS.
 
 import os
-from userbotserbotserbotatetime import datetime
-from userbotserbotserbotIL import Image, ImageDraw, ImageFont
-from userbotserbotserbotySmartDL import SmartDL
-from userbotserbotserbotelethon.tl import functions
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotIL import Image, ImageDraw, ImageFont
+from userbotserbotserbotserbotySmartDL import SmartDL
+from userbotserbotserbotserbotelethon.tl import functions
+from userbotserbotserbotserbotniborg.util import admin_cmd
 import asyncio
 import shutil 
 import random, re

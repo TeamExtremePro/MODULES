@@ -5,11 +5,11 @@
 import asyncio
 import base64
 import requests
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.functions.messages import ImportChatInviteRequest as Get
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbotserbotserbotql_helper.echo_sql import addecho, get_all_echos, is_echo, remove_echo
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.functions.messages import ImportChatInviteRequest as Get
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbotql_helper.echo_sql import addecho, get_all_echos, is_echo, remove_echo
 
 
 @bot.on(admin_cmd(pattern="echo$"))

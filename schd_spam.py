@@ -1,8 +1,8 @@
 import asyncio
-from userbotserbotserbotsyncio import wait
-from userbotserbotserbotelethon import events, utils
+from userbotserbotserbotserbotsyncio import wait
+from userbotserbotserbotserbotelethon import events, utils
 
-from userbotserbotserbotserbot.events import register
+from userbotserbotserbotserbotserbot.events import register
 
 @register(outgoing=True, pattern="^.sspam")
 async def spammer(e):

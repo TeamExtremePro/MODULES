@@ -6,20 +6,20 @@ accroding to ur spotify songs u listening
 import logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
-from userbotserbotserbotsyncio import sleep
-from userbotserbotserbotson import loads
-from userbotserbotserbotson.decoder import JSONDecodeError
-from userbotserbotserbots import environ
-from userbotserbotserbotys import setrecursionlimit
-from userbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotequests import get
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl import functions, types
-from userbotserbotserbotelethon.tl.functions.account import UpdateProfileRequest
+from userbotserbotserbotserbotsyncio import sleep
+from userbotserbotserbotserbotson import loads
+from userbotserbotserbotserbotson.decoder import JSONDecodeError
+from userbotserbotserbotserbots import environ
+from userbotserbotserbotserbotys import setrecursionlimit
+from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotequests import get
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl import functions, types
+from userbotserbotserbotserbotelethon.tl.functions.account import UpdateProfileRequest
 
 
 import spotify_token as st
-from userbotserbotserbotserbot.uniborgConfig import Config
+from userbotserbotserbotserbotserbot.uniborgConfig import Config
 
 # =================== CONSTANT ===================
 SPO_BIO_ENABLED = "```Spotify Current Music to Name enabled.```"

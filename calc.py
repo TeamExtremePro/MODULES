@@ -6,8 +6,8 @@ import io
 import sys
 import traceback
 
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(admin_cmd(pattern="calc (.*)"))

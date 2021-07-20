@@ -1,13 +1,13 @@
 #Credits to @spechide and his team for @TROLLVOICEBOT
-#made by @legendx22 from userbotserbotserbothe snippets of waifu AKA stickerizerbot....
+#made by @legendx22 from userbotserbotserbotserbothe snippets of waifu AKA stickerizerbot....
 #kang karega kya madarchod?
 #aukaat h bsdk teri...jake baap ka loda chus ke aa....
 
 
 import re
 import random
-from userbotserbotserbot import bot
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot import bot
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 IF_EMOJI = re.compile(
@@ -41,7 +41,7 @@ IF_EMOJI = re.compile(
 
 def deEmojify(inputString: str) -> str:
 
-    """Remove emojis and other non-safe characters from userbotserbotserbottring"""
+    """Remove emojis and other non-safe characters from userbotserbotserbotserbottring"""
 
     return re.sub(IF_EMOJI, '', inputString)
 

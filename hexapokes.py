@@ -1,9 +1,9 @@
 # made by LEGENDX22
 
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbotserbotserbot import ALIVE_NAME, CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot import ALIVE_NAME, CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 naam = str(ALIVE_NAME)
 

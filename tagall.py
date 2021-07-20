@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2
 import asyncio
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern=r"tagall", outgoing=True))

@@ -14,11 +14,11 @@
 
 
 
-from userbotserbotserbotelethon import events, Button, custom
-from userbotserbotserbotEGENDX import BOT
+from userbotserbotserbotserbotelethon import events, Button, custom
+from userbotserbotserbotserbotEGENDX import BOT
 import os,re
-from userbotserbotserbotelethon.tl.custom import Button 
-from userbotserbotserbotelethon import events, errors, custom, functions
+from userbotserbotserbotserbotelethon.tl.custom import Button 
+from userbotserbotserbotserbotelethon import events, errors, custom, functions
 @tgbot.on(events.InlineQuery(pattern=r"repo"))
 async def inline_id_handler(event: events.InlineQuery.Event):
  LEGEND = event.builder

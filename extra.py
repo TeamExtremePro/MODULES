@@ -1,15 +1,15 @@
 import asyncio, subprocess
 import time, re, io
-from userbotserbotserbot import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
-from userbotserbotserbotelethon import events, functions, types
-from userbotserbotserbotelethon.events import StopPropagation
-from userbotserbotserbotelethon.tl.functions.messages import ExportChatInviteRequest
-from userbotserbotserbotelethon.tl.functions.contacts import BlockRequest
-from userbotserbotserbotelethon.tl.functions.channels import LeaveChannelRequest, CreateChannelRequest, DeleteMessagesRequest
-from userbotserbotserbotollections import deque
-from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotserbot.events import register
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
+from userbotserbotserbotserbotelethon import events, functions, types
+from userbotserbotserbotserbotelethon.events import StopPropagation
+from userbotserbotserbotserbotelethon.tl.functions.messages import ExportChatInviteRequest
+from userbotserbotserbotserbotelethon.tl.functions.contacts import BlockRequest
+from userbotserbotserbotserbotelethon.tl.functions.channels import LeaveChannelRequest, CreateChannelRequest, DeleteMessagesRequest
+from userbotserbotserbotserbotollections import deque
+from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotserbot.events import register
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(";__;$"))

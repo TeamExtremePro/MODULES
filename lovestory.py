@@ -1,10 +1,10 @@
 """COMMAND : .lovestory"""
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 
 import asyncio
 
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 

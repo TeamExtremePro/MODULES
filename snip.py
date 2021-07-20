@@ -6,10 +6,10 @@ Available Commands:
 .snips
 .snipl
 .snipd"""
-from userbotserbotserbotelethon import events, utils
-from userbotserbotserbotelethon.tl import types
-from userbotserbotserbotql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon import events, utils
+from userbotserbotserbotserbotelethon.tl import types
+from userbotserbotserbotserbotql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 TYPE_TEXT = 0

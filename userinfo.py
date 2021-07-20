@@ -6,21 +6,21 @@
 """ Userbot module for getting info
     about any user on Telegram(including you!). """
 
-from userbotserbotserbotelethon.events import NewMessage
-from userbotserbotserbotyping import Union
+from userbotserbotserbotserbotelethon.events import NewMessage
+from userbotserbotserbotserbotyping import Union
 
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.events import register
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.events import register
 
-from userbotserbotserbote import findall, match
-from userbotserbotserbotyping import List
+from userbotserbotserbotserbote import findall, match
+from userbotserbotserbotserbotyping import List
 
-from userbotserbotserbotelethon.events import NewMessage
-from userbotserbotserbotelethon.tl.custom import Message
-from userbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest
-from userbotserbotserbotelethon.tl.functions.messages import GetFullChatRequest
-from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotelethon.tl.types import (
+from userbotserbotserbotserbotelethon.events import NewMessage
+from userbotserbotserbotserbotelethon.tl.custom import Message
+from userbotserbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest
+from userbotserbotserbotserbotelethon.tl.functions.messages import GetFullChatRequest
+from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotelethon.tl.types import (
     MessageEntityMentionName,
     ChannelParticipantsAdmins,
     ChannelParticipantsBots,
@@ -83,7 +83,7 @@ async def get_user_sender_id(user, event):
 
 
 async def get_user_from_event(event: NewMessage.Event, **kwargs):
-    """ Get the user from userbotserbotserbotrgument or replied message. """
+    """ Get the user from userbotserbotserbotserbotrgument or replied message. """
     reply_msg: Message = await event.get_reply_message()
     user = kwargs.get('user', None)
 
@@ -331,7 +331,7 @@ async def who(event: NewMessage.Event):
 
 
 async def fetch_info(replied_user, **kwargs):
-    """ Get details from userbotserbotserbothe User object. """
+    """ Get details from userbotserbotserbotserbothe User object. """
     user = replied_user.user
 
     id_only = kwargs.get('id', False)

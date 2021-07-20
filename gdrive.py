@@ -7,24 +7,24 @@ import asyncio
 import os
 import time
 import math
-from userbotserbotserbotatetime import datetime
-from userbotserbotserbotelethon import events
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd, progress
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd, progress
 #
-from userbotserbotserbotoogleapiclient.discovery import build
-from userbotserbotserbotpiclient.http import MediaFileUpload
-from userbotserbotserbotpiclient.errors import ResumableUploadError
-from userbotserbotserbotauth2client.client import OAuth2WebServerFlow
-from userbotserbotserbotauth2client.file import Storage
-from userbotserbotserbotauth2client import file, client, tools
-from userbotserbotserbotimetypes import guess_type
+from userbotserbotserbotserbotoogleapiclient.discovery import build
+from userbotserbotserbotserbotpiclient.http import MediaFileUpload
+from userbotserbotserbotserbotpiclient.errors import ResumableUploadError
+from userbotserbotserbotserbotauth2client.client import OAuth2WebServerFlow
+from userbotserbotserbotserbotauth2client.file import Storage
+from userbotserbotserbotserbotauth2client import file, client, tools
+from userbotserbotserbotserbotimetypes import guess_type
 import httplib2
 
 
 # Path to token json file, it should be in same directory as script
 G_DRIVE_TOKEN_FILE = Var.TEMP_DOWNLOAD_DIRECTORY + "/auth_token.txt"
-# Copy your credentials from userbotserbotserbothe APIs Console
+# Copy your credentials from userbotserbotserbotserbothe APIs Console
 CLIENT_ID = Var.G_DRIVE_CLIENT_ID
 CLIENT_SECRET = Var.G_DRIVE_CLIENT_SECRET
 # Check https://developers.google.com/drive/scopes for all available scopes
@@ -42,7 +42,7 @@ async def _(event):
         return
     mone = await event.reply("Processing ...")
     if CLIENT_ID is None or CLIENT_SECRET is None:
-        await mone.edit("This module requires credentials from userbotserbotserbotttps://da.gd/so63O. Aborting!")
+        await mone.edit("This module requires credentials from userbotserbotserbotserbotttps://da.gd/so63O. Aborting!")
         return False
     input_str = event.pattern_match.group(1)
     if not os.path.isdir(Var.TEMP_DOWNLOAD_DIRECTORY):
@@ -107,7 +107,7 @@ async def sch(event):
     if event.fwd_from:
         return
     if CLIENT_ID is None or CLIENT_SECRET is None:
-        await event.edit("This module requires credentials from userbotserbotserbotttps://da.gd/so63O. Aborting!")
+        await event.edit("This module requires credentials from userbotserbotserbotserbotttps://da.gd/so63O. Aborting!")
         return False    
     try:
         with open(G_DRIVE_TOKEN_FILE) as f:
@@ -158,7 +158,7 @@ async def _(event):
     if event.fwd_from:
         return
     if CLIENT_ID is None or CLIENT_SECRET is None:
-        await event.edit("This module requires credentials from userbotserbotserbotttps://da.gd/so63O. Aborting!")
+        await event.edit("This module requires credentials from userbotserbotserbotserbotttps://da.gd/so63O. Aborting!")
         return
     if Var.PRIVATE_GROUP_ID is None:
         await event.edit("Please set the required environment variable `PRIVATE_GROUP_ID` for this plugin to work")

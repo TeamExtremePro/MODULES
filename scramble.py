@@ -5,7 +5,7 @@
 import random
 import re
 
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="scramble(\s+[\S\s]+|$)"))

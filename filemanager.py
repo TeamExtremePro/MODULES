@@ -3,9 +3,9 @@ Syntax: .lsroot , .lslocal"""
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import subprocess
-from userbotserbotserbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
+from userbotserbotserbotserbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
 import io
 import asyncio
 import time

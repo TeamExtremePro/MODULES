@@ -21,9 +21,9 @@ import json
 import os 
 import telethon
 
-from userbotserbotserbotIL import Image
-from userbotserbotserboto import BytesIO
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotIL import Image
+from userbotserbotserbotserboto import BytesIO
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 logger = logging.getLogger(__name__)
 
@@ -146,12 +146,12 @@ if 1 == 1:
             if resp["message"] == "ERROR_TOKEN_INVALID":
                 return await message.respond(strings["invalid_token"])
             else:
-                raise ValueError("Invalid response from userbotserbotserboterver", resp)
+                raise ValueError("Invalid response from userbotserbotserbotserboterver", resp)
         elif resp["status"] == 403:
             if resp["message"] == "ERROR_UNAUTHORIZED":
                 return await message.respond(strings["unauthorized"])
             else:
-                raise ValueError("Invalid response from userbotserbotserboterver", resp)
+                raise ValueError("Invalid response from userbotserbotserbotserboterver", resp)
         elif resp["status"] == 404:
             if resp["message"] == "ERROR_TEMPLATE_NOT_FOUND":
                 newreq = requests.post(config["api_url"] + "/api/v1/getalltemplates", data={
@@ -167,11 +167,11 @@ if 1 == 1:
                 elif newreq["status"] == "INVALID_TOKEN":
                     return await message.respond(strings["invalid_token"])
                 else:
-                    raise ValueError("Invalid response from userbotserbotserboterver", newreq)
+                    raise ValueError("Invalid response from userbotserbotserbotserboterver", newreq)
             else:
-                raise ValueError("Invalid response from userbotserbotserboterver", resp)
+                raise ValueError("Invalid response from userbotserbotserbotserboterver", resp)
         elif resp["status"] != 200:
-            raise ValueError("Invalid response from userbotserbotserboterver", resp)
+            raise ValueError("Invalid response from userbotserbotserbotserboterver", resp)
 
         req = requests.get(config["api_url"] + "/cdn/" + resp["message"])
         req.raise_for_status()

@@ -7,9 +7,9 @@ import io
 
 import requests
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 
@@ -25,7 +25,7 @@ async def _(event):
 
     if Config.SCREEN_SHOT_LAYER_ACCESS_KEY is None:
 
-        await event.edit("Need to get an API key from userbotserbotserbotttps://screenshotlayer.com/product \nModule stopping!")
+        await event.edit("Need to get an API key from userbotserbotserbotserbotttps://screenshotlayer.com/product \nModule stopping!")
 
         return
 

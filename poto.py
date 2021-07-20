@@ -8,17 +8,17 @@ import logging
 
 
 
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 
-from userbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotserbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
 
-from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
 
-from userbotserbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
 
-from userbotserbotserbotelethon.utils import get_input_location
+from userbotserbotserbotserbotelethon.utils import get_input_location
 
 
 

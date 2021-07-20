@@ -1,8 +1,8 @@
 '''Thakn You @pureindialover
 '''
-from userbotserbotserbotql_helper.mute_sql import is_muted, mute, unmute
+from userbotserbotserbotserbotql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 #@command(outgoing=True, pattern=r"^.mute ?(\d+)?")
 @borg.on(admin_cmd(pattern="mute ?(\d+)?"))

@@ -4,11 +4,11 @@ Available Commands:
 
 .hypno"""
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 
 import asyncio
 
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 
 

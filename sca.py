@@ -14,7 +14,7 @@ document
 cancel"""
 
 import asyncio
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotniborg.util import admin_cmd
  
  
 @borg.on(admin_cmd("sca ?(.*)"))

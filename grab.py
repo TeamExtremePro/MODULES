@@ -1,9 +1,9 @@
 
 import datetime
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd("grab ?(.*)"))
 async def _(event):

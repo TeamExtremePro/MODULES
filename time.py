@@ -3,9 +3,9 @@ Syntax: .getime"""
 
 import asyncio
 import os
-from userbotserbotserbotatetime import datetime
-from userbotserbotserbotIL import Image, ImageDraw, ImageFont
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotIL import Image, ImageDraw, ImageFont
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 FONT_FILE_TO_USE = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"

@@ -18,11 +18,11 @@ Syntax:
 """
 
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import os
 import requests
 import json
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 

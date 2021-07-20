@@ -1,11 +1,11 @@
 import os
-from userbotserbotserbotatetime import datetime
-from userbotserbotserbotIL import Image, ImageDraw, ImageFont
-from userbotserbotserbotySmartDL import SmartDL
-from userbotserbotserbotelethon.tl import functions
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotIL import Image, ImageDraw, ImageFont
+from userbotserbotserbotserbotySmartDL import SmartDL
+from userbotserbotserbotserbotelethon.tl import functions
 import asyncio
 import shutil
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 FONT_FILE_TO_USE = "Fonts/digital.ttf"

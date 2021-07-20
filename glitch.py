@@ -4,22 +4,22 @@ ported to telethon by @mrconfused and @sandy1709
 """
 import asyncio
 import shlex
-from userbotserbotserbotIL import Image 
-from userbotserbotserbot import LOGS , CMD_HELP
-from userbotserbotserbotelethon import functions, types
-from userbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotlitch_this import ImageGlitcher
-from userbotserbotserbotyping import Optional, Tuple
+from userbotserbotserbotserbotIL import Image 
+from userbotserbotserbotserbot import LOGS , CMD_HELP
+from userbotserbotserbotserbotelethon import functions, types
+from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotlitch_this import ImageGlitcher
+from userbotserbotserbotserbotyping import Optional, Tuple
 
 
-from userbotserbotserbot import bot, CMD_HELP, LOGS
-from userbotserbotserbotserbot.events import register
+from userbotserbotserbotserbot import bot, CMD_HELP, LOGS
+from userbotserbotserbotserbotserbot.events import register
 
 async def take_screen_shot(
     video_file: str, duration: int, path: str = ""
 ) -> Optional[str]:
     print(
-        "[[[Extracting a frame from userbotserbotserbots ||| Video duration => %s]]]",
+        "[[[Extracting a frame from userbotserbotserbotserbots ||| Video duration => %s]]]",
         video_file,
         duration,
     )
@@ -136,9 +136,9 @@ async def glitch(event):
 CMD_HELP.update({
     "glitch":
     ".glitch` reply to media file\
-\nUsage:glitches the given mediafile(gif , stickers , image, videos) to a gif and glitch range is from userbotserbotserbot to 8.\
+\nUsage:glitches the given mediafile(gif , stickers , image, videos) to a gif and glitch range is from userbotserbotserbotserbot to 8.\
 If nothing is mentioned then by default it is 2\
 \n\n.glitchs reply to media file\
-\nUsage:glitches the given mediafile(gif , stickers , image, videos) to a sticker and glitch range is from userbotserbotserbot to 8.\
+\nUsage:glitches the given mediafile(gif , stickers , image, videos) to a sticker and glitch range is from userbotserbotserbotserbot to 8.\
 If nothing is mentioned then by default it is 2."
 })

@@ -1,6 +1,6 @@
 import asyncio
-from userbotserbotserbotsyncio import wait
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotsyncio import wait
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("repeat ?(.*)"))

@@ -1,10 +1,10 @@
 # This is a troll indeed ffs *facepalm*
 import asyncio
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("gbam"))

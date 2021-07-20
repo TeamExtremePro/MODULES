@@ -8,9 +8,9 @@ Available Commands:
 .clearfilter"""
 import asyncio
 import re
-from userbotserbotserbotelethon import events, utils
-from userbotserbotserbotelethon.tl import types
-from userbotserbotserbotql_helper.filter_sql import get_filter, add_filter, remove_filter, get_all_filters, remove_all_filters
+from userbotserbotserbotserbotelethon import events, utils
+from userbotserbotserbotserbotelethon.tl import types
+from userbotserbotserbotserbotql_helper.filter_sql import get_filter, add_filter, remove_filter, get_all_filters, remove_all_filters
 
 
 DELETE_TIMEOUT = 0

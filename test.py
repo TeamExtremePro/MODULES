@@ -3,10 +3,10 @@
 
 
 import random, re
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotniborg.util import admin_cmd
 import asyncio
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 
 @borg.on(admin_cmd(pattern="test ?(.*)"))
 async def _(event):

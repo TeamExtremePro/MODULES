@@ -1,6 +1,6 @@
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import subprocess
-from userbotserbotserbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
+from userbotserbotserbotserbotelethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
 import io
 import asyncio
 import time

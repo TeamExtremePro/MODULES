@@ -1,4 +1,4 @@
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import asyncio
 import os
 import sys

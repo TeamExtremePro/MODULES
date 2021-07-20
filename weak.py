@@ -1,11 +1,11 @@
 # made by @LEGENDX22
 # kang with credits else gey
 
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot import CMD_HELP
 
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 bot = "@MadBoy_Rotomgram2_Bot"

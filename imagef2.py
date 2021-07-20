@@ -11,15 +11,15 @@
 import cv2
 import numpy as np
 import PIL
-from userbotserbotserbotIL import Image, ImageDraw
+from userbotserbotserbotserbotIL import Image, ImageDraw
 import pygments, os, asyncio, shutil, scapy, sys, requests, re, subprocess, urllib
-from userbotserbotserbotygments.lexers import Python3Lexer
-from userbotserbotserbotygments.formatters import ImageFormatter
-from userbotserbotserbot import bot, CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd, sudo_cmd
-from userbotserbotserbotelegraph import upload_file
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.types import MessageMediaPhoto
+from userbotserbotserbotserbotygments.lexers import Python3Lexer
+from userbotserbotserbotserbotygments.formatters import ImageFormatter
+from userbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd, sudo_cmd
+from userbotserbotserbotserbotelegraph import upload_file
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.types import MessageMediaPhoto
 
 path = "./dcobra/"
 if not os.path.isdir(path):

@@ -2,12 +2,12 @@
 Syntax: .info @username"""
 
 import html
-from userbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
-from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotelethon.tl.types import MessageEntityMentionName
-from userbotserbotserbotelethon.utils import get_input_location
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbotserbotelethon.utils import get_input_location
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("info ?(.*)"))

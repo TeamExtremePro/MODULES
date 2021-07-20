@@ -1,10 +1,10 @@
 #full credits friday ot thanks friday bot ⚡
 #kang with credits else gay
 
-from userbotserbotserbotokedex import pokedex
+from userbotserbotserbotserbotokedex import pokedex
 
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="pokedex (.*)"))

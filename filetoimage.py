@@ -1,11 +1,11 @@
 """COMMAND : .ftoimg 
 here file must be in image file """
-from userbotserbotserboto import BytesIO
-from userbotserbotserbot import utils
+from userbotserbotserbotserboto import BytesIO
+from userbotserbotserbotserbot import utils
 import asyncio
-from userbotserbotserbotelethon import types
-from userbotserbotserbotelethon.errors import PhotoInvalidDimensionsError
-from userbotserbotserbotelethon.tl.functions.messages import SendMediaRequest
+from userbotserbotserbotserbotelethon import types
+from userbotserbotserbotserbotelethon.errors import PhotoInvalidDimensionsError
+from userbotserbotserbotserbotelethon.tl.functions.messages import SendMediaRequest
 
 
 

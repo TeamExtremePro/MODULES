@@ -1,11 +1,11 @@
 #port to Legend Bot by@LEGENDX22
 
 import datetime
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbotserbot import bot, CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd("qbot ?(.*)"))
 async def _(event):

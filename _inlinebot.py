@@ -1,10 +1,10 @@
-from userbotserbotserbotath import ceil
+from userbotserbotserbotserbotath import ceil
 import asyncio
 import json
 import random
 import re
-from userbotserbotserbotelethon import events, errors, custom
-from userbotserbotserbot import CMD_LIST
+from userbotserbotserbotserbotelethon import events, errors, custom
+from userbotserbotserbotserbot import CMD_LIST
 import io
 
 if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:

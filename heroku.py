@@ -11,9 +11,9 @@ import asyncio
 import os
 import requests
 import math
-from userbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.uniborgConfig import Config
+from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.uniborgConfig import Config
 
 # ================= 
 

@@ -6,11 +6,11 @@ Available Commands:
 
 built by @r4v4n4 , isse bhi loot lo betichod"""
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 
 import asyncio
 
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 
 

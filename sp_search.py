@@ -8,7 +8,7 @@ By: @Zero_cool7870
 import os
 import asyncio
 import json
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 
 

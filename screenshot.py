@@ -5,10 +5,10 @@ Syntax: .screenshot <Website URL>"""
 
 import io
 import traceback
-from userbotserbotserbotatetime import datetime
-from userbotserbotserbotelenium import webdriver
-from userbotserbotserbotelethon import events
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotelenium import webdriver
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="screenshot (.*)"))

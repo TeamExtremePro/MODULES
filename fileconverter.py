@@ -9,10 +9,10 @@
 import os, requests, re
 import asyncio
 import time
-from userbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotatetime import datetime
 
-from userbotserbotserbotserbot.utils import admin_cmd, sudo_cmd , edit_or_reply
-from userbotserbotserbot import CMD_HELP, bot
+from userbotserbotserbotserbotserbot.utils import admin_cmd, sudo_cmd , edit_or_reply
+from userbotserbotserbotserbot import CMD_HELP, bot
 
 @borg.on(admin_cmd(pattern=r"open", outgoing=True))
 async def _(event):

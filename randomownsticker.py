@@ -8,7 +8,7 @@ credit: lejend @r4v4n4"""
 
 import random
 
-from userbotserbotserbotelethon import events, types, functions, utils
+from userbotserbotserbotserbotelethon import events, types, functions, utils
 
 
 def choser(cmd, pack, blacklist={}):

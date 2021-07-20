@@ -3,9 +3,9 @@
 # Ported to DC by @hellboi_atul
 
 import pygments, os, asyncio
-from userbotserbotserbotygments.lexers import Python3Lexer
-from userbotserbotserbotygments.formatters import ImageFormatter
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotygments.lexers import Python3Lexer
+from userbotserbotserbotserbotygments.formatters import ImageFormatter
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern="ncode ?(.*)"))
 async def coder_print(event):

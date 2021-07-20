@@ -1,7 +1,7 @@
-from userbotserbotserbotql_helper.mute_sql import is_muted, mute, unmute
+from userbotserbotserbotserbotql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 #@command(outgoing=True, pattern=r"^.gmute ?(\d+)?")
 @borg.on(admin_cmd(pattern=r"gmute ?(\d+)?"))
@@ -40,7 +40,7 @@ async def endgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Taking Out Dick from userbotserbotserboton mouth....\n\n       Today Sex Done😁 ")
+        await event.edit("Taking Out Dick from userbotserbotserbotserboton mouth....\n\n       Today Sex Done😁 ")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()

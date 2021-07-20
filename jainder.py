@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import random
 import asyncio
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"jainder(.*)"))
 async def _(event):

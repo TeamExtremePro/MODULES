@@ -1,6 +1,6 @@
 import random
 import requests
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 @borg.on(admin_cmd(pattern="quote ?(.*)"))
 async def quote_search(event):

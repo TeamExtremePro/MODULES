@@ -1,11 +1,11 @@
 """Shouts a message in MEME way
 usage: .shout message
-originaly from userbotserbotserbot @corsicanu_bot
+originaly from userbotserbotserbotserbot @corsicanu_bot
 """
 
 import sys
-from userbotserbotserbotelethon import events, functions
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon import events, functions
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 import random
 
 

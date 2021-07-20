@@ -7,11 +7,11 @@ by © Thunder God Raiden
 
 
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import asyncio
 
 
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern=f"wahack", outgoing=True))
 async def _(event):

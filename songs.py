@@ -5,8 +5,8 @@
 #else u are a gay...no doubt in that....
 
 
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 import asyncio
 
  
@@ -64,32 +64,32 @@ async def FindMusicPleaseBot(gaana):
 #-------------------------------------------------------------------------------
 
     
-from userbotserbotserbotathlib import Path
+from userbotserbotserbotserbotathlib import Path
 import asyncio, time, io, math, os, logging, asyncio, shutil, re, subprocess, json
-from userbotserbotserbote import findall
-from userbotserbotserbotsyncio import sleep
-from userbotserbotserbotelethon.events import NewMessage
-from userbotserbotserbotelethon.tl.custom import Dialog
-from userbotserbotserbotatetime import datetime as dt
-from userbotserbotserbotytz import country_names as c_n, country_timezones as c_tz, timezone as tz
-from userbotserbotserbotachoir.parser import createParser
+from userbotserbotserbotserbote import findall
+from userbotserbotserbotserbotsyncio import sleep
+from userbotserbotserbotserbotelethon.events import NewMessage
+from userbotserbotserbotserbotelethon.tl.custom import Dialog
+from userbotserbotserbotserbotatetime import datetime as dt
+from userbotserbotserbotserbotytz import country_names as c_n, country_timezones as c_tz, timezone as tz
+from userbotserbotserbotserbotachoir.parser import createParser
 import pybase64
-from userbotserbotserbotase64 import b64decode
-from userbotserbotserbotySmartDL import SmartDL
-from userbotserbotserbotelethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotserbotelethon.tl.functions.messages import ImportChatInviteRequest as Get
-from userbotserbotserbotalidators.url import url
-from userbotserbotserbottml import unescape
-from userbotserbotserbotrllib.error import HTTPError
-from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, progress, humanbytes, time_formatter
-from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotase64 import b64decode
+from userbotserbotserbotserbotySmartDL import SmartDL
+from userbotserbotserbotserbotelethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotelethon.tl.functions.messages import ImportChatInviteRequest as Get
+from userbotserbotserbotserbotalidators.url import url
+from userbotserbotserbotserbottml import unescape
+from userbotserbotserbotserbotrllib.error import HTTPError
+from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, progress, humanbytes, time_formatter
+from userbotserbotserbotserbot import CMD_HELP
 import bs4
-from userbotserbotserbots4 import BeautifulSoup
-from userbotserbotserbotoutube_dl import YoutubeDL
+from userbotserbotserbotserbots4 import BeautifulSoup
+from userbotserbotserbotserbotoutube_dl import YoutubeDL
 
-from userbotserbotserbotoutube_dl.utils import (DownloadError, ContentTooShortError,
+from userbotserbotserbotserbotoutube_dl.utils import (DownloadError, ContentTooShortError,
 
                               ExtractorError, GeoRestrictedError,
                               MaxDownloadsReached, PostProcessingError,
@@ -97,11 +97,11 @@ from userbotserbotserbotoutube_dl.utils import (DownloadError, ContentTooShortEr
 
 try:
 
-   from userbotserbotserbotoutubesearchpython import SearchVideos 
+   from userbotserbotserbotserbotoutubesearchpython import SearchVideos 
 
 except:
 	os.system("pip install pip install youtube-search-python")
-	from userbotserbotserbotoutubesearchpython import SearchVideos 
+	from userbotserbotserbotserbotoutubesearchpython import SearchVideos 
 	pass
 
 
@@ -169,7 +169,7 @@ async def download_video(v_url):
         return
     except GeoRestrictedError:
         await rkp.edit(
-            "`Video is not available from userbotserbotserbotour geographic location due to geographic restrictions imposed by a website.`"
+            "`Video is not available from userbotserbotserbotserbotour geographic location due to geographic restrictions imposed by a website.`"
         )
         return
     except MaxDownloadsReached:
@@ -287,7 +287,7 @@ async def download_video(v_url):
         return
     except GeoRestrictedError:
         await rkp.edit(
-            "`Video is not available from userbotserbotserbotour geographic location due to geographic restrictions imposed by a website.`"
+            "`Video is not available from userbotserbotserbotserbotour geographic location due to geographic restrictions imposed by a website.`"
         )
         return
     except MaxDownloadsReached:
@@ -346,12 +346,12 @@ async def download_video(v_url):
 
 #-------------------------------------------------------------------------------
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import asyncio
-from userbotserbotserbotserbot.events import register 
-from userbotserbotserbot import bot, CMD_HELP
-from userbotserbotserbotelethon.tl.functions.channels import JoinChannelRequest
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotserbotserbot.events import register 
+from userbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotelethon.tl.functions.channels import JoinChannelRequest
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 
 try:
@@ -398,12 +398,12 @@ async def getmusic(so):
 
 #-------------------------------------------------------------------------------
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import asyncio
-#from userbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotserbot.events import register 
-from userbotserbotserbot import bot, CMD_HELP
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+#from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.events import register 
+from userbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 try:
  import subprocess
@@ -452,11 +452,11 @@ async def DeezLoader(Deezlod):
        
 import datetime
 import asyncio
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
-from userbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbotserbotelethon.tl.functions.messages import ImportChatInviteRequest
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
+from userbotserbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbotserbotelethon.tl.functions.messages import ImportChatInviteRequest
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd("sdd ?(.*)"))
 async def _(event):
@@ -491,15 +491,15 @@ async def _(event):
 CMD_HELP.update({
         "songs":
         "`.song song name`\
-            \nUsage:For searching songs from userbotserbotserbotoutube\
+            \nUsage:For searching songs from userbotserbotserbotserbotoutube\
             \n\n`.getsong` Song Title\
-            \nUsage:Download song from userbotserbotserbotSongsForYouBot\
+            \nUsage:Download song from userbotserbotserbotserbotSongsForYouBot\
             \n\n`.gaana` Song name\
-            \nUsage:Download song from userbotserbotserbotFindmusicpleaseBot\
+            \nUsage:Download song from userbotserbotserbotserbotFindmusicpleaseBot\
             \n\n`.vsong` Song title\
-            \nUsage:Downloads video song from userbotserbotserbotoutube\
+            \nUsage:Downloads video song from userbotserbotserbotserbotoutube\
             \n\n`.sdd` song name\
-            \nUsage:Download song from userbotserbotserbotDeezLoadBot\
+            \nUsage:Download song from userbotserbotserbotserbotDeezLoadBot\
             \n\n`.dwlsong` <Spotify/Deezer Link>\
-            \nUsage:Download music from userbotserbotserbotpotify or Deezer."
+            \nUsage:Download music from userbotserbotserbotserbotpotify or Deezer."
 })

@@ -1,8 +1,8 @@
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("warn1"))
@@ -23,9 +23,9 @@ async def _(event):
 
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("warn2"))
@@ -46,9 +46,9 @@ async def _(event):
 
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("warn3"))
@@ -69,9 +69,9 @@ async def _(event):
 
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("warn0"))
@@ -92,9 +92,9 @@ async def _(event):
 
 """.admin Plugin for @UniBorg"""
 import asyncio
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbotserbotniborg.util import admin_cmd
 
 
 

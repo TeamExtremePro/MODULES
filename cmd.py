@@ -2,8 +2,8 @@
 import asyncio
 import io
 
-from userbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot import CMD_HELP
 
 
 # @command(pattern="^.cmds", outgoing=True)

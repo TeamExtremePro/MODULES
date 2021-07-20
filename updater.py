@@ -3,31 +3,31 @@
 #make for LEGEND BOT
 # KANG KRNA H TO CREDITS DEDENA 
 '''
-from userbotserbotserbotatetime import datetime
-from userbotserbotserbotandom import randint
-from userbotserbotserbotsyncio import sleep
-from userbotserbotserbots import execl
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotandom import randint
+from userbotserbotserbotserbotsyncio import sleep
+from userbotserbotserbotserbots import execl
 import sys
 import os
-from userbotserbotserbot import bot as javes
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot import bot as javes
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 import io
 import heroku3
 import asyncio
-from userbotserbotserbotsyncio import create_subprocess_shell as asyncSubprocess
-from userbotserbotserbotsyncio.subprocess import PIPE as asyncPIPE
+from userbotserbotserbotserbotsyncio import create_subprocess_shell as asyncSubprocess
+from userbotserbotserbotserbotsyncio.subprocess import PIPE as asyncPIPE
 
 import sys
 import json
-from userbotserbotserbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
-from userbotserbotserbotpeedtest import Speedtest
-from userbotserbotserbotelethon import functions
-from userbotserbotserbots import remove, execle, path, makedirs, getenv, environ
-from userbotserbotserbothutil import rmtree
+from userbotserbotserbotserbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
+from userbotserbotserbotserbotpeedtest import Speedtest
+from userbotserbotserbotserbotelethon import functions
+from userbotserbotserbotserbots import remove, execle, path, makedirs, getenv, environ
+from userbotserbotserbotserbothutil import rmtree
 import asyncio
 import json
-from userbotserbotserbotsyncio import sleep
-from userbotserbotserbotelethon.errors import rpcbaseerrors
+from userbotserbotserbotserbotsyncio import sleep
+from userbotserbotserbotserbotelethon.errors import rpcbaseerrors
 
 import os
 import subprocess
@@ -38,19 +38,19 @@ import asyncio
 
 import sys
 try:
-   from userbotserbotserbotit import Repo
-   from userbotserbotserbotit.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
+   from userbotserbotserbotserbotit import Repo
+   from userbotserbotserbotserbotit.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 except:
 	pass
-from userbotserbotserbot import CMD_HELP, bot
-from userbotserbotserbot import CMD_HELP, LOGS
-from userbotserbotserbotsyncio import create_subprocess_shell as asyncrunapp
-from userbotserbotserbotsyncio.subprocess import PIPE as asyncPIPE
-from userbotserbotserbotlatform import python_version, uname
-from userbotserbotserbothutil import which
-from userbotserbotserbots import remove
-from userbotserbotserbotelethon import version
-from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot import CMD_HELP, bot
+from userbotserbotserbotserbot import CMD_HELP, LOGS
+from userbotserbotserbotserbotsyncio import create_subprocess_shell as asyncrunapp
+from userbotserbotserbotserbotsyncio.subprocess import PIPE as asyncPIPE
+from userbotserbotserbotserbotlatform import python_version, uname
+from userbotserbotserbotserbothutil import which
+from userbotserbotserbotserbots import remove
+from userbotserbotserbotserbotelethon import version
+from userbotserbotserbotserbot import CMD_HELP
 
 import heroku3
 import asyncio
@@ -58,7 +58,7 @@ import os
 import requests
 import math
 
-from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot import CMD_HELP
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_APIKEY", None)
 HEROKU_APPNAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -139,7 +139,7 @@ async def update_requirements():
 
     
 
-from userbotserbotserbotelethon.events import *
+from userbotserbotserbotserbotelethon.events import *
 @javes.on(admin_cmd(pattern=f"update(?: |$)(.*)"))
 async def upstream(ups):
     "For .update command, check if the bot is up to date, update if specified"
@@ -281,7 +281,7 @@ async def upstream(ups):
         return
 
 '''
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 @borg.on(admin_cmd(pattern="update|update now"))
 async def hehe (event):
   await event.edit("want to update your bot ?\nnow not use update now use \n`.restart` only")

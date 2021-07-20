@@ -1,14 +1,14 @@
 #modify by @LEGENDX22
 #credits shivam thanks bruh
 
-from userbotserbotserbotelethon import events
-from userbotserbotserbotserbot.events import remove_plugin, load_module
-from userbotserbotserbotelethon import functions, types
-from userbotserbotserbotelethon.tl.types import InputMessagesFilterDocument
-from userbotserbotserbotserbot.utils import command, remove_plugin, load_module
-from userbotserbotserbotathlib import Path
-from userbotserbotserbot import LOAD_PLUG, CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotserbot.events import remove_plugin, load_module
+from userbotserbotserbotserbotelethon import functions, types
+from userbotserbotserbotserbotelethon.tl.types import InputMessagesFilterDocument
+from userbotserbotserbotserbotserbot.utils import command, remove_plugin, load_module
+from userbotserbotserbotserbotathlib import Path
+from userbotserbotserbotserbot import LOAD_PLUG, CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 import os
 @bot.on(admin_cmd(pattern=r"^uninstall (?P<shortname>\w+)$"))
 async def unload(event):

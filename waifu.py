@@ -1,5 +1,5 @@
 """
-imported from userbotserbotserbotpe-remix by @heyworld & @DeletedUser420
+imported from userbotserbotserbotserbotpe-remix by @heyworld & @DeletedUser420
 Translated & Updated by @Sur_vivor
 slighlty edited by @Rohithaditya
 Thnks to @FridayOT Coz This is where i got this
@@ -10,8 +10,8 @@ KEEP CREDITS
 import random
 import re
 
-from userbotserbotserbot import CMD_HELP, bot
-from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbot import CMD_HELP, bot
+from userbotserbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 EMOJI_PATTERN = re.compile(
     "["
@@ -31,7 +31,7 @@ EMOJI_PATTERN = re.compile(
 
 
 def deEmojify(inputString: str) -> str:
-    """Remove emojis and other non-safe characters from userbotserbotserbottring"""
+    """Remove emojis and other non-safe characters from userbotserbotserbotserbottring"""
     return re.sub(EMOJI_PATTERN, "", inputString)
 
 

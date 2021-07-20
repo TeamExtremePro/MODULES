@@ -1,12 +1,12 @@
 
 # credits LEGENDX22
 
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon import events
 import asyncio
-#from userbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotserbot.events import register 
-from userbotserbotserbot import bot, CMD_HELP
-from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+#from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotserbot.events import register 
+from userbotserbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 try:
  import subprocess

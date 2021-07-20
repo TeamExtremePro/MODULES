@@ -1,23 +1,23 @@
-from userbotserbotserbotsyncio import sleep
-from userbotserbotserbots import remove
-from userbotserbotserbotelethon import events
+from userbotserbotserbotserbotsyncio import sleep
+from userbotserbotserbotserbots import remove
+from userbotserbotserbotserbotelethon import events
 import asyncio
-from userbotserbotserbotelethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError, InviteHashEmptyError, InviteHashExpiredError, InviteHashInvalidError)
-from userbotserbotserbotmoji import emojize
-from userbotserbotserbotelethon.tl.types import MessageActionChannelMigrateFrom, ChannelParticipantsAdmins, ChannelParticipantCreator
-from userbotserbotserbotelethon.tl.functions.messages import GetHistoryRequest, CheckChatInviteRequest, GetFullChatRequest
-from userbotserbotserbotelethon.events import ChatAction
-from userbotserbotserbotatetime import datetime
-from userbotserbotserbotath import sqrt
-from userbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest,LeaveChannelRequest
-from userbotserbotserbotelethon.utils import get_input_location
-from userbotserbotserbotelethon.errors.rpcerrorlist import (UserIdInvalidError,
+from userbotserbotserbotserbotelethon.errors import (ChannelInvalidError, ChannelPrivateError, ChannelPublicGroupNaError, InviteHashEmptyError, InviteHashExpiredError, InviteHashInvalidError)
+from userbotserbotserbotserbotmoji import emojize
+from userbotserbotserbotserbotelethon.tl.types import MessageActionChannelMigrateFrom, ChannelParticipantsAdmins, ChannelParticipantCreator
+from userbotserbotserbotserbotelethon.tl.functions.messages import GetHistoryRequest, CheckChatInviteRequest, GetFullChatRequest
+from userbotserbotserbotserbotelethon.events import ChatAction
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotath import sqrt
+from userbotserbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest, GetParticipantsRequest,LeaveChannelRequest
+from userbotserbotserbotserbotelethon.utils import get_input_location
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import (UserIdInvalidError,
                                           MessageTooLongError)
-from userbotserbotserbotelethon.errors import (BadRequestError, ChatAdminRequiredError,
+from userbotserbotserbotserbotelethon.errors import (BadRequestError, ChatAdminRequiredError,
                              ImageProcessFailedError, PhotoCropSizeSmallError,
                              UserAdminInvalidError)
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import  errors_handler, admin_cmd
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import  errors_handler, admin_cmd
 
 @borg.on(admin_cmd(pattern="leave$"))
 async def leave(e):
@@ -52,7 +52,7 @@ async def get_chatinfo(event):
     if not chat:
         if event.reply_to_msg_id:
             replied_msg = await event.get_reply_message()
-            if replied_msg.fwd_from userbotserbotserbotnd replied_msg.fwd_from.channel_id is not None:
+            if replied_msg.fwd_from userbotserbotserbotserbotnd replied_msg.fwd_from.channel_id is not None:
                 chat = replied_msg.fwd_from.channel_id
         else:
             chat = event.chat_id
@@ -65,7 +65,7 @@ async def get_chatinfo(event):
             await event.reply("`Invalid channel/group`")
             return None
         except ChannelPrivateError:
-            await event.reply("`This is a private channel/group or I am banned from userbotserbotserbothere`")
+            await event.reply("`This is a private channel/group or I am banned from userbotserbotserbotserbothere`")
             return None
         except ChannelPublicGroupNaError:
             await event.reply("`Channel or supergroup doesn't exist`")

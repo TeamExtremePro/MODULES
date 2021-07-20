@@ -7,24 +7,24 @@ Syntax: .clone @username"""
 
 import html
 import os
-from userbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
-from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotserbotelethon.tl.types import MessageEntityMentionName
-from userbotserbotserbotelethon.utils import get_input_location
-from userbotserbotserbotserbot.utils import admin_cmd
-from userbotserbotserbotelethon.tl import functions
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
-from userbotserbotserbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
+from userbotserbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotserbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbotserbotelethon.utils import get_input_location
+from userbotserbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbotelethon.tl import functions
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
+from userbotserbotserbotserbotelethon.errors.rpcerrorlist import (PhotoExtInvalidError,
                                           UsernameOccupiedError)
-from userbotserbotserbotelethon.tl.functions.account import (UpdateProfileRequest,
+from userbotserbotserbotserbotelethon.tl.functions.account import (UpdateProfileRequest,
                                            UpdateUsernameRequest)
-from userbotserbotserbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
-from userbotserbotserbotelethon.tl.functions.photos import (DeletePhotosRequest,
+from userbotserbotserbotserbotelethon.tl.functions.channels import GetAdminedPublicChannelsRequest
+from userbotserbotserbotserbotelethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
-from userbotserbotserbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from userbotserbotserbot import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
+from userbotserbotserbotserbotelethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
+from userbotserbotserbotserbot import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

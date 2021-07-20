@@ -11,13 +11,13 @@ import asyncio
 import os
 import subprocess
 import time
-from userbotserbotserbotatetime import datetime
-from userbotserbotserbotachoir.metadata import extractMetadata
-from userbotserbotserbotachoir.parser import createParser
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl.types import DocumentAttributeVideo
-from userbotserbotserbotelethon.tl.types import DocumentAttributeAudio
-from userbotserbotserbotserbot.utils import progress, admin_cmd
+from userbotserbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotachoir.metadata import extractMetadata
+from userbotserbotserbotserbotachoir.parser import createParser
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl.types import DocumentAttributeVideo
+from userbotserbotserbotserbotelethon.tl.types import DocumentAttributeAudio
+from userbotserbotserbotserbotserbot.utils import progress, admin_cmd
 
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"

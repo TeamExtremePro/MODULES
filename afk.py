@@ -3,13 +3,13 @@
 """Syntax: .afk REASON"""
 import asyncio
 import datetime
-from userbotserbotserbotatetime import datetime
+from userbotserbotserbotserbotatetime import datetime
 
-from userbotserbotserbotelethon import events
-from userbotserbotserbotelethon.tl import functions, types
+from userbotserbotserbotserbotelethon import events
+from userbotserbotserbotserbotelethon.tl import functions, types
 
-from userbotserbotserbot import CMD_HELP
-from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbotserbot.utils import admin_cmd
 
 global USER_AFK  # pylint:disable=E0602
 global afk_time  # pylint:disable=E0602
