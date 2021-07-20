@@ -4,22 +4,22 @@ ported to telethon by @mrconfused and @sandy1709
 """
 import asyncio
 import shlex
-from userbotserbotIL import Image 
-from userbotserbot import LOGS , CMD_HELP
-from userbotserbotelethon import functions, types
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbotlitch_this import ImageGlitcher
-from userbotserbotyping import Optional, Tuple
+from userbotserbotserbotIL import Image 
+from userbotserbotserbot import LOGS , CMD_HELP
+from userbotserbotserbotelethon import functions, types
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotlitch_this import ImageGlitcher
+from userbotserbotserbotyping import Optional, Tuple
 
 
-from userbotserbot import bot, CMD_HELP, LOGS
-from userbotserbotserbot.events import register
+from userbotserbotserbot import bot, CMD_HELP, LOGS
+from userbotserbotserbotserbot.events import register
 
 async def take_screen_shot(
     video_file: str, duration: int, path: str = ""
 ) -> Optional[str]:
     print(
-        "[[[Extracting a frame from userbotserbots ||| Video duration => %s]]]",
+        "[[[Extracting a frame from userbotserbotserbots ||| Video duration => %s]]]",
         video_file,
         duration,
     )
@@ -136,9 +136,9 @@ async def glitch(event):
 CMD_HELP.update({
     "glitch":
     ".glitch` reply to media file\
-\nUsage:glitches the given mediafile(gif , stickers , image, videos) to a gif and glitch range is from userbotserbot to 8.\
+\nUsage:glitches the given mediafile(gif , stickers , image, videos) to a gif and glitch range is from userbotserbotserbot to 8.\
 If nothing is mentioned then by default it is 2\
 \n\n.glitchs reply to media file\
-\nUsage:glitches the given mediafile(gif , stickers , image, videos) to a sticker and glitch range is from userbotserbot to 8.\
+\nUsage:glitches the given mediafile(gif , stickers , image, videos) to a sticker and glitch range is from userbotserbotserbot to 8.\
 If nothing is mentioned then by default it is 2."
 })

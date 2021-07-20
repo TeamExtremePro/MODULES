@@ -4,11 +4,11 @@
 # Kang with credits..
 
 import asyncio
-from userbotserbotsyncio import wait
-from userbotserbot import CMD_HELP
+from userbotserbotserbotsyncio import wait
+from userbotserbotserbot import CMD_HELP
 
 
-from userbotserbotserbot.events import register
+from userbotserbotserbotserbot.events import register
 
 @register(outgoing=True, pattern="^.tspam")
 async def tmeme(e):
@@ -87,7 +87,7 @@ async def spammer(e):
 CMD_HELP.update(
     {
         "spam": ".spam <no of msgs> <your msg>"
-        "\nUsage: spams the current chat, the current limit for this is from userbotserbot to 99.\n\n"
+        "\nUsage: spams the current chat, the current limit for this is from userbotserbotserbot to 99.\n\n"
         ".bigspam <no of msgs> <your msg>"
         "\nUsage: Spams the current chat, the current limit is above 100.\n\n"
         ".mspam <no of spam> (with reply to media)"

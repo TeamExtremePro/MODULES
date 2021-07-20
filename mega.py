@@ -26,14 +26,14 @@ import multiprocessing
 import os
 import re
 import time
-from userbotserbotsyncio import create_subprocess_shell as asyncSubprocess
-from userbotserbotsyncio.subprocess import PIPE as asyncPIPE
-from userbotserbotrllib.error import HTTPError
+from userbotserbotserbotsyncio import create_subprocess_shell as asyncSubprocess
+from userbotserbotserbotsyncio.subprocess import PIPE as asyncPIPE
+from userbotserbotserbotrllib.error import HTTPError
 
-from userbotserbotySmartDL import SmartDL
+from userbotserbotserbotySmartDL import SmartDL
 
-from userbotserbotserbot.utils import admin_cmd, edit_or_reply, humanbytes, time_formatter
-from userbotserbot import CMD_HELP, LOGS
+from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, humanbytes, time_formatter
+from userbotserbotserbot import CMD_HELP, LOGS
 
 TEMP_DOWNLOAD_DIRECTORY = Config.TMP_DOWNLOAD_DIRECTORY
 

@@ -2,13 +2,13 @@
 Available Commands:
 .tts LanguageCode as reply to a message
 .tts LangaugeCode | text to speak"""
-from userbotserbot import CMD_HELP
+from userbotserbotserbot import CMD_HELP
 import asyncio
 import os
 import subprocess
-from userbotserbotatetime import datetime
-from userbotserbottts import gTTS
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotatetime import datetime
+from userbotserbotserbottts import gTTS
+from userbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="voice (.*)"))

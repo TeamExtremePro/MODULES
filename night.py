@@ -2,10 +2,10 @@
 Syntax: .night REASON"""
 import asyncio
 import datetime
-from userbotserbotelethon import events
-from userbotserbotelethon.tl import functions, types
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbot import ALIVE_NAME
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl import functions, types
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbot import ALIVE_NAME
 
 global USER_night  # pylint:disable=E0602
 global night_time  # pylint:disable=E0602

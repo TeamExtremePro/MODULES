@@ -1,13 +1,13 @@
 #made by LEGENDX22
 import asyncio
 import datetime
-from userbotserbotatetime import datetime
+from userbotserbotserbotatetime import datetime
 
-from userbotserbotelethon import events
-from userbotserbotelethon.tl import functions, types
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl import functions, types
 
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd
 
 global USER_AFK  # pylint:disable=E0602
 global afk_time  # pylint:disable=E0602

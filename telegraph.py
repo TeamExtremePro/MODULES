@@ -1,11 +1,11 @@
 
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import os
-from userbotserbotIL import Image
-from userbotserbotatetime import datetime
-from userbotserbotelegraph import Telegraph, upload_file, exceptions
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbot import CMD_HELP
+from userbotserbotserbotIL import Image
+from userbotserbotserbotatetime import datetime
+from userbotserbotserbotelegraph import Telegraph, upload_file, exceptions
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbot import CMD_HELP
 
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=Config.TELEGRAPH_SHORT_NAME)
@@ -23,7 +23,7 @@ async def _(event):
         os.makedirs(Config.TMP_DOWNLOAD_DIRECTORY)
     await borg.send_message(
         Config.PRIVATE_GROUP_BOT_API_ID,
-        "Created New Telegraph account {} for the current session. \n**Do not give this url to anyone, even if they say they are from userbotserbotelegram!**".format(auth_url)
+        "Created New Telegraph account {} for the current session. \n**Do not give this url to anyone, even if they say they are from userbotserbotserbotelegram!**".format(auth_url)
     )
     optional_title = event.pattern_match.group(2)
     if event.reply_to_msg_id:

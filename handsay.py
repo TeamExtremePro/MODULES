@@ -3,7 +3,7 @@
 #ISKO BHI LELE MADARCHOD. KHUD APNI MAA CHUDWATE REHTE HO.....
 
 import asyncio
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern="hnd (.*)"))
 async def _(event):

@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 import re
-from userbotserbotunctools import partial
+from userbotserbotserbotunctools import partial
 
-from userbotserbotelethon import events
-from userbotserbotelethon.tl.functions.messages import EditMessageRequest
-from userbotserbotelethon.extensions.markdown import DEFAULT_URL_RE
-from userbotserbotelethon.utils import add_surrogate, del_surrogate
-from userbotserbotelethon.tl.types import (
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl.functions.messages import EditMessageRequest
+from userbotserbotserbotelethon.extensions.markdown import DEFAULT_URL_RE
+from userbotserbotserbotelethon.utils import add_surrogate, del_surrogate
+from userbotserbotserbotelethon.tl.types import (
     MessageEntityBold, MessageEntityItalic, MessageEntityCode,
     MessageEntityPre, MessageEntityTextUrl
 )
@@ -111,7 +111,7 @@ def parse(message, old_entities=None):
             for e in old_entities[after:]:
                 e.offset += shift
 
-        # Replace whole match with text from userbotserbotarser
+        # Replace whole match with text from userbotserbotserbotarser
         message = ''.join((
             message[:match.start()],
             text,

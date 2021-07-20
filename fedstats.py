@@ -1,10 +1,10 @@
 import asyncio
 # made by telebot
-from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotEGENDX import NAME
-from userbotserbot import CMD_HELP
-from userbotserbot import bot
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotEGENDX import NAME
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbot import bot
+from userbotserbotserbotserbot.utils import admin_cmd
 
 bot = "@MissRose_bot"
 LEGENDX = NAME

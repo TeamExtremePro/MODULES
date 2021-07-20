@@ -12,14 +12,14 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from userbotserbot import bot
-from userbotserbotelethon import events
-from userbotserbotelethon import functions, types
-from userbotserbotelethon.tl.types import InputMessagesFilterDocument
-from userbotserbotserbot.utils import command, remove_plugin, load_module
-from userbotserbotar import Var
-from userbotserbotathlib import Path
-from userbotserbot import LOAD_PLUG
+from userbotserbotserbot import bot
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon import functions, types
+from userbotserbotserbotelethon.tl.types import InputMessagesFilterDocument
+from userbotserbotserbotserbot.utils import command, remove_plugin, load_module
+from userbotserbotserbotar import Var
+from userbotserbotserbotathlib import Path
+from userbotserbotserbot import LOAD_PLUG
 import sys
 import asyncio
 import traceback

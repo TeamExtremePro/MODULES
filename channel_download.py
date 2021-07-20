@@ -1,16 +1,16 @@
 """
 Telegram Channel Media Downloader Plugin for userbot.
-usage: .geta channel_username [will  get all media from userbotserbothannel, tho there is limit of 3000 there to prevent API limits.]
+usage: .geta channel_username [will  get all media from userbotserbotserbothannel, tho there is limit of 3000 there to prevent API limits.]
        .getc number_of_messsages channel_username  
 By: @Zero_cool7870
 """
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import asyncio
 import os
 import subprocess
 import sys
-from userbotserbotserbot.utils import admin_cmd, humanbytes, progress, time_formatter
-from userbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd, humanbytes, progress, time_formatter
+from userbotserbotserbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern=r"getc"))
 async def get_media(event):
@@ -86,9 +86,9 @@ CMD_HELP.update(
         "channel_download": f"""**Plugin : **`channel_download`
 **Telegram Channel Media Downloader Plugin for userbot.**
   • **Syntax : **`.geta channel_username` 
-  • **Function : **__will  download all media from userbotserbothannel into your bot server but there is limit of 3000 to prevent API limits.__
+  • **Function : **__will  download all media from userbotserbotserbothannel into your bot server but there is limit of 3000 to prevent API limits.__
   
   • **Syntax : **`.getc number channel_username` 
-  • **Function : **__will  download latest given number of media from userbotserbothannel into your bot server .__"""
+  • **Function : **__will  download latest given number of media from userbotserbotserbothannel into your bot server .__"""
     }
 )

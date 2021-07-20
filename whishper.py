@@ -1,7 +1,7 @@
 #Made by@LEGENDX22 for @LEGEND_USERBOT_SUPPORT
 
-from userbotserbotserbot.utils import admin_cmd, sudo_cmd, edit_or_reply
-from userbotserbotar import Var
+from userbotserbotserbotserbot.utils import admin_cmd, sudo_cmd, edit_or_reply
+from userbotserbotserbotar import Var
 
 
 

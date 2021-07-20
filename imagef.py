@@ -7,15 +7,15 @@
 
 import cv2
 import numpy as np
-from userbotserbotIL import Image, ImageDraw
+from userbotserbotserbotIL import Image, ImageDraw
 import pygments, os, asyncio, shutil, scapy, sys, requests, re, subprocess
-from userbotserbotygments.lexers import Python3Lexer
-from userbotserbotygments.formatters import ImageFormatter
-from userbotserbot import bot, CMD_HELP
-from userbotserbotserbot.utils import admin_cmd, sudo_cmd
-from userbotserbotelegraph import upload_file
-from userbotserbotelethon import events
-from userbotserbotelethon.tl.types import MessageMediaPhoto
+from userbotserbotserbotygments.lexers import Python3Lexer
+from userbotserbotserbotygments.formatters import ImageFormatter
+from userbotserbotserbot import bot, CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd, sudo_cmd
+from userbotserbotserbotelegraph import upload_file
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl.types import MessageMediaPhoto
 
 
 path = "./LEGENDX/"

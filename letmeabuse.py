@@ -3,10 +3,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import random
 import asyncio
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"habuse(.*)", outgoing=True))
 async def _(event):
@@ -67,7 +67,7 @@ async def _(event):
 "Chudan chuda- Fucking games",
 "Chut ka pujari- pussy worshipper",
 "Chut ka bhoot- Vaginal Ghost",
-"Gaand ka makhan- Butter from userbotserbothe ass",
+"Gaand ka makhan- Butter from userbotserbotserbothe ass",
 "Gaand main lassan- Garlic in ass",
 "Gaand main danda- Stick in ass",
 "Gaand main keera- Bug up your ass",

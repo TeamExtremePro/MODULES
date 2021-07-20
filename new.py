@@ -4,10 +4,10 @@
 
 import string
 
-from userbotserbotelethon import events
-from userbotserbotelethon.utils import add_surrogate
-from userbotserbotelethon.tl.types import MessageEntityPre
-from userbotserbotelethon.tl.tlobject import TLObject
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.utils import add_surrogate
+from userbotserbotserbotelethon.tl.types import MessageEntityPre
+from userbotserbotserbotelethon.tl.tlobject import TLObject
 import datetime
 
 PRINTABLE_SET = set(bytes(string.printable, 'ascii'))

@@ -1,10 +1,10 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
-from userbotserbotelethon.tl.functions.messages import SaveDraftRequest
+from userbotserbotserbotelethon.tl.functions.messages import SaveDraftRequest
 
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(admin_cmd(pattern="chain$"))

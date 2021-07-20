@@ -6,9 +6,9 @@ credit: @r4v4n4"""
 
 import string
 
-from userbotserbotelethon import events
-from userbotserbotelethon.tl import types
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl import types
+from userbotserbotserbotserbot.utils import admin_cmd
 
 msg_cache = {}
 

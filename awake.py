@@ -11,19 +11,19 @@
 import os
 import time
 import asyncio
-from userbotserbotelethon import events
-from userbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbot import ALIVE_NAME, StartTime, CMD_HELP
-from userbotserbot import legend
-from userbotserbotEGENDX import BOT, PHOTO, VERSION
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbotath import ceil
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbot import ALIVE_NAME, StartTime, CMD_HELP
+from userbotserbotserbot import legend
+from userbotserbotserbotEGENDX import BOT, PHOTO, VERSION
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotath import ceil
 import json
 import random
 import re
-from userbotserbotelethon import events, errors, custom
+from userbotserbotserbotelethon import events, errors, custom
 import io
-from userbotserbotlatform import python_version, uname
+from userbotserbotserbotlatform import python_version, uname
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"

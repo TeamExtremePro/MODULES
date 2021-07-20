@@ -6,7 +6,7 @@
 
 
 
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 
 import asyncio
 
@@ -16,7 +16,7 @@ import sys
 
 import random
 
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotserbot.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"engsongs", outgoing=True))
 
@@ -54,7 +54,7 @@ async def _(event):
 
     if x==6:
 
-        await event.edit("🎶 I took the supermarket flowers from userbotserbothe windowsill \n I threw the day old tea from userbotserbothe cup \n Packed up the photo album Matthew had made \n Memories of a life that's been loved \n Took the get well soon cards and stuffed animals \n Poured the old ginger beer down the sink \n Dad always told me, 'don't you cry when you're down' \n But mum, there's a tear every time that I blink 🎶 \n **-Supermarket Flowers**")
+        await event.edit("🎶 I took the supermarket flowers from userbotserbotserbothe windowsill \n I threw the day old tea from userbotserbotserbothe cup \n Packed up the photo album Matthew had made \n Memories of a life that's been loved \n Took the get well soon cards and stuffed animals \n Poured the old ginger beer down the sink \n Dad always told me, 'don't you cry when you're down' \n But mum, there's a tear every time that I blink 🎶 \n **-Supermarket Flowers**")
 
     if x==7:
 
@@ -90,7 +90,7 @@ async def _(event):
         
     if x==15:
 
-        await event.edit("🎶 Oh, angel sent from userbotserbotp above \n You know you make my world light up \n When I was down, when I was hurt \n You came to lift me up \n Life is a drink and love's a drug \n Oh, now I think I must be miles up \n When I was a river dried up \n You came to rain a flood 🎶**-Hymn for the Weekend ** ")
+        await event.edit("🎶 Oh, angel sent from userbotserbotserbotp above \n You know you make my world light up \n When I was down, when I was hurt \n You came to lift me up \n Life is a drink and love's a drug \n Oh, now I think I must be miles up \n When I was a river dried up \n You came to rain a flood 🎶**-Hymn for the Weekend ** ")
 
     if x==16:
 
@@ -102,7 +102,7 @@ async def _(event):
 
     if x==18:
 
-        await event.edit("🎶 It's been a long day without you, my friend \n And I'll tell you all about it when I see you again \n We've come a long way from userbotserbothere we began \n Oh I'll tell you all about it when I see you again \n When I see you again 🎶 \n **-See you Again**")
+        await event.edit("🎶 It's been a long day without you, my friend \n And I'll tell you all about it when I see you again \n We've come a long way from userbotserbotserbothere we began \n Oh I'll tell you all about it when I see you again \n When I see you again 🎶 \n **-See you Again**")
 
     if x==19:
 

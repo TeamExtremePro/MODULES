@@ -1,9 +1,9 @@
 """Get Administrators of any Chat*
 Syntax: .userlist"""
-from userbotserbotelethon import events
-from userbotserbotelethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-from userbotserbotniborg.util import admin_cmd
-from userbotserbotelethon.errors.rpcerrorlist import (UserIdInvalidError,
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
+from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbotelethon.errors.rpcerrorlist import (UserIdInvalidError,
                                           MessageTooLongError)
                                           
 @borg.on(events.NewMessage(pattern=r"\.userlist ?(.*)", outgoing=True))

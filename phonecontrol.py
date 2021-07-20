@@ -2,10 +2,10 @@
 
 import datetime
 import asyncio
-from userbotserbotelethon import events
-from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
-from userbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
-from userbotserbotniborg.util import admin_cmd
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotelethon.tl.functions.account import UpdateNotifySettingsRequest
+from userbotserbotserbotniborg.util import admin_cmd
 
 @borg.on(admin_cmd(pattern="battery ?(.*)", allow_sudo=True))
 async def _(event):

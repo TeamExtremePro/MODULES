@@ -1,5 +1,5 @@
 # BY @STARKTM1
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import asyncio
 import random
 

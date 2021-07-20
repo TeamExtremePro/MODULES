@@ -1,33 +1,33 @@
-from userbotserbotelethon import *
+from userbotserbotserbotelethon import *
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
-from userbotserbote import findall
+from userbotserbotserbote import findall
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
-from userbotserbotrllib.parse import quote_plus
-from userbotserbotrllib.error import HTTPError
+from userbotserbotserbotrllib.parse import quote_plus
+from userbotserbotserbotrllib.error import HTTPError
 #made by Sh1vam Donot kang
-from userbotserbotearch_engine_parser import GoogleSearch
+from userbotserbotserbotearch_engine_parser import GoogleSearch
 #made by Sh1vam Donot kang
 import urllib
 #made by Sh1vam Donot kang
 #made by Sh1vam Donot kang
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 #made by Sh1vam Donot kang
 import asyncio
 #made by Sh1vam Donot kang
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbot import bot as tgbot
-from userbotserbot import bot as borg
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbot import bot as tgbot
+from userbotserbotserbot import bot as borg
 import os
 import re
 import urllib
-from userbotserbotath import ceil
+from userbotserbotserbotath import ceil
 #made by Sh1vam Donot kang
 import requests
-from userbotserbotelethon import Button, custom, events, functions
+from userbotserbotserbotelethon import Button, custom, events, functions
 #made by Sh1vam Donot kang
 opener = urllib.request.build_opener() ; useragent = 'Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.70 Mobile Safari/537.36' ; opener.addheaders = [('User-agent', useragent)]
 #made by Sh1vam Donot kang#made by Sh1vam Donot kang

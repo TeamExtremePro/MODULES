@@ -3,10 +3,10 @@
 Userbot module to help you dm msg
 """
 
-from userbotserbotelethon import *
+from userbotserbotserbotelethon import *
 
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd
 
 
 # Fixed by LEGDND X

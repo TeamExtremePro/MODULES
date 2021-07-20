@@ -1,6 +1,6 @@
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import asyncio
-from userbotserbotniborg.util import admin_cmd
+from userbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="ttf ?(.*)"))

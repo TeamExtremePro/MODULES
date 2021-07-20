@@ -2,9 +2,9 @@
 
 
 import random, re
-from userbotserbotniborg.util import admin_cmd
+from userbotserbotserbotniborg.util import admin_cmd
 import asyncio
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 
 @borg.on(admin_cmd(pattern="rban ?(.*)"))
 async def _(event):
@@ -188,4 +188,4 @@ async def _(event):
         await asyncio.sleep(2)
         await event.edit("UnGbanning user... \n 204 chats")
         await asyncio.sleep(1.5)
-        await event.edit("Javes: UnGbanned user successfully in 204 chats.\nUnBlocked and removed from userbotserbotban watch")
+        await event.edit("Javes: UnGbanned user successfully in 204 chats.\nUnBlocked and removed from userbotserbotserbotban watch")

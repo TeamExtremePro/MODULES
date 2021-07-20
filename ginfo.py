@@ -10,11 +10,11 @@
                   idea by @Alain_Champion 
  ((((((((((((((((((((((((( @LEGENDX22 AND @PROBOYX)))))))))))))))))))))))))))
 """
-from userbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
+from userbotserbotserbotelethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbotEGENDX import MASTER
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotEGENDX import MASTER
 LEGEND = MASTER
 PROBOY = "@tgscanrobot"
 # MADE BY LEGENDX22 🔥🔥

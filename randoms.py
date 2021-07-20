@@ -1,6 +1,6 @@
 
 """
-inspired from userbotserbotDeonnn @Mayur_Karaniya
+inspired from userbotserbotserbotDeonnn @Mayur_Karaniya
 Quotes credits: Being Biblical Channel : @BeingBiblical
 AlenPaulVarghese(@STARKTM1)[hp]
 Sing credits :By @PhycoNinja13b
@@ -11,10 +11,10 @@ merged by @legendx22
 """
 
 import random
-from userbotserbotsyncio import sleep
+from userbotserbotserbotsyncio import sleep
 
-from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbot import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern=r"sing$", outgoing=True))
@@ -47,7 +47,7 @@ async def _(event):
         )
     if x == 6:
         await event.edit(
-            "🎶 I took the supermarket flowers from userbotserbothe windowsill \n I threw the day old tea from userbotserbothe cup \n Packed up the photo album Matthew had made \n Memories of a life that's been loved \n Took the get well soon cards and stuffed animals \n Poured the old ginger beer down the sink \n Dad always told me, 'don't you cry when you're down' \n But mum, there's a tear every time that I blink 🎶 \n **-Supermarket Flowers**"
+            "🎶 I took the supermarket flowers from userbotserbotserbothe windowsill \n I threw the day old tea from userbotserbotserbothe cup \n Packed up the photo album Matthew had made \n Memories of a life that's been loved \n Took the get well soon cards and stuffed animals \n Poured the old ginger beer down the sink \n Dad always told me, 'don't you cry when you're down' \n But mum, there's a tear every time that I blink 🎶 \n **-Supermarket Flowers**"
         )
     if x == 7:
         await event.edit(
@@ -83,7 +83,7 @@ async def _(event):
         )
     if x == 15:
         await event.edit(
-            "🎶 Oh, angel sent from userbotserbotp above \n You know you make my world light up \n When I was down, when I was hurt \n You came to lift me up \n Life is a drink and love's a drug \n Oh, now I think I must be miles up \n When I was a river dried up \n You came to rain a flood 🎶**-Hymn for the Weekend ** "
+            "🎶 Oh, angel sent from userbotserbotserbotp above \n You know you make my world light up \n When I was down, when I was hurt \n You came to lift me up \n Life is a drink and love's a drug \n Oh, now I think I must be miles up \n When I was a river dried up \n You came to rain a flood 🎶**-Hymn for the Weekend ** "
         )
     if x == 16:
         await event.edit(
@@ -95,7 +95,7 @@ async def _(event):
         )
     if x == 18:
         await event.edit(
-            "🎶 It's been a long day without you, my friend \n And I'll tell you all about it when I see you again \n We've come a long way from userbotserbothere we began \n Oh I'll tell you all about it when I see you again \n When I see you again 🎶 \n **-See you Again**"
+            "🎶 It's been a long day without you, my friend \n And I'll tell you all about it when I see you again \n We've come a long way from userbotserbotserbothere we began \n Oh I'll tell you all about it when I see you again \n When I see you again 🎶 \n **-See you Again**"
         )
     if x == 19:
         await event.edit(
@@ -412,7 +412,7 @@ async def _(event):
         )
     if x == 2:
         await event.edit(
-            "[A shift from userbotserbothe mainstream darling, sweetheart, jaanu, and what not...](https://telegra.ph/file/6bbb86a6c7d2c4a61e102.jpg)",
+            "[A shift from userbotserbotserbothe mainstream darling, sweetheart, jaanu, and what not...](https://telegra.ph/file/6bbb86a6c7d2c4a61e102.jpg)",
             link_preview=True,
         )
     if x == 3:
@@ -681,7 +681,7 @@ async def _(event):
         )
     if x == 31:
         await event.edit(
-            '`"After honey was first discovered, there was likely a period where people were taste testing any available slime from userbotserbotnsects."`'
+            '`"After honey was first discovered, there was likely a period where people were taste testing any available slime from userbotserbotserbotnsects."`'
         )
     if x == 32:
         await event.edit(
@@ -848,7 +848,7 @@ async def _(event):
             '`"Night before a day off is more satisfying than the actual day off."`'
         )
     if x == 76:
-        await event.edit('`"We put paper in a folder to keep it from userbotserbotolding."`')
+        await event.edit('`"We put paper in a folder to keep it from userbotserbotserbotolding."`')
     if x == 77:
         await event.edit(
             '`"Somewhere, two best friends are meeting for the first time."`'
@@ -863,7 +863,7 @@ async def _(event):
         )
     if x == 80:
         await event.edit(
-            '`"Soon the parents will be hiding their social account from userbotserbotheir kids rather than kids hiding their accounts from userbotserbothe parents."`'
+            '`"Soon the parents will be hiding their social account from userbotserbotserbotheir kids rather than kids hiding their accounts from userbotserbotserbothe parents."`'
         )
     if x == 81:
         await event.edit('`"Wikipedia is what the internet was meant to be."`')
@@ -973,7 +973,7 @@ async def _(event):
         )
     if x == 6:
         await event.edit(
-            '`"Counting on fingers is a vital part of learning math, and children that do it from userbotserbotn early age develop much better math skills than those who have been told not to."`'
+            '`"Counting on fingers is a vital part of learning math, and children that do it from userbotserbotserbotn early age develop much better math skills than those who have been told not to."`'
         )
     if x == 7:
         await event.edit(
@@ -1009,7 +1009,7 @@ async def _(event):
         )
     if x == 15:
         await event.edit(
-            '`"If you’re ever in the heat of an argument, always act like you’re being recorded. This helps you from userbotserbotaying things you don’t mean and could regret later."`'
+            '`"If you’re ever in the heat of an argument, always act like you’re being recorded. This helps you from userbotserbotserbotaying things you don’t mean and could regret later."`'
         )
     if x == 16:
         await event.edit(
@@ -1049,7 +1049,7 @@ async def _(event):
         )
     if x == 25:
         await event.edit(
-            "`\"If you're a student planning on your career, look up postings of your dream job, find the skills and qualifications you'll need, then work backwards from userbotserbothere.\"`"
+            "`\"If you're a student planning on your career, look up postings of your dream job, find the skills and qualifications you'll need, then work backwards from userbotserbotserbothere.\"`"
         )
     if x == 26:
         await event.edit(
@@ -1101,11 +1101,11 @@ async def _(event):
         )
     if x == 38:
         await event.edit(
-            '`"Keep your water bottle near you and your alarm far from userbotserbotou in the morning for a great start to the day!"`'
+            '`"Keep your water bottle near you and your alarm far from userbotserbotserbotou in the morning for a great start to the day!"`'
         )
     if x == 39:
         await event.edit(
-            '`"If you borrow money from userbotserbotomeone, don’t let it get to the point that he/she has to ask for it back. It sucks for both. If you can’t repay now, show intent by paying what you can and keeping the other person posted often"`'
+            '`"If you borrow money from userbotserbotserbotomeone, don’t let it get to the point that he/she has to ask for it back. It sucks for both. If you can’t repay now, show intent by paying what you can and keeping the other person posted often"`'
         )
     if x == 40:
         await event.edit(
@@ -1177,7 +1177,7 @@ async def _(event):
         )
     if x == 57:
         await event.edit(
-            '`"When trying to focus on something (writing, revising, reading) listen to music with no words. This allows you to block out unwanted sound and having no lyrics can stop you from userbotserboteing distracted."`'
+            '`"When trying to focus on something (writing, revising, reading) listen to music with no words. This allows you to block out unwanted sound and having no lyrics can stop you from userbotserbotserboteing distracted."`'
         )
     if x == 58:
         await event.edit(
@@ -1217,7 +1217,7 @@ async def _(event):
         )
     if x == 66:
         await event.edit(
-            "`\"If you make a mistake, admit to the mistake, apologize, and explain what steps you'll take to prevent it from userbotserbotappening again in the future. It's very hard for people to yell at you if you've done that.\"`"
+            "`\"If you make a mistake, admit to the mistake, apologize, and explain what steps you'll take to prevent it from userbotserbotserbotappening again in the future. It's very hard for people to yell at you if you've done that.\"`"
         )
     if x == 67:
         await event.edit(
@@ -1326,7 +1326,7 @@ async def _(event):
             '`"What’s the most interesting thing you’ve read or seen this week?"`'
         )
     if x == 4:
-        await event.edit('`"What scene from userbotserbot TV show will you never forget?"`')
+        await event.edit('`"What scene from userbotserbotserbot TV show will you never forget?"`')
     if x == 5:
         await event.edit(
             '`"If you could become a master in one skill, what skill would you choose?"`'
@@ -1335,7 +1335,7 @@ async def _(event):
         await event.edit('`"What three words can describe you?"`')
     if x == 7:
         await event.edit(
-            '`"If you had to delete one app from userbotserbotour phone, what would it be?"`'
+            '`"If you had to delete one app from userbotserbotserbotour phone, what would it be?"`'
         )
     if x == 8:
         await event.edit(
@@ -1353,7 +1353,7 @@ async def _(event):
         )
     if x == 12:
         await event.edit(
-            '`"What\'s number one item you would save from userbotserbotour burning house?"`'
+            '`"What\'s number one item you would save from userbotserbotserbotour burning house?"`'
         )
     if x == 13:
         await event.edit(
@@ -1453,7 +1453,7 @@ async def _(event):
         await event.edit('`"What thing do you really wish you could buy right now?"`')
     if x == 47:
         await event.edit(
-            '`"If you could ban an admin from userbotserbothis group. Who would you prefer ?"`'
+            '`"If you could ban an admin from userbotserbotserbothis group. Who would you prefer ?"`'
         )
     if x == 48:
         await event.edit(
@@ -1618,7 +1618,7 @@ async def _(event):
         )
     if x == 31:
         await event.edit(
-            '`"After honey was first discovered, there was likely a period where people were taste testing any available slime from userbotserbotnsects."`'
+            '`"After honey was first discovered, there was likely a period where people were taste testing any available slime from userbotserbotserbotnsects."`'
         )
     if x == 32:
         await event.edit(
@@ -1785,7 +1785,7 @@ async def _(event):
             '`"Night before a day off is more satisfying than the actual day off."`'
         )
     if x == 76:
-        await event.edit('`"We put paper in a folder to keep it from userbotserbotolding."`')
+        await event.edit('`"We put paper in a folder to keep it from userbotserbotserbotolding."`')
     if x == 77:
         await event.edit(
             '`"Somewhere, two best friends are meeting for the first time."`'
@@ -1800,7 +1800,7 @@ async def _(event):
         )
     if x == 80:
         await event.edit(
-            '`"Soon the parents will be hiding their social account from userbotserbotheir kids rather than kids hiding their accounts from userbotserbothe parents."`'
+            '`"Soon the parents will be hiding their social account from userbotserbotserbotheir kids rather than kids hiding their accounts from userbotserbotserbothe parents."`'
         )
     if x == 81:
         await event.edit('`"Wikipedia is what the internet was meant to be."`')

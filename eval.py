@@ -4,14 +4,14 @@ Syntax: .eval PythonCode"""
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-from userbotserbotelethon import events, errors, functions, types
+from userbotserbotserbotelethon import events, errors, functions, types
 import inspect
 import traceback
 import asyncio
 import sys
 import io
-from userbotserbot import CMD_HELP
-from userbotserbotniborg.util import admin_cmd
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("eval"))

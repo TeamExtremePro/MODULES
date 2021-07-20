@@ -1,6 +1,6 @@
 """command:.sr"""
 
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 
 import asyncio
 

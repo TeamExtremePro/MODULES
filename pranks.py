@@ -17,11 +17,11 @@ credits to @legendx22
 import base64
 import os
 
-from userbotserbotelegraph import exceptions, upload_file
-from userbotserbotelethon.tl.functions.messages import ImportChatInviteRequest as Get
+from userbotserbotserbotelegraph import exceptions, upload_file
+from userbotserbotserbotelethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.helpers.functions import (
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.helpers.functions import (
     convert_toimage,
     deEmojify,
     phcomment,
@@ -29,9 +29,9 @@ from userbotserbotserbot.helpers.functions import (
     trap,
     trash,
 )
-from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
-from userbotserbot import *
+from userbotserbotserbot import *
 
 
 @bot.on(admin_cmd(pattern="threats(?: |$)(.*)"))

@@ -5,12 +5,12 @@ Available Commands:
 .url <long url>
 .unshort <short url>"""
 
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import os
 import requests
 import json
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbot import CMD_HELP
 
 @borg.on(admin_cmd("dns (.*)"))
 async def _(event):

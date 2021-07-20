@@ -1,14 +1,14 @@
 #Made By @Sur_vivor Keep Credits If You Are Goanna Kang This Lol
-#And Thanks To The Creator Of Autopic This Script Was Made from userbotserbotnippets From That Script
+#And Thanks To The Creator Of Autopic This Script Was Made from userbotserbotserbotnippets From That Script
 #Usage .ppr  Im Not Responsible For Any Ban caused By This
 import requests , re , random 
 import urllib , os 
-from userbotserbotelethon.tl import functions
-from userbotserbotatetime import datetime
-from userbotserbotIL import Image, ImageDraw, ImageFont
-from userbotserbotniborg.util import admin_cmd
+from userbotserbotserbotelethon.tl import functions
+from userbotserbotserbotatetime import datetime
+from userbotserbotserbotIL import Image, ImageDraw, ImageFont
+from userbotserbotserbotniborg.util import admin_cmd
 import asyncio
-from userbotserbotime import sleep
+from userbotserbotserbotime import sleep
 
 AUTOPFP_PACK = os.environ.get("AUTOPFP_PACK", None)
 if AUTOPFP_PACK is None:

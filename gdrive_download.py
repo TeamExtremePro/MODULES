@@ -5,7 +5,7 @@ By: @Zero_cool7870
 
 """
 import requests
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import asyncio
 import os
 import sys
@@ -44,7 +44,7 @@ async def save_response_content(response, destination):
                 f.write(chunk)
     return destination            
 
-async def get_id(link): # Extract File Id from userbotserbot-Drive Link
+async def get_id(link): # Extract File Id from userbotserbotserbot-Drive Link
     file_id = ""
     c_append = False
     if link[1:33] =="https://drive.google.com/file/d/":
@@ -86,7 +86,7 @@ async def g_download(event):
     drive_link = event.text[4:]
     print("Drive Link: "+drive_link)
     file_id = await get_id(drive_link)
-    await event.edit("Downloading Requested File from userbotserbot-Drive...")
+    await event.edit("Downloading Requested File from userbotserbotserbot-Drive...")
     file_name = await download_file_from_google_drive(file_id)
     await event.edit("File Downloaded.\nName: `"+str(file_name)+"`")
             

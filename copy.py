@@ -1,7 +1,7 @@
 
-from userbotserbotelethon import events
-from userbotserbotniborg.util import admin_cmd
-from userbotserbot import CMD_HELP
+from userbotserbotserbotelethon import events
+from userbotserbotserbotniborg.util import admin_cmd
+from userbotserbotserbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern="copy"))
 async def _(event):

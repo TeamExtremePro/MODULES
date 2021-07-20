@@ -11,19 +11,19 @@ import asyncio
 import random
 import re
 import time
-from userbotserbot import ALIVE_NAME
+from userbotserbotserbot import ALIVE_NAME
 
-from userbotserbotollections import deque
+from userbotserbotserbotollections import deque
 
 import requests
 
-from userbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotelethon.tl.types import MessageEntityMentionName
 
-from userbotserbotowpy import cow
-from userbotserbot import bot
-from userbotserbot import CMD_HELP,YOUTUBE_API_KEY
-from userbotserbotserbot.utils import register,admin_cmd
+from userbotserbotserbotowpy import cow
+from userbotserbotserbot import bot
+from userbotserbotserbot import CMD_HELP,YOUTUBE_API_KEY
+from userbotserbotserbotserbot.utils import register,admin_cmd
 
 # ================= CONSTANT =================
 RENDISTR = [
@@ -199,12 +199,12 @@ INSULT_STRINGS = [
      "`Owww ... Such a stupid idiot.`",
     "`Don't drink and type.`",
     "`Command not found. Just like your brain.`",
-    "`Bot rule 420 section 69 prevents me from userbotserboteplying to stupid nubfuks like you.`",
+    "`Bot rule 420 section 69 prevents me from userbotserbotserboteplying to stupid nubfuks like you.`",
     "`Sorry, we do not sell brains.`",
     "`Believe me you are not normal.`",
     "`I bet your brain feels as good as new, seeing that you never use it.`",
     "`If I wanted to kill myself I'd climb your ego and jump to your IQ.`",
-    "`You didn't evolve from userbotserbotpes, they evolved from userbotserbotou.`",
+    "`You didn't evolve from userbotserbotserbotpes, they evolved from userbotserbotserbotou.`",
     "`What language are you speaking? Cause it sounds like bullshit.`",
     "`You are proof that evolution CAN go in reverse.`",
     "`I would ask you how old you are but I know you can't count that high.`",
@@ -355,7 +355,7 @@ FACEREACTS = [
 
 RUNSREACTS = [
     "`Runs to Thanos`",
-    "`Runs far, far away from userbotserbotarth`",
+    "`Runs far, far away from userbotserbotserbotarth`",
     "`Running faster than supercomputer, cuzwhynot`",
     "`Runs to SunnyLeone`",
     "Where do you think you're going?",
@@ -383,11 +383,11 @@ RUNSREACTS = [
     "May the odds be ever in your favour.",
     "Famous last words.",
     "And they disappeared forever, never to be seen again.",
-    "\"Oh, look at me! I'm so cool, I can run from userbotserbot bot!\" - this person",
+    "\"Oh, look at me! I'm so cool, I can run from userbotserbotserbot bot!\" - this person",
     "Yeah yeah, just tap /kickme already.",
     "Here, take this ring and head to Mordor while you're at it.",
     "Legend has it, they're still running...",
-    "Unlike Harry Potter, your parents can't protect you from userbotserbote.",
+    "Unlike Harry Potter, your parents can't protect you from userbotserbotserbote.",
     "Fear leads to anger. Anger leads to hate. Hate leads to suffering. If you keep running in fear, you might "
     "be the next Vader.",
     "Multiple calculations later, I have decided my interest in your shenanigans is exactly 0.",
@@ -403,7 +403,7 @@ RUNSREACTS = [
     "My milkshake brings all the boys to yard... So run faster!",
     "You can't HANDLE the truth!",
     "A long time ago, in a galaxy far far away... Someone would've cared about that. Not anymore though.",
-    "Hey, look at them! They're running from userbotserbothe inevitable banhammer... Cute.",
+    "Hey, look at them! They're running from userbotserbotserbothe inevitable banhammer... Cute.",
     "Han shot first. So will I.",
     "What are you running after, a white rabbit?",
     "As The Doctor would say... RUN!",
@@ -704,7 +704,7 @@ async def who(event):
             await event.edit("`Can't slap this person, need to fetch some sticks and stones !!`")
 
 async def get_user(event):
-    """ Get the user from userbotserbotrgument or replied message. """
+    """ Get the user from userbotserbotserbotrgument or replied message. """
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
         replied_user = await event.client(GetFullUserRequest(previous_message.sender_id))
@@ -1249,6 +1249,6 @@ CMD_HELP.update({
 \n\n.pro\
 \nUsage: If you think you're pro, try this.\
 \n\n.abuse\
-\nUsage: Protects you from userbotserbotnwanted peeps.\
+\nUsage: Protects you from userbotserbotserbotnwanted peeps.\
 \n\n\nThanks to 🅱️ottom🅱️ext🅱️ot (@NotAMemeBot) for some of these."
 })

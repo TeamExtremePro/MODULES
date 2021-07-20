@@ -1,16 +1,16 @@
 
 
 
-from userbotserbotelethon.tl.functions.contacts import BlockRequest, UnblockRequest
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotelethon.tl.functions.contacts import BlockRequest, UnblockRequest
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd
 import html
-from userbotserbotelethon import events
-from userbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
-from userbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotelethon.tl.types import MessageEntityMentionName
-from userbotserbotelethon.utils import get_input_location
-from userbotserbotelethon.events import ChatAction
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl.functions.photos import GetUserPhotosRequest
+from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbotelethon.utils import get_input_location
+from userbotserbotserbotelethon.events import ChatAction
 
 async def get_full_user(event):  
     args = event.pattern_match.group(1).split(':', 1)
@@ -87,7 +87,7 @@ async def gspider(userbot):
                 f"**Didn't , Your Father Teach You ? That You Cant Gban your creator😑😑🖕**"
             )
         try:
-            from userbotserbotserbot.modules.sql_helper.gmute_sql import gmute
+            from userbotserbotserbotserbot.modules.sql_helper.gmute_sql import gmute
         except:
             pass
         try:
@@ -151,7 +151,7 @@ async def gspider(userbot):
         if user.id == 1100231654:
             return await friday.edit("**You Cant gban him... as a result you can not ungban him... He is My Creator!**")
         try:
-            from userbotserbotserbot.modules.sql_helper.gmute_sql import ungmute
+            from userbotserbotserbotserbot.modules.sql_helper.gmute_sql import ungmute
         except:
             pass
         try:
@@ -188,7 +188,7 @@ async def gspider(userbot):
 async def handler(rkG): 
    if rkG.user_joined or rkG.user_added:      
        try:       	
-         from userbotserbotserbot.modules.sql_helper.gmute_sql import is_gmuted
+         from userbotserbotserbotserbot.modules.sql_helper.gmute_sql import is_gmuted
          guser = await rkG.get_user()      
          gmuted = is_gmuted(guser.id)             
        except:      

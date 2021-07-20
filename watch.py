@@ -2,14 +2,14 @@
 # Author: Sumanjay (https://github.com/cyberboysumanjay) (@cyberboysumanjay)
 # All rights reserved.
 
-#imported from userbotserbotniborg
+#imported from userbotserbotserbotniborg
 
 
 
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import requests
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbotustwatch import JustWatch
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotustwatch import JustWatch
 
 def get_stream_data(query):
     stream_data = {}

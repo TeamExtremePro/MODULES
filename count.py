@@ -1,10 +1,10 @@
 
 import time
-from userbotserbotelethon.events import NewMessage
-from userbotserbotelethon.tl.custom import Dialog
-from userbotserbotelethon.tl.types import Channel, Chat, User
-from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbotserbot import CMD_HELP
+from userbotserbotserbotelethon.events import NewMessage
+from userbotserbotserbotelethon.tl.custom import Dialog
+from userbotserbotserbotelethon.tl.types import Channel, Chat, User
+from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbot import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern="stats$"))

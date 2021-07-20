@@ -4,12 +4,12 @@
 Syntax : .gps <location name>
 """
 # Made by @mrconfused
-# help from userbotserbotsunda005 and @SpEcHIDe
+# help from userbotserbotserbotsunda005 and @SpEcHIDe
 # don't edit credits 
 
-from userbotserboteopy.geocoders import Nominatim
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbotelethon.tl import types
+from userbotserbotserboteopy.geocoders import Nominatim
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotelethon.tl import types
 
 
 

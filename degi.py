@@ -1,9 +1,9 @@
 
 import random, re
-from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 import asyncio
-from userbotserbotelethon import events
-from userbotserbot import CMD_HELP
+from userbotserbotserbotelethon import events
+from userbotserbotserbot import CMD_HELP
 
 @bot.on(admin_cmd(pattern="degi$"))
 @bot.on(sudo_cmd(pattern="degi$", allow_sudo=True))

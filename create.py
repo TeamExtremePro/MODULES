@@ -4,9 +4,9 @@
 """Create Private Groups
 Available Commands:
 .create (b|g) GroupName"""
-from userbotserbotelethon.tl import functions
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbotelethon.tl import functions
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(admin_cmd(pattern="create (b|g|c) (.*)"))  # pylint:disable=E0602

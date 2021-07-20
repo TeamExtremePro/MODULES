@@ -7,14 +7,14 @@
 import io
 import json
 import logging
-from userbotserbotatetime import datetime
+from userbotserbotserbotatetime import datetime
 import aiohttp
 import requests
-from userbotserbotytz import country_names as c_n
-from userbotserbotytz import country_timezones as c_tz
-from userbotserbotytz import timezone as tz
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.utils import admin_cmd, edit_or_reply, errors_handler, sudo_cmd
+from userbotserbotserbotytz import country_names as c_n
+from userbotserbotserbotytz import country_timezones as c_tz
+from userbotserbotserbotytz import timezone as tz
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, errors_handler, sudo_cmd
 
 logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=logging.WARNING
@@ -220,6 +220,6 @@ CMD_HELP.update(
         \n\n  •  **Syntax : **`.setcity <city> or .setcity <city>, <country name/code>`\
         \n  •  **Function : **__Sets your default city so you can just use .weather.__\
         \n\n  •  **Syntax : **`.wttr <city> `\
-        \n  •  **Function : **__Shows you the climate data of 3 days from userbotserbotoday in a image.__"
+        \n  •  **Function : **__Shows you the climate data of 3 days from userbotserbotserbotoday in a image.__"
     }
 )

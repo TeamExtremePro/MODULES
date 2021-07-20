@@ -7,8 +7,8 @@
 
 import time
 
-from userbotserbotelethon.errors import rpcbaseerrors
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotelethon.errors import rpcbaseerrors
+from userbotserbotserbotserbot.utils import admin_cmd
 import importlib.util
 
 

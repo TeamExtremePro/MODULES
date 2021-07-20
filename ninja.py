@@ -4,10 +4,10 @@
 
 import asyncio
 
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import telethon.utils
 
-from userbotserbotniborg.util import admin_cmd,re
+from userbotserbotserbotniborg.util import admin_cmd,re
 
 
 async def get_target_message(event):

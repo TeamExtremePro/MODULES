@@ -8,16 +8,16 @@ Available Commands:
 .rmblacklist"""
 
 import re
-from userbotserbotelethon import events
+from userbotserbotserbotelethon import events
 import sql_helper.blacklist_sql as sql
 
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(events.NewMessage(incoming=True))
 async def on_new_message(event):
-    # TODO: exempt admins from userbotserbotocks
+    # TODO: exempt admins from userbotserbotserbotocks
     name = event.raw_text
     snips = sql.get_chat_blacklist(event.chat_id)
     for snip in snips:
@@ -64,7 +64,7 @@ async def on_delete_blacklist(event):
     )
 
     await edit_or_reply(
-        event, f"Removed {successful} / {len(to_unblacklist)} from userbotserbothe blacklist"
+        event, f"Removed {successful} / {len(to_unblacklist)} from userbotserbotserbothe blacklist"
     )
 
 
@@ -100,7 +100,7 @@ CMD_HELP.update(
     \n**Syntax : **`.addblacklist` <word/words>\
     \n**Usage : **The given word or words will be added to blacklist in that specific chat if any user sends then the message gets deleted.\
     \n\n**Syntax : **`.rmblacklist` <word/words>\
-    \n**Usage : **The given word or words will be removed from userbotserbotlacklist in that specific chat\
+    \n**Usage : **The given word or words will be removed from userbotserbotserbotlacklist in that specific chat\
     \n\n**Syntax : **`.listblacklist`\
     \n**Usage : **Shows you the list of blacklist words in that specific chat\
     \n\n**Note : **if you are adding more than one word at time via this, then remember that new word must be given in a new line that is not [hi hello]. It must be as\

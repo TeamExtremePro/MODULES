@@ -1,10 +1,10 @@
 """COMMAND : .join , .pay , .work , .push , .aag , .climb, .ohh, .suckit, .lovestory, .bf"""
 import random
 import asyncio
-from userbotserbotelethon import events
-from userbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbotserbot.utils import admin_cmd
-from userbotserbot import CMD_HELP, LOGS
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbotserbot.utils import admin_cmd
+from userbotserbotserbot import CMD_HELP, LOGS
 
 
 @borg.on(admin_cmd(pattern="join"))

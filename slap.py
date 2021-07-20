@@ -5,12 +5,12 @@ usage:- .slap in reply to any message, or u gonna slap urself.
 """
 
 import sys
-from userbotserbotelethon import events, functions
-from userbotserbotniborg.util import admin_cmd
+from userbotserbotserbotelethon import events, functions
+from userbotserbotserbotniborg.util import admin_cmd
 import random
-from userbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotelethon.tl.types import MessageEntityMentionName
-from userbotserbot import ALIVE_NAME
+from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotelethon.tl.types import MessageEntityMentionName
+from userbotserbotserbot import ALIVE_NAME
 
 SLAP_TEMPLATES = [
     "{user1} {hits} {user2} with a {item}.",

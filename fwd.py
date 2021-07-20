@@ -1,10 +1,10 @@
 """Enable Seen Counter in any message, Fix by @pureindialover
 to know how many users have seen your message
 Syntax: .fwd as reply to any message"""
-from userbotserbotelethon import events
-from userbotserbotelethon import sync
-from userbotserbotelethon.tl import types, functions
-from userbotserbotserbot.utils import admin_cmd
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon import sync
+from userbotserbotserbotelethon.tl import types, functions
+from userbotserbotserbotserbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="frwd"))

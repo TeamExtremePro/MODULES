@@ -5,12 +5,12 @@ import asyncio
 import math
 import os
 import time
-from userbotserbotatetime import datetime
+from userbotserbotserbotatetime import datetime
 
-from userbotserbotySmartDL import SmartDL
+from userbotserbotserbotySmartDL import SmartDL
 
-from userbotserbotserbot.utils import admin_cmd, sudo_cmd, humanbytes, progress
-from userbotserbot import ALIVE_NAME, CMD_HELP
+from userbotserbotserbotserbot.utils import admin_cmd, sudo_cmd, humanbytes, progress
+from userbotserbotserbot import ALIVE_NAME, CMD_HELP
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

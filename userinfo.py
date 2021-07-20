@@ -6,21 +6,21 @@
 """ Userbot module for getting info
     about any user on Telegram(including you!). """
 
-from userbotserbotelethon.events import NewMessage
-from userbotserbotyping import Union
+from userbotserbotserbotelethon.events import NewMessage
+from userbotserbotserbotyping import Union
 
-from userbotserbot import CMD_HELP
-from userbotserbotserbot.events import register
+from userbotserbotserbot import CMD_HELP
+from userbotserbotserbotserbot.events import register
 
-from userbotserbote import findall, match
-from userbotserbotyping import List
+from userbotserbotserbote import findall, match
+from userbotserbotserbotyping import List
 
-from userbotserbotelethon.events import NewMessage
-from userbotserbotelethon.tl.custom import Message
-from userbotserbotelethon.tl.functions.channels import GetFullChannelRequest
-from userbotserbotelethon.tl.functions.messages import GetFullChatRequest
-from userbotserbotelethon.tl.functions.users import GetFullUserRequest
-from userbotserbotelethon.tl.types import (
+from userbotserbotserbotelethon.events import NewMessage
+from userbotserbotserbotelethon.tl.custom import Message
+from userbotserbotserbotelethon.tl.functions.channels import GetFullChannelRequest
+from userbotserbotserbotelethon.tl.functions.messages import GetFullChatRequest
+from userbotserbotserbotelethon.tl.functions.users import GetFullUserRequest
+from userbotserbotserbotelethon.tl.types import (
     MessageEntityMentionName,
     ChannelParticipantsAdmins,
     ChannelParticipantsBots,
@@ -83,7 +83,7 @@ async def get_user_sender_id(user, event):
 
 
 async def get_user_from_event(event: NewMessage.Event, **kwargs):
-    """ Get the user from userbotserbotrgument or replied message. """
+    """ Get the user from userbotserbotserbotrgument or replied message. """
     reply_msg: Message = await event.get_reply_message()
     user = kwargs.get('user', None)
 
@@ -331,7 +331,7 @@ async def who(event: NewMessage.Event):
 
 
 async def fetch_info(replied_user, **kwargs):
-    """ Get details from userbotserbothe User object. """
+    """ Get details from userbotserbotserbothe User object. """
     user = replied_user.user
 
     id_only = kwargs.get('id', False)

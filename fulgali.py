@@ -1,8 +1,8 @@
 """COMMAND : .gali"""
 import asyncio
-from userbotserbotelethon import events
-from userbotserbotelethon.tl.types import ChannelParticipantsAdmins
-from userbotserbotniborg.util import admin_cmd
+from userbotserbotserbotelethon import events
+from userbotserbotserbotelethon.tl.types import ChannelParticipantsAdmins
+from userbotserbotserbotniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("gali"))
